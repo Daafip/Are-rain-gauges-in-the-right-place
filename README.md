@@ -1,4 +1,4 @@
-# Are-rain-gauges-in-the-right-place
+# Are rain gauges in the right place?
 Collection of code written as part of Bachelor Thesis Civil Engineering:  'Are raingauges in the right place?' - March 2022
 
 Folder each consist of a different part of the research (in order of refactoring):
