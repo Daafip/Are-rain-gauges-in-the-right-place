@@ -3,7 +3,6 @@ Collection of code written as part of Bachelor Thesis Civil Engineering:  'Are r
 
 Folder each consist of a different part of the research (in order of refactoring):
 
-
 #### _Used in thesis:_
 - Distance stations: loads in gauge locations, looks at the distances between rain gauge stations (basic intro)
 - Difference Contour and DEM: Loads in results from contour and DEM analysis, merges the dataframes and creates plots (plots)
@@ -12,3 +11,7 @@ Folder each consist of a different part of the research (in order of refactoring
 
 #### _unused:_
 - Distance building: Loads in shapedata for buildings and computes the distance to buidlings (exploring use of shapely)
+
+#### Packages:
+
+environment.yaml contains all necessary packages to run the data
