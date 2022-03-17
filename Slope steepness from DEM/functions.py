@@ -75,21 +75,20 @@ class Raster_Slope_Steepness:
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]  
         
-        df = self.df.query(f"index == {n}")
         with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
             array = cropped.read(1)
             
             ### own boilerplate code
             # bounds = cropped.bounds
-            # loc_lo = int(((-bounds[0] + df.station_lo.iloc[0]) * array.shape[0]) / (-bounds[0] + bounds[2]))
-            # loc_la = int(((-bounds[1] + df.station_la.iloc[0]) * array.shape[1]) / (-bounds[1] + bounds[3]))
+            # loc_lo = int(((-bounds[0] + self.df.station_lo.iloc[n]) * array.shape[0]) / (-bounds[0] + bounds[2]))
+            # loc_la = int(((-bounds[1] + self.df.station_la.iloc[n]) * array.shape[1]) / (-bounds[1] + bounds[3]))
             
             # there is also a built in method... lets use that
-            coords = rasterio.transform.rowcol(cropped.transform, df.station_lo.iloc[0], df.station_la.iloc[0])
+            coords = rasterio.transform.rowcol(cropped.transform, self.df.station_lo.iloc[n], self.df.station_la.iloc[n])
             
             ### should be doable with the build in sample but i couldn't get it to work
-    #         out = rasterio.sample.sample_gen(cropped,(df.station_lo.iloc[0],df.station_la.iloc[0]))
-    #         out = cropped.sample((df.station_lo.iloc[0],df.station_la.iloc[0])
+    #         out = rasterio.sample.sample_gen(cropped,(self.df.station_lo.iloc[n],self.df.station_la.iloc[n]))
+    #         out = cropped.sample((self.df.station_lo.iloc[n],self.df.station_la.iloc[n])
         return array[coords[0],coords[1]]
 
     def get_raster_pixel(self): 
@@ -102,10 +101,9 @@ class Raster_Slope_Steepness:
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]  
         
-        df = self.df.query(f"index == {n}")
         with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
             array = cropped.read(1)
-            coords = rasterio.transform.rowcol(cropped.transform, df.station_lo.iloc[0], df.station_la.iloc[0])
+            coords = rasterio.transform.rowcol(cropped.transform, self.df.station_lo.iloc[n], self.df.station_la.iloc[n])
         if kind == "ew":
             if clip:
                 new_lst = []
@@ -269,21 +267,20 @@ class Raster_Slope_Steepness:
                                         histtype='stepfilled', title="Histogram")
         # post plotting
         fig1.colorbar(plot.get_images()[0], ax=ax1, shrink=0.75, label="Height(m)")
-        df = self.df.query(f"index == {n}")
-        ax1.plot(df.station_lo.iloc[0], df.station_la.iloc[0], "ro", markersize=5, label="Rain gauge")
-        ax1.set_title(f'Surroundings of {df.station_fi.iloc[0]} at ({df.station_lo.iloc[0]},{df.station_la.iloc[0]})',
+        ax1.plot(self.df.station_lo.iloc[n], self.df.station_la.iloc[n], "ro", markersize=5, label="Rain gauge")
+        ax1.set_title(f'Surroundings of {self.df.station_fi.iloc[n]} at ({self.df.station_lo.iloc[n]},{self.df.station_la.iloc[n]})',
                     pad=18);
         
         if zoom_in:
             # probably a better way to dit it but this works, as only 3 decimal palces this gives an esimate of accuracy
-            ax1.vlines([df.station_lo.iloc[0]+ 0.0005, df.station_lo.iloc[0]-0.0005],
-                    df.station_la.iloc[0] - 0.05,df.station_la.iloc[0] + 0.05, 
+            ax1.vlines([self.df.station_lo.iloc[n]+ 0.0005, self.df.station_lo.iloc[n]-0.0005],
+                    self.df.station_la.iloc[n] - 0.05,self.df.station_la.iloc[n] + 0.05, 
                     color="red",linestyles="dashed")
-            ax1.hlines([df.station_la.iloc[0]+ 0.0005, df.station_la.iloc[0]-0.0005],
-                    df.station_lo.iloc[0] - 0.05,df.station_lo.iloc[0] + 0.05, 
+            ax1.hlines([self.df.station_la.iloc[n]+ 0.0005, self.df.station_la.iloc[n]-0.0005],
+                    self.df.station_lo.iloc[n] - 0.05,self.df.station_lo.iloc[n] + 0.05, 
                     color="red",label="accuracy limit",linestyles="dashed")
-            ax1.set_xlim([df.station_lo.iloc[0]+ 0.005, df.station_lo.iloc[0]-0.005])
-            ax1.set_ylim([df.station_la.iloc[0]+ 0.005, df.station_la.iloc[0]-0.005])
+            ax1.set_xlim([self.df.station_lo.iloc[n]+ 0.005, self.df.station_lo.iloc[n]-0.005])
+            ax1.set_ylim([self.df.station_la.iloc[n]+ 0.005, self.df.station_la.iloc[n]-0.005])
             
         if plot_hist:
             ax2.legend("")
@@ -291,7 +288,7 @@ class Raster_Slope_Steepness:
         
         ax1.legend(bbox_to_anchor=(1.25, +0.04))
         if save:
-            ax1.figure.savefig(f"Plots/{n} - Surroundings of {df.station_fi.iloc[0]}.jpg")
+            ax1.figure.savefig(f"Plots/{n} - Surroundings of {self.df.station_fi.iloc[n]}.jpg")
 
 
 
@@ -313,7 +310,7 @@ class Raster_Slope_Steepness:
                 fig.set_figheight(7)
                 fig.set_figwidth(7)
                 ax.legend()
-                ax.figure.savefig(f'Figure/{title}{kind}.jpg')
+                ax.figure.savefig(f'Figures/{title}{kind}.jpg')
                 
         # recursively calls all the options & plots
         elif kind == "all":
@@ -339,7 +336,7 @@ class Raster_Slope_Steepness:
             ax[1,1].legend(bbox_to_anchor=(1.00, -0.05))
             
             if save:
-                plt.savefig(f'Figure/{title} - all.jpg');   
+                plt.savefig(f'Figures/{title} - all.jpg');   
    
         else:
             print("incorrect kind")   
@@ -402,7 +399,7 @@ class Raster_Slope_Steepness:
                     fig.set_figheight(7)
                     fig.set_figwidth(7)
                     ax.legend(legend)
-                    ax.figure.savefig(f'Figure/{title}.jpg',bbox_extra_artists=["legend"])
+                    ax.figure.savefig(f'Figures/{title}.jpg',bbox_extra_artists=["legend"])
                     
             else:
                 plt.plot(lst)
@@ -416,7 +413,7 @@ class Raster_Slope_Steepness:
             title = f"Overview of slope percentage varying pixel amounts"
             plt.title(title)      
             if save:
-                plt.savefig(f"Figure/{title}.jpg")
+                plt.savefig(f"Figures/{title}.jpg")
     
     
     def get_plot(self, n):
