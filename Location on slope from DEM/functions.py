@@ -120,45 +120,130 @@ class Raster_Location_OnSlope:
             return (sum(diff) / self.distance_between_px(n)) * 100
 
     
-    def get_array_step(self, n, kind, step_size):
+    def get_array_step(self, n, kind, step_size, direction, rolling):
         """\
         Given an index, direction and stepsize, returns the array
         \
         """
         # get the array in a given orienteation
         array, location = self.get_array_given_orientation(n, kind)
-       
-        # go 'left' in the array
-        array_left = array[location-self.n_px-step_size : location-self.n_px+1]
 
-        # go 'right' in the array
-        array_right = array[location+self.n_px : location+self.n_px+step_size+1]
-                
-        return array_left, array_right
+        self.array_length = len(array)//2
+        # rolling means we dont average, make sure this is set correctly repending how you use the function
+        if direction == "left":
+            # go 'left' in the array
+            if rolling:
+                # rolling takes steps in the width of the stepsize, used for changes in slope steepness
+                return array[location-self.n_px-step_size : location-self.n_px-step_size+2]
+            else:
+                # not rolling: used for averages slope location
+                return array[location-self.n_px-step_size : location-self.n_px+1]
 
-
-    def change_slope_steepness(self, n, kind, step_size):
-        """\
-        Given index and direction, determins how when the slope steepness changes
-        \
-        """
-                
-        # get the initial steepness
-        initial_steepness = self.slope_steepness(n, kind)
-
-        # get first step:
-        first_left, first_right = self.get_array_step(n, kind, step_size)
-
-        # remove any cut out pixels < -3000 & calculate steepness using function above
-        first_left = self.slope_steepness_from_array(n, first_left[first_left >= -3000])
-        first_right = self.slope_steepness_from_array(n, first_right[first_right >= -3000])
-
-        return first_left, first_right
-
-
-
+        elif direction == "right":
+            # go 'right' in the array
+            if rolling:
+                return array[location+self.n_px+step_size-1 : location+self.n_px+step_size+1]
+            else: 
+                # not rolling: used for averages slope location
+                return array[location+self.n_px : location+self.n_px+step_size+1]
 
         
+        else:
+            raise ValueError("Direction undefined")
+
+
+    def get_location_on_slope(self, n):
+        """For a given location determins where its situated"""
+
+        lst = []
+        for kind in self.label:
+            initial_steepness = self.slope_steepness(n, kind)
+            left = self.slope_steepness_from_array(n,self.get_array_step(n, kind, self.n_px, "left", False))
+            right = self.slope_steepness_from_array(n,self.get_array_step(n, kind, self.n_px, "right", False))
+
+            def determin_label(left, right):
+                if left < 0 and right < 0: 
+                    return "Slope"
+                elif left > 0 and right > 0:
+                    return "slope"
+                elif left < 0 and right > 0:
+                    return "Ridge"
+                elif left > 0 and right < 0: 
+                    return "Valley"
+                elif left == 0 == right:
+                    return "Flat" 
+                else:
+                    return None
+            
+            location = determin_label(left, right)
+
+            # print(location)
+
+            # resurive to compare it to the steepness of the slope when constant without rewriting if statement
+            if location is None:
+                if left == 0:
+                    location = determin_label(initial_steepness, right)
+                elif right == 0:
+                    location = determin_label(left, initial_steepness)
+            if location is None:
+                print(left,right)
+            lst.append(location)
+        return lst
+        
+
+
+    """
+    Look at this later, not in get_array_step() we went rolling for this part but not that
+    """
+
+
+    def change_slope_steepness(self, n, kind, step_size, threshold):
+        """\
+        Given index, direction step_size and threshold(in %): determins how when the slope steepness changes at intervals of the stepsize,\
+            unitl the absolute change is more than the theshold. 
+        \
+        """
+        # We want to make sure we get segements the sizes of step_size, not larger
+        self.rolling = True
+        # get the initial steepness
+        initial_steepness = self.slope_steepness(n, kind)
+        print(f'initial.....{initial_steepness}')
+
+        # get first step: (we want rolling steps so therfore true)
+        first_left, first_right = self.get_array_step(n, kind, step_size, "left", True), self.get_array_step(n, kind, step_size, "right", True)
+
+        # remove any cut out pixels < -3000 & calculate steepness using function above
+        left = self.slope_steepness_from_array(n, first_left[first_left >= -3000])
+        right = self.slope_steepness_from_array(n, first_right[first_right >= -3000])
+        
+        # set first run
+        count_left, count_right = 0, 0
+
+        # first look left
+        # (We check that the slope hasn't changed) and (we aren't outside the array)
+        while abs(left - initial_steepness) < threshold and (count_left + self.n_px + step_size) < self.array_length:
+            # update count to new position
+            count_left += step_size
+            print(f'left={left}, #{count_left}')
+            # given the new position, update the 
+            array =  self.get_array_step(n, kind, count_left, "left", True)
+            # check list is not empty
+            if len(array[array >= -3000]) == 0:
+                # otherwise break
+                break
+            left = self.slope_steepness_from_array(n, array[array >= -3000])
+
+        # then look right; same principle
+        while abs(right - initial_steepness) < threshold and (count_right + self.n_px + step_size) < self.array_length:
+            print(self.array_length)
+            count_right += step_size
+            print(f'right={right}, #{count_right}')
+            array =  self.get_array_step(n, kind, count_right, "right", True)
+
+            right = self.slope_steepness_from_array(n, array[array >= -3000])
+
+        return count_left, count_right
+
         # # remove any cut out pixels < -3000
         # array_cropped = array_cropped[array_cropped >= -3000]
         
@@ -174,7 +259,7 @@ class Raster_Location_OnSlope:
 
 
     
-class Unused:
+class Slope_Steepness:
 
     def __init__(self, df, lst_UK, n_px):
         self.df = df  # main data frame holding information
@@ -338,7 +423,7 @@ class plotting:
         
         ax1.legend(bbox_to_anchor=(1.25, +0.04))
         if save:
-            ax1.figure.savefig(f"Plots/{n} - Surroundings of {df.station_fi.iloc[0]}.jpg")
+            ax1.figure.savefig(f"Plots/{n} - Surroundings of {self.df.station_fi.iloc[n]}.jpg")
 
 
 
@@ -348,10 +433,10 @@ class plotting:
         if kind in self.label:
             array, gauge_loc = instance.get_array_given_orientation(n, kind, clip)
             # plotting
-            fig, ax = plt.subplots(1, figsize=(4, 4))
+            fig, ax = plt.subplots(1, figsize=(6, 6))
             ax.plot(array, label=self.label[kind])
             ax.axhline(-1,color='g',label="End map", alpha=0.5)
-            ax.plot(gauge_loc,Unused(self.df,self.lst_UK,self.n_px).run_get_raster_pixel(n),"ro",label="Gauge")
+            ax.plot(gauge_loc,Slope_Steepness(self.df,self.lst_UK,self.n_px).run_get_raster_pixel(n),"ro",label="Gauge")
             ax.legend(bbox_to_anchor=(1.00, -0.14))
             title = f"Profile of slope around gauge #{n}"
             ax.set_title(title)
@@ -377,7 +462,7 @@ class plotting:
                     array, gauge_loc = instance.get_array_given_orientation(n, kind, clip)
                     ax[i,j].plot(array)
                     ax[i,j].axhline(-1,color='g',label="End map", alpha=0.5)
-                    ax[i,j].plot(gauge_loc,Unused(self.df,self.lst_UK,self.n_px).run_get_raster_pixel(n),"ro",label="Gauge")
+                    ax[i,j].plot(gauge_loc,Slope_Steepness(self.df,self.lst_UK,self.n_px).run_get_raster_pixel(n),"ro",label="Gauge")
                     ax[i,j].set_title(f"Slope {self.label[kind]}")
                     ax[1,j].set_xlabel("Pixels")
                     ax[i,0].set_ylabel("Height[m]")
@@ -402,8 +487,9 @@ class plotting:
 
     def slope_steepness_varypxs(self, n, n_px, kind):
         """ copy of prev but edited"""
+        instance = Raster_Location_OnSlope(self.df,self.lst_UK,self.n_px)
         # get the araay
-        array, location = self.get_array_given_orientation(n, kind)
+        array, location = instance.get_array_given_orientation(n, kind)
         # crop down to the length to consider
         array_cropped = array[location-n_px:location+n_px+1]
         
@@ -417,7 +503,7 @@ class plotting:
                 rise = item - array_cropped[index+1]
                 diff.append(rise)
                 
-        return ( (sum(diff)/(len(diff)-1)) / self.distance_between_px(n)) * 100
+        return ( (sum(diff)/(len(diff)-1)) / instance.distance_between_px(n)) * 100
 
 
     def plot_varying_n_px(self, lst, subplots=True,save=False):
