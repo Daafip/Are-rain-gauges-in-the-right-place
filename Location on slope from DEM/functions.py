@@ -121,10 +121,7 @@ class Raster_Location_OnSlope:
 
     
     def get_array_step(self, n, kind, step_size, direction, rolling):
-        """\
-        Given an index, direction and stepsize, returns the array
-        \
-        """
+        """Given an index, direction and stepsize, returns the array"""
         # get the array in a given orienteation
         array, location = self.get_array_given_orientation(n, kind)
 
@@ -153,7 +150,10 @@ class Raster_Location_OnSlope:
 
 
     def get_location_on_slope(self, n):
-        """For a given location determins where its situated"""
+        """For a given location determins where its situated.
+        Looks at a spacing the same pixel width as initial steepness: main parameter therfore is self.n_px
+        It looks left and right the same amount. This is an array width self.n_px shifted therefore use 'false'.
+        Then runs it through if statements to look at the type."""
 
         lst = []
         for kind in self.label:
@@ -165,7 +165,7 @@ class Raster_Location_OnSlope:
                 if left < 0 and right < 0: 
                     return "Slope"
                 elif left > 0 and right > 0:
-                    return "slope"
+                    return "Slope"
                 elif left < 0 and right > 0:
                     return "Ridge"
                 elif left > 0 and right < 0: 
@@ -188,7 +188,11 @@ class Raster_Location_OnSlope:
             if location is None:
                 print(left,right)
             lst.append(location)
-        return lst
+        return lst   
+
+    def run_location_on_slope(self):
+        """Takes list from get_location_on_slope and applies it to a df"""
+        return self.df.level_0.apply(self.get_location_on_slope)
         
 
 
