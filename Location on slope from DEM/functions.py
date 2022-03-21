@@ -23,6 +23,7 @@ class Raster_Location_OnSlope:
                     "ns": "North to south",
                     "nw-se": "North-west to south-east",
                     "ne-sw": "North-east to south-west"}
+        self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
 
     def get_array_given_orientation(self, n, kind, clip=False): 
@@ -197,12 +198,32 @@ class Raster_Location_OnSlope:
         
     def get_location_on_slope_direction(self, n):
         """takes the list of slope_location and the direction steepest slope and returns the label in that direction"""
-        label = ["ew","ns","nw-se","ne-sw"]
-        return self.df.slope_location.iloc[n][label.index(self.df.dir_slope_steepness.iloc[n])]
+        return self.df.slope_location.iloc[n][self.label_lst.index(self.df.dir_slope_steepness.iloc[n])]
 
     def run_location_on_slope_direction(self):
         """Takes list from get_location_on_slope_direction and applies it to a df"""
         return self.df.level_0.apply(self.get_location_on_slope_direction)
+
+    def slope_direction(self, n, deg=False):
+        """Takes previously computed slope direction and return the slope direction (should really be in prev notebook), choose degrees or not"""
+        # defining values to pick from
+        if deg:
+            label_lst_negative = [270, 180, 135, 225]      
+            label_lst_positive = [90, 0, 305, 45]
+        else:
+            label_lst_negative = ["West", "South", "South-east","South-west"]
+            label_lst_positive = ["East", "North", "North-west", "North-east"]
+
+        if self.df.slope_steepness.iloc[n] < 0:
+            return label_lst_negative[self.label_lst.index(self.df.dir_slope_steepness.iloc[n])]
+        else:
+            return label_lst_positive[self.label_lst.index(self.df.dir_slope_steepness.iloc[n])]
+            
+    def run_slope_direction(self, deg=False):
+        """runs the slope direction"""
+        return self.df.level_0.apply(self.slope_direction, deg=deg) 
+
+
 
 
 
@@ -285,6 +306,7 @@ class Slope_Steepness:
                     "ns": "North to south",
                     "nw-se": "North-west to south-east",
                     "ne-sw": "North-east to south-west"}
+        self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
     def run_get_raster_pixel(self, n):
         """Takes index of gauges retrieves the file, finds location and returns height"""
@@ -368,12 +390,11 @@ class Slope_Steepness:
     def slope_steepness_max_direction(self): 
         """Function the direction in which the slope is steepest"""
         def run_slope_steepness_max_direction(n):
-            label = ["ew","ns","nw-se","ne-sw"]
             lst_abs = []
-            for orientation in label:
+            for orientation in self.label:
                 percentage = self.slope_steepness(n,orientation)
                 lst_abs.append(abs(percentage))
-            return label[lst_abs.index(max(lst_abs))]    
+            return self.label_lst[lst_abs.index(max(lst_abs))]    
         return self.df.level_0.apply(run_slope_steepness_max_direction)
 
 
@@ -397,6 +418,7 @@ class plotting:
                     "ns": "North to south",
                     "nw-se": "North-west to south-east",
                     "ne-sw": "North-east to south-west"}
+        self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
 
     def plot_cropped_raster(self, n, plot_hist=False, zoom_in=False, save=False):

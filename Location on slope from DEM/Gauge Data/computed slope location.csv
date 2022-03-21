@@ -1,366 +1,366 @@
-,level_0,src_id,station_na,station_fi,historic_c,station_la,station_lo,station_el,first_year,last_year,raster_id,geometry,slope_location,computed_height,difference_height,slope_steepness,abs_slope_steepness,dir_slope_steepness,location_steepest_slope
-0,0,3,FAIR ISLE,fair-isle,shetland,59.526,-1.63,57,1974,2020,4,POINT (-1.63 59.526),"['Slope', 'Slope', 'Valley', 'Slope']",57,0,14.2,14.2,nw-se,Valley
-1,1,23,KIRKWALL,kirkwall,orkney,58.953,-2.901,26,1957,2020,4,POINT (-2.901 58.953),"['Ridge', 'Slope', 'Slope', 'Slope']",31,5,-11.63,11.63,nw-se,Slope
-2,2,32,WICK AIRPORT,wick-airport,caithness,58.454,-3.09,36,1930,2020,4,POINT (-3.09 58.454),"['Ridge', 'Ridge', 'Slope', 'Ridge']",35,1,2.06,2.06,ne-sw,Ridge
-3,3,40,CASSLEY,cassley,sutherland,58.168,-4.727,99,1999,2020,4,POINT (-4.727 58.168),"['Slope', 'Slope', 'Slope', 'Valley']",106,7,-16.15,16.15,ne-sw,Valley
-4,4,44,ALTNAHARRA NO 2,altnaharra-no-2,sutherland,58.288,-4.442,81,1993,2020,4,POINT (-4.442 58.288),"['Valley', 'Valley', 'Valley', 'Valley']",78,3,3.42,3.42,ns,Valley
-5,5,48,"KINBRACE, HATCHERY",kinbrace-hatchery,sutherland,58.23,-3.922,103,1999,2020,4,POINT (-3.922 58.23),"['Valley', 'Slope', 'Valley', 'Valley']",102,1,13.67,13.67,ne-sw,Valley
-6,6,52,AULTBEA NO 2,aultbea-no-2,ross-and-cromarty,57.859,-5.633,11,1990,2020,5,POINT (-5.633 57.859),"['Slope', 'Slope', 'Valley', 'Slope']",7,4,10.73,10.73,ne-sw,Slope
-7,7,54,STORNOWAY AIRPORT,stornoway-airport,western-isles,58.213,-6.319,15,1930,2020,5,POINT (-6.319 58.213),"['Ridge', 'Slope', 'Ridge', 'Ridge']",13,2,-1.82,1.82,ew,Ridge
-8,8,66,KINLOCHEWE,kinlochewe,ross-and-cromarty,57.613,-5.306,25,2005,2020,5,POINT (-5.306 57.613),"['Valley', 'Valley', 'Slope', 'Valley']",21,4,-4.93,4.93,ne-sw,Valley
-9,9,67,LOCH GLASCARNOCH,loch-glascarnoch,ross-and-cromarty,57.725,-4.895,269,1992,2020,4,POINT (-4.895 57.725),"['Slope', 'Valley', 'Valley', 'Slope']",266,3,3.82,3.82,nw-se,Valley
-10,10,79,TAIN RANGE,tain-range,ross-and-cromarty,57.819,-3.967,4,1990,2020,4,POINT (-3.967 57.819),"['Slope', 'Valley', 'Valley', 'Valley']",4,0,0.9,0.9,ew,Slope
-11,11,105,TULLOCH BRIDGE,tulloch-bridge,inverness-shire,56.867,-4.708,249,1990,2020,4,POINT (-4.708 56.867),"['Valley', 'Slope', 'Slope', 'Slope']",244,5,5.05,5.05,ew,Valley
-12,12,110,LENTRAN,lentran,inverness-shire,57.459,-4.373,146,2009,2020,4,POINT (-4.373 57.459),"['Slope', 'Slope', 'Slope', 'Slope']",167,21,-29.89,29.89,nw-se,Slope
-13,13,111,DALWHINNIE NO 2,dalwhinnie-no-2,inverness-shire,56.94,-4.238,351,2000,2020,4,POINT (-4.238 56.94),"['Valley', 'Valley', 'Valley', 'Slope']",356,5,1.98,1.98,ew,Valley
-14,14,113,AVIEMORE,aviemore,inverness-shire,57.206,-3.828,228,1983,2020,4,POINT (-3.828 57.206),"['Slope', 'Slope', 'Slope', 'Valley']",224,4,11.74,11.74,nw-se,Slope
-15,15,114,DRUMNADROCHIT,drumnadrochit,inverness-shire,57.328,-4.486,53,2009,2020,4,POINT (-4.486 57.328),"['Slope', 'Slope', 'Slope', 'Slope']",49,4,12.45,12.45,nw-se,Slope
-16,16,132,KINLOSS,kinloss,moray-in-grampian-region,57.645,-3.563,5,1957,2020,4,POINT (-3.563 57.645),"['Slope', 'Valley', 'Slope', 'Valley']",5,0,-1.12,1.12,nw-se,Slope
-17,17,137,LOSSIEMOUTH,lossiemouth,moray-in-grampian-region,57.711,-3.323,7,1989,2020,4,POINT (-3.323 57.711),"['Valley', 'Slope', 'Slope', 'Slope']",7,0,-0.45,0.45,ew,Valley
-18,18,148,BALMORAL,balmoral,aberdeenshire,57.037,-3.22,283,2013,2020,4,POINT (-3.22 57.037),"['Slope', 'Valley', 'Valley', 'Valley']",286,3,-10.59,10.59,ne-sw,Valley
-19,19,150,ABOYNE NO 2,aboyne-no-2,aberdeenshire,57.076,-2.841,140,1990,2020,4,POINT (-2.841 57.076),"['Slope', 'Valley', 'Valley', 'Valley']",142,2,10.82,10.82,ne-sw,Valley
-20,20,159,FYVIE CASTLE,fyvie-castle,aberdeenshire,57.443,-2.39,55,1999,2020,4,POINT (-2.39 57.443),"['Slope', 'Valley', 'Valley', 'Ridge']",54,1,-10.93,10.93,nw-se,Valley
-21,21,160,CRAIBSTONE,craibstone,aberdeenshire,57.187,-2.215,102,2010,2020,4,POINT (-2.215 57.187),"['Slope', 'Valley', 'Valley', 'Slope']",102,0,-9.96,9.96,ne-sw,Slope
-22,22,161,DYCE,dyce,aberdeenshire,57.205,-2.205,65,1957,2020,4,POINT (-2.205 57.205),"['Slope', 'Valley', 'Valley', 'Valley']",69,4,-3.99,3.99,ne-sw,Valley
-23,23,177,INVERBERVIE NO 2,inverbervie-no-2,kincardineshire,56.852,-2.266,134,1992,2020,4,POINT (-2.266 56.852),"['Ridge', 'Ridge', 'Slope', 'Ridge']",128,6,15.14,15.14,ne-sw,Ridge
-24,24,195,TYNDRUM NO 3,tyndrum-no-3,perthshire-in-central-region,56.419,-4.661,168,1999,2020,4,POINT (-4.661 56.419),"['Valley', 'Valley', 'Valley', 'Valley']",165,3,9.11,9.11,ne-sw,Valley
-25,25,212,STRATHALLAN AIRFIELD,strathallan-airfield,perthshire-in-tayside-region,56.326,-3.729,35,1990,2020,4,POINT (-3.729 56.326),"['Valley', 'Valley', 'Slope', 'Valley']",29,6,-4.33,4.33,ns,Valley
-26,26,235,LEUCHARS,leuchars,fife,56.377,-2.862,10,1921,2020,4,POINT (-2.862 56.377),"['Slope', 'Valley', 'Slope', 'Slope']",12,2,0.87,0.87,ns,Valley
-27,27,253,"EDINBURGH, ROYAL BOTANIC GARDEN NO 2",edinburgh-royal-botanic-garden-no-2,midlothian-in-lothian-region,55.967,-3.212,28,2010,2020,4,POINT (-3.212 55.967),"['Slope', 'Slope', 'Slope', 'Slope']",28,0,2.79,2.79,ns,Slope
-28,28,268,CHARTERHALL,charterhall,berwickshire,55.709,-2.385,112,1990,2020,4,POINT (-2.385 55.709),"['Slope', 'Slope', 'Slope', 'Slope']",114,2,6.82,6.82,nw-se,Slope
-29,29,289,KIELDER CASTLE,kielder-castle,northumberland,55.234,-2.58,201,2013,2020,4,POINT (-2.58 55.234),"['Slope', 'Valley', 'Valley', 'Valley']",199,2,10.1,10.1,ns,Valley
-30,30,310,"MORPETH, COCKLE PARK",morpeth-cockle-park,northumberland,55.213,-1.688,95,2014,2020,4,POINT (-1.688 55.213),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",95,0,-6.31,6.31,ns,Ridge
-31,31,315,BOULMER,boulmer,northumberland,55.421,-1.601,23,1988,2020,4,POINT (-1.601 55.421),"['Slope', 'Slope', 'Slope', 'Slope']",23,0,1.9,1.9,nw-se,Slope
-32,32,326,DURHAM,durham,durham,54.768,-1.586,102,1997,2020,1,POINT (-1.586 54.768),"['Ridge', 'Slope', 'Slope', 'Ridge']",97,5,-6.03,6.03,ne-sw,Ridge
-33,33,339,BAINBRIDGE,bainbridge,north-yorkshire,54.308,-2.101,210,2010,2020,1,POINT (-2.101 54.308),"['Slope', 'Valley', 'Valley', 'Valley']",217,7,-11.11,11.11,nw-se,Valley
-34,34,16725,WAINFLEET NO 2,wainfleet-no-2,lincolnshire,53.088,0.271,3,1996,2020,0,POINT (0.271 53.088),"['Valley', 'Valley', 'Valley', 'Slope']",3,0,0.2,0.2,ew,Valley
-35,35,358,FYLINGDALES,fylingdales,north-yorkshire,54.359,-0.672,262,1984,2020,1,POINT (-0.672 54.359),"['Ridge', 'Ridge', 'Slope', 'Ridge']",260,2,-1.24,1.24,nw-se,Slope
-36,36,360,SCARBOROUGH,scarborough,north-yorkshire,54.273,-0.423,110,2010,2020,1,POINT (-0.423 54.273),"['Slope', 'Ridge', 'Ridge', 'Slope']",104,6,-6.37,6.37,ne-sw,Slope
-37,37,367,HIGH MOWTHORPE,high-mowthorpe,north-yorkshire,54.105,-0.643,175,2009,2020,1,POINT (-0.643 54.105),"['Ridge', 'Ridge', 'Slope', 'Ridge']",175,0,1.43,1.43,nw-se,Slope
-38,38,370,LECONFIELD,leconfield,humberside,53.875,-0.442,7,1992,2020,1,POINT (-0.442 53.875),"['Slope', 'Ridge', 'Valley', None]",10,3,1.02,1.02,nw-se,Valley
-39,39,373,BRIDLINGTON MRSC,bridlington-mrsc,humberside,54.094,-0.176,15,1994,2020,1,POINT (-0.176 54.094),"['Ridge', 'Slope', 'Slope', 'Valley']",16,1,8.1,8.1,nw-se,Slope
-40,40,381,SCAMPTON,scampton,lincolnshire,53.307,-0.548,57,1984,2020,1,POINT (-0.548 53.307),"['Slope', 'Slope', 'Slope', 'Ridge']",58,1,1.0,1.0,nw-se,Slope
-41,41,382,NORMANBY HALL,normanby-hall,humberside,53.637,-0.659,47,2010,2020,1,POINT (-0.659 53.637),"['Ridge', 'Slope', 'Ridge', 'Ridge']",48,1,3.85,3.85,ew,Ridge
-42,42,384,WADDINGTON,waddington,lincolnshire,53.175,-0.523,68,1949,2020,1,POINT (-0.523 53.175),"['Slope', 'Ridge', 'Ridge', 'Ridge']",67,1,-1.6,1.6,ne-sw,Ridge
-43,43,386,CRANWELL,cranwell,lincolnshire,53.031,-0.504,63,1930,2020,1,POINT (-0.504 53.031),"['Slope', 'Slope', 'Ridge', 'Slope']",67,4,1.6,1.6,nw-se,Ridge
-44,44,393,CONINGSBY,coningsby,lincolnshire,53.094,-0.173,6,1978,2020,1,POINT (-0.173 53.094),"['Valley', 'Slope', 'Ridge', 'Ridge']",8,2,-1.6,1.6,ew,Valley
-45,45,395,HOLBEACH NO 2,holbeach-no-2,lincolnshire,52.873,0.139,3,1990,2020,0,POINT (0.139 52.873),"['Ridge', 'Ridge', 'Slope', 'Flat']",4,1,-0.4,0.4,ew,Ridge
-46,46,409,MARHAM,marham,norfolk,52.651,0.566,21,1957,2020,0,POINT (0.566 52.651),"['Slope', 'Ridge', 'Ridge', 'Ridge']",21,0,-0.79,0.79,ns,Ridge
-47,47,413,SANTON DOWNHAM,santon-downham,suffolk,52.459,0.671,6,2009,2020,0,POINT (0.671 52.459),"['Valley', 'Valley', 'Valley', 'Valley']",8,2,-6.5,6.5,ns,Valley
-48,48,421,WEYBOURNE,weybourne,norfolk,52.949,1.122,21,1990,2020,0,POINT (1.122 52.949),"['Slope', 'Slope', 'Slope', 'Slope']",21,0,-7.37,7.37,ns,Slope
-49,49,24996,"HEREFORD, CREDENHILL",hereford-credenhill,hereford-and-worcester,52.08,-2.802,76,1999,2020,1,POINT (-2.802 52.08),"['Valley', 'Valley', 'Valley', 'Valley']",71,5,2.54,2.54,ns,Valley
-50,50,426,CROMER,cromer,norfolk,52.934,1.291,37,2009,2020,0,POINT (1.291 52.934),"['Ridge', 'Slope', 'Slope', 'Slope']",36,1,-11.11,11.11,ne-sw,Slope
-51,51,435,BROOMS BARN,brooms-barn,suffolk,52.261,0.566,75,2009,2020,0,POINT (0.566 52.261),"['Slope', 'Valley', 'Valley', 'Valley']",73,2,-3.53,3.53,ne-sw,Valley
-52,52,436,CAVENDISH,cavendish,suffolk,52.091,0.628,55,2010,2020,0,POINT (0.628 52.091),"['Slope', 'Slope', 'Valley', 'Slope']",56,1,4.88,4.88,nw-se,Valley
-53,53,440,WATTISHAM,wattisham,suffolk,52.124,0.957,89,1959,2020,0,POINT (0.957 52.124),"['Slope', 'Slope', 'Ridge', 'Slope']",85,4,-1.37,1.37,ew,Slope
-54,54,442,CHARSFIELD,charsfield,suffolk,52.163,1.28,49,2010,2020,0,POINT (1.28 52.163),"['Ridge', 'Ridge', 'Valley', 'Slope']",49,0,3.72,3.72,nw-se,Valley
-55,55,455,"CAMBRIDGE, NIAB",cambridge-niab,cambridgeshire,52.245,0.1,26,2009,2020,0,POINT (0.1 52.245),"['Slope', 'Slope', 'Slope', 'Ridge']",13,13,-1.18,1.18,ne-sw,Ridge
-56,56,456,MONKS WOOD,monks-wood,cambridgeshire,52.402,-0.237,41,2000,2020,1,POINT (-0.237 52.402),"['Ridge', 'Slope', 'Slope', 'Slope']",47,6,-4.92,4.92,nw-se,Slope
-57,57,458,WOBURN,woburn,bedfordshire,52.014,-0.596,89,2000,2020,1,POINT (-0.596 52.014),"['Slope', 'Ridge', 'Slope', 'Slope']",88,1,-8.38,8.38,nw-se,Slope
-58,58,461,BEDFORD,bedford,bedfordshire,52.227,-0.465,85,1980,2020,1,POINT (-0.465 52.227),"['Slope', 'Slope', 'Slope', 'Slope']",84,1,1.37,1.37,nw-se,Slope
-59,59,16851,MORECAMBE NO 2,morecambe-no-2,lancashire,54.076,-2.86,7,2011,2020,1,POINT (-2.86 54.076),"['Slope', 'Ridge', 'Ridge', 'Ridge']",8,1,-3.07,3.07,ns,Ridge
-60,60,471,ROTHAMSTED,rothamsted,hertfordshire,51.807,-0.36,128,1999,2020,1,POINT (-0.36 51.807),"['Slope', 'Ridge', 'Valley', 'Ridge']",129,1,-3.3,3.3,ns,Ridge
-61,61,481,HIGH BEACH,high-beach,essex,51.664,0.041,110,2013,2020,0,POINT (0.041 51.664),"['Ridge', 'Ridge', 'Ridge', 'Slope']",118,8,1.74,1.74,ew,Ridge
-62,62,487,WRITTLE,writtle,essex,51.734,0.429,32,2009,2020,0,POINT (0.429 51.734),"['Slope', 'Slope', 'Slope', 'Valley']",33,1,-3.29,3.29,ne-sw,Valley
-63,63,498,"SHOEBURYNESS, LANDWICK",shoeburyness-landwick,essex,51.555,0.827,2,1981,2020,0,POINT (0.827 51.555),"['Valley', 'Ridge', 'Slope', 'Slope']",0,2,-0.39,0.39,ns,Ridge
-64,64,513,"BINGLEY, NO 2",bingley-no-2,west-yorkshire,53.811,-1.867,262,1994,2020,1,POINT (-1.867 53.811),"['Valley', 'Slope', 'Ridge', 'Slope']",264,2,-7.11,7.11,ne-sw,Slope
-65,65,516,BRADFORD,bradford,west-yorkshire,53.814,-1.774,134,2010,2020,1,POINT (-1.774 53.814),"['Slope', 'Slope', 'Slope', 'Ridge']",142,8,-14.63,14.63,ne-sw,Ridge
-66,66,525,SHEFFIELD,sheffield,south-yorkshire,53.381,-1.491,131,2008,2020,1,POINT (-1.491 53.381),"['Slope', 'Ridge', 'Slope', 'Ridge']",136,5,9.45,9.45,nw-se,Slope
-67,67,529,RYHILL,ryhill,west-yorkshire,53.628,-1.394,78,2010,2020,1,POINT (-1.394 53.628),"['Ridge', 'Slope', 'Slope', 'Slope']",78,0,3.04,3.04,ew,Ridge
-68,68,534,BRAMHAM,bramham,west-yorkshire,53.869,-1.319,54,2001,2020,1,POINT (-1.319 53.869),"['Slope', 'Valley', 'Valley', 'Valley']",54,0,0.81,0.81,ew,Slope
-69,69,542,COTON-IN-THE-ELMS,coton-in-the-elms,derbyshire,52.737,-1.641,85,2010,2020,1,POINT (-1.641 52.737),"['Ridge', 'Valley', 'Valley', 'Slope']",86,1,1.59,1.59,ne-sw,Slope
-70,70,554,SUTTON BONINGTON,sutton-bonington,nottinghamshire,52.836,-1.251,43,2000,2020,1,POINT (-1.251 52.836),"['Slope', 'Slope', 'Slope', 'Slope']",43,0,-1.99,1.99,ns,Slope
-71,71,556,"NOTTINGHAM, WATNALL",nottingham-watnall,nottinghamshire,53.006,-1.251,117,1957,2020,1,POINT (-1.251 53.006),"['Slope', 'Slope', 'Slope', 'Slope']",119,2,3.39,3.39,nw-se,Slope
-72,72,583,WITTERING,wittering,cambridgeshire,52.612,-0.468,74,1957,2020,1,POINT (-0.468 52.612),"['Slope', 'Ridge', 'Ridge', 'Slope']",76,2,1.78,1.78,nw-se,Ridge
-73,73,595,CHURCH LAWFORD,church-lawford,warwickshire,52.359,-1.331,107,1990,2020,1,POINT (-1.331 52.359),"['Slope', 'Ridge', 'Slope', 'Slope']",108,1,1.18,1.18,nw-se,Slope
-74,74,596,WELLESBOURNE,wellesbourne,warwickshire,52.206,-1.605,47,2011,2020,1,POINT (-1.605 52.206),"['Slope', 'Slope', 'Slope', 'Slope']",46,1,-0.59,0.59,ns,Slope
-75,75,605,BRIZE NORTON,brize-norton,oxfordshire,51.758,-1.578,82,1968,2020,1,POINT (-1.578 51.758),"['Slope', 'Slope', 'Slope', 'Ridge']",85,3,2.13,2.13,nw-se,Slope
-76,76,607,SOUTH NEWINGTON,south-newington,oxfordshire,51.998,-1.406,105,2011,2020,1,POINT (-1.406 51.998),"['Ridge', 'Ridge', 'Slope', 'Ridge']",113,8,1.56,1.56,ew,Ridge
-77,77,613,BENSON,benson,oxfordshire,51.62,-1.099,57,1974,2020,1,POINT (-1.099 51.62),"['Slope', 'Valley', 'Valley', 'Slope']",55,2,1.93,1.93,ns,Valley
-78,78,622,KEELE,keele,staffordshire,52.999,-2.27,179,2006,2020,1,POINT (-2.27 52.999),"['Ridge', 'Valley', 'Ridge', 'Slope']",175,4,8.57,8.57,ne-sw,Slope
-79,79,634,PENNERLEY,pennerley,shropshire,52.59,-2.95,357,2010,2020,1,POINT (-2.95 52.59),"['Valley', 'Ridge', 'Slope', 'Ridge']",351,6,-25.68,25.68,ns,Ridge
-80,80,643,SHAWBURY,shawbury,shropshire,52.795,-2.665,72,1957,2020,1,POINT (-2.665 52.795),"['Slope', 'Slope', 'Slope', 'Slope']",70,2,0.99,0.99,ns,Slope
-81,81,651,NEWPORT (SALOP),newport-salop,shropshire,52.778,-2.428,66,2010,2020,1,POINT (-2.428 52.778),"['Slope', 'Ridge', 'Slope', 'Ridge']",66,0,-3.17,3.17,nw-se,Slope
-82,82,657,PERSHORE,pershore,hereford-and-worcester,52.148,-2.041,35,1957,2020,1,POINT (-2.041 52.148),"['Ridge', 'Slope', 'Slope', 'Slope']",34,1,-1.96,1.96,ns,Slope
-83,83,658,PERSHORE COLLEGE,pershore-college,hereford-and-worcester,52.1,-2.06,37,1999,2020,1,POINT (-2.06 52.1),"['Slope', 'Ridge', 'Slope', 'Ridge']",38,1,2.73,2.73,ew,Slope
-84,84,660,ASTWOOD BANK,astwood-bank,hereford-and-worcester,52.248,-1.935,137,2010,2020,1,POINT (-1.935 52.248),"['Ridge', 'Ridge', 'Slope', 'Ridge']",137,0,2.94,2.94,ns,Ridge
-85,85,669,SHOBDON AIRFIELD,shobdon-airfield,hereford-and-worcester,52.243,-2.886,99,1992,2020,1,POINT (-2.886 52.243),"['Slope', 'Slope', 'Valley', 'Slope']",97,2,7.25,7.25,nw-se,Valley
-86,86,671,ROSS-ON-WYE,ross-on-wye,hereford-and-worcester,51.911,-2.586,67,1930,2020,1,POINT (-2.586 51.911),"['Ridge', 'Slope', 'Valley', 'Valley']",68,1,-4.67,4.67,nw-se,Valley
-87,87,691,WESTONBIRT,westonbirt,gloucestershire,51.607,-2.221,135,2009,2020,1,POINT (-2.221 51.607),"['Slope', 'Ridge', 'Slope', 'Ridge']",126,9,1.35,1.35,ne-sw,Ridge
-88,88,692,LITTLE RISSINGTON,little-rissington,gloucestershire,51.861,-1.693,210,1957,2020,1,POINT (-1.693 51.861),"['Ridge', 'Slope', 'Slope', 'Ridge']",212,2,3.69,3.69,ns,Slope
-89,89,697,"LONDON, ST JAMES'S PARK",london-st-jamess-park,greater-london,51.505,-0.131,5,1997,2020,1,POINT (-0.131 51.505),"['Valley', 'Slope', 'Slope', 'Valley']",12,7,2.7,2.7,ne-sw,Valley
-90,90,708,HEATHROW,heathrow,greater-london,51.479,-0.451,25,1949,2020,1,POINT (-0.451 51.479),"['Ridge', 'Slope', 'Slope', 'Valley']",30,5,0.39,0.39,nw-se,Slope
-91,91,709,NORTHOLT,northolt,greater-london,51.549,-0.417,33,1995,2020,1,POINT (-0.417 51.549),"['Ridge', 'Valley', 'Valley', 'Slope']",32,1,-1.54,1.54,ne-sw,Slope
-92,92,719,WISLEY,wisley,surrey,51.311,-0.476,38,2000,2020,1,POINT (-0.476 51.311),"['Ridge', 'Slope', 'Ridge', 'Slope']",37,1,-3.26,3.26,nw-se,Ridge
-93,93,723,KEW GARDENS,kew-gardens,greater-london,51.482,-0.294,6,2007,2020,1,POINT (-0.294 51.482),"['Slope', 'Ridge', 'Slope', 'Valley']",9,3,1.35,1.35,ew,Slope
-94,94,726,KENLEY AIRFIELD,kenley-airfield,greater-london,51.304,-0.092,170,1991,2020,1,POINT (-0.092 51.304),"['Ridge', 'Valley', 'Slope', 'Ridge']",169,1,-2.11,2.11,ne-sw,Ridge
-95,95,742,GOUDHURST,goudhurst,kent,51.077,0.46,85,2009,2020,0,POINT (0.46 51.077),"['Ridge', 'Slope', 'Valley', 'Valley']",91,6,-7.07,7.07,nw-se,Valley
-96,96,744,EAST MALLING,east-malling,kent,51.288,0.448,33,1997,2020,0,POINT (0.448 51.288),"['Slope', 'Slope', 'Valley', 'Slope']",31,2,-5.95,5.95,ne-sw,Slope
-97,97,775,MANSTON,manston,kent,51.347,1.335,49,1961,2020,0,POINT (1.335 51.347),"['Slope', 'Ridge', 'Ridge', 'Ridge']",50,1,-2.11,2.11,nw-se,Ridge
-98,98,779,THORNEY ISLAND,thorney-island,west-sussex,50.815,-0.922,4,1958,2020,1,POINT (-0.922 50.815),"['Slope', 'Ridge', None, 'Valley']",4,0,0.76,0.76,ne-sw,Valley
-99,99,795,SHOREHAM AIRPORT,shoreham-airport,west-sussex,50.836,-0.294,2,1998,2020,1,POINT (-0.294 50.836),"['Valley', 'Ridge', 'Valley', 'Slope']",0,2,0.38,0.38,nw-se,Valley
-100,100,811,"HERSTMONCEUX, WEST END",herstmonceux-west-end,east-sussex,50.891,0.317,52,1992,2020,0,POINT (0.317 50.891),"['Slope', 'Ridge', 'Ridge', 'Slope']",53,1,3.8,3.8,ns,Ridge
-101,101,830,"READING UNIVERSITY, WHITEKNIGHTS",reading-university-whiteknights,berkshire,51.441,-0.938,66,2012,2020,1,POINT (-0.938 51.441),"['Slope', 'Slope', 'Ridge', 'Slope']",62,4,-2.89,2.89,ns,Slope
-102,102,842,HURN,hurn,dorset,50.779,-1.836,10,1957,2020,1,POINT (-1.836 50.779),"['Slope', 'Ridge', 'Valley', 'Ridge']",12,2,0.38,0.38,ns,Ridge
-103,103,847,MIDDLE WALLOP,middle-wallop,hampshire,51.15,-1.57,90,1989,2020,1,POINT (-1.57 51.15),"['Ridge', 'Slope', 'Ridge', 'Slope']",90,0,2.1,2.1,nw-se,Ridge
-104,104,855,OTTERBOURNE W WKS,otterbourne-w-wks,hampshire,51.009,-1.335,34,2010,2020,1,POINT (-1.335 51.009),"['Ridge', 'Slope', 'Slope', 'Slope']",35,1,6.1,6.1,ns,Slope
-105,105,862,ODIHAM,odiham,hampshire,51.239,-0.945,118,1993,2020,1,POINT (-0.945 51.239),"['Ridge', 'Slope', 'Valley', 'Ridge']",119,1,-2.3,2.3,nw-se,Valley
-106,106,868,ALICE HOLT LODGE,alice-holt-lodge,hampshire,51.178,-0.85,115,2009,2020,1,POINT (-0.85 51.178),"['Slope', 'Valley', 'Ridge', 'Slope']",117,2,2.3,2.3,ew,Slope
-107,107,869,SOUTH FARNBOROUGH,south-farnborough,hampshire,51.28,-0.773,65,1957,2020,1,POINT (-0.773 51.28),"['Slope', 'Valley', 'Slope', 'Valley']",64,1,-0.58,0.58,ne-sw,Valley
-108,108,876,WIGHT: ST CATHERINES POINT,wight-st-catherines-point,isle-of-wight,50.576,-1.297,20,1982,2020,1,POINT (-1.297 50.576),"['Ridge', 'Slope', 'Slope', 'Slope']",21,1,28.57,28.57,ns,Slope
-109,109,886,LYNEHAM,lyneham,wiltshire,51.503,-1.992,145,1957,2020,1,POINT (-1.992 51.503),"['Slope', 'Ridge', 'Ridge', 'Ridge']",143,2,4.63,4.63,ne-sw,Ridge
-110,110,888,LARKHILL,larkhill,wiltshire,51.202,-1.806,132,1995,2020,1,POINT (-1.806 51.202),"['Slope', 'Slope', 'Ridge', 'Slope']",131,1,1.92,1.92,nw-se,Ridge
-111,111,889,BOSCOMBE DOWN,boscombe-down,wiltshire,51.162,-1.755,126,1957,2020,1,POINT (-1.755 51.162),"['Ridge', 'Slope', 'Slope', 'Ridge']",126,0,2.87,2.87,ne-sw,Ridge
-112,112,908,MACHRIHANISH,machrihanish,argyll-in-strathclyde-region,55.441,-5.697,10,1965,2020,5,POINT (-5.697 55.441),"['Valley', 'Slope', 'Slope', 'Slope']",9,1,1.06,1.06,ne-sw,Slope
-113,113,918,DUNSTAFFNAGE,dunstaffnage,argyll-in-strathclyde-region,56.45,-5.44,3,1980,2020,5,POINT (-5.44 56.45),"['Valley', 'Slope', 'Valley', 'Ridge']",-32768,32771,-14.66,14.66,nw-se,Valley
-114,114,17314,LEEMING,leeming,north-yorkshire,54.297,-1.533,33,1965,2020,1,POINT (-1.533 54.297),"['Ridge', 'Valley', 'Ridge', 'Slope']",31,2,-1.03,1.03,ew,Ridge
-115,115,940,GT CUMBRAE: MILLPORT,gt-cumbrae-millport,buteshire,55.749,-4.908,5,2010,2020,4,POINT (-4.908 55.749),"['Ridge', 'Slope', 'Ridge', 'Valley']",3,2,17.91,17.91,ns,Slope
-116,116,982,SALSBURGH,salsburgh,lanarkshire,55.861,-3.875,277,1994,2020,4,POINT (-3.875 55.861),"['Slope', 'Ridge', 'Slope', 'Ridge']",267,10,10.05,10.05,ne-sw,Ridge
-117,117,987,DRUMALBIN,drumalbin,lanarkshire,55.627,-3.736,245,1991,2020,4,POINT (-3.736 55.627),"['Ridge', 'Slope', 'Slope', 'Slope']",245,0,-6.8,6.8,ew,Ridge
-118,118,1005,AUCHINCRUIVE,auchincruive,ayrshire,55.477,-4.565,48,2005,2020,4,POINT (-4.565 55.477),"['Ridge', 'Ridge', 'Slope', 'Ridge']",46,2,3.6,3.6,nw-se,Slope
-119,119,1007,"PRESTWICK, GANNET",prestwick-gannet,ayrshire,55.515,-4.585,27,1994,2020,4,POINT (-4.585 55.515),"['Ridge', 'Slope', 'Ridge', 'Slope']",27,0,4.45,4.45,ne-sw,Slope
-120,120,1023,ESKDALEMUIR,eskdalemuir,dumfriesshire,55.312,-3.207,236,1954,2020,4,POINT (-3.207 55.312),"['Slope', 'Slope', 'Slope', 'Slope']",237,1,-10.12,10.12,ne-sw,Slope
-121,121,1033,DUNDRENNAN,dundrennan,kirkcudbrightshire,54.803,-4.008,113,1990,2020,1,POINT (-4.008 54.803),"['Ridge', 'Ridge', 'Slope', 'Slope']",113,0,3.96,3.96,nw-se,Slope
-122,122,1035,THREAVE,threave,kirkcudbrightshire,54.926,-3.95,73,2005,2020,1,POINT (-3.95 54.926),"['Slope', 'Ridge', 'Slope', 'Ridge']",70,3,-11.9,11.9,nw-se,Slope
-123,123,1039,WEST FREUGH,west-freugh,wigtownshire,54.859,-4.935,11,1961,2020,1,POINT (-4.935 54.859),"['Ridge', 'Slope', 'Slope', 'Slope']",11,0,1.46,1.46,nw-se,Slope
-124,124,1055,ST BEES HEAD NO 2,st-bees-head-no-2,cumbria,54.518,-3.615,124,1992,2020,1,POINT (-3.615 54.518),"['Ridge', 'Ridge', 'Slope', 'Valley']",125,1,3.51,3.51,ew,Ridge
-125,125,1060,KESWICK,keswick,cumbria,54.614,-3.157,81,1992,2020,1,POINT (-3.157 54.614),"['Ridge', 'Valley', 'Valley', 'Valley']",76,5,-2.28,2.28,ew,Ridge
-126,126,1067,BLENCATHRA,blencathra,cumbria,54.62,-3.08,250,2010,2020,1,POINT (-3.08 54.62),"['Ridge', 'Slope', 'Ridge', 'Slope']",261,11,58.65,58.65,ne-sw,Slope
-127,127,1070,CARLISLE,carlisle,cumbria,54.934,-2.964,28,1961,2020,1,POINT (-2.964 54.934),"['Slope', 'Ridge', 'Valley', 'Slope']",27,1,-1.46,1.46,nw-se,Valley
-128,128,1073,NEWTON RIGG,newton-rigg,cumbria,54.67,-2.788,169,2010,2020,1,POINT (-2.788 54.67),"['Slope', 'Valley', 'Ridge', 'Slope']",166,3,-3.73,3.73,ne-sw,Slope
-129,129,1074,WARCOP RANGE,warcop-range,cumbria,54.572,-2.413,227,1992,2020,1,POINT (-2.413 54.572),"['Slope', 'Slope', 'Ridge', 'Slope']",224,3,10.97,10.97,ne-sw,Slope
-130,130,1076,SPADEADAM NO 2,spadeadam-no-2,cumbria,55.05,-2.554,285,1992,2020,4,POINT (-2.554 55.05),"['Valley', 'Ridge', 'Slope', 'Ridge']",284,1,2.09,2.09,nw-se,Slope
-131,131,1078,WALNEY ISLAND,walney-island,cumbria,54.125,-3.258,15,1992,2020,1,POINT (-3.258 54.125),"['Slope', 'Ridge', 'Slope', 'Valley']",17,2,-1.84,1.84,ns,Ridge
-132,132,1080,LEVENS HALL,levens-hall,cumbria,54.259,-2.778,7,2010,2020,1,POINT (-2.778 54.259),"['Slope', 'Valley', 'Valley', 'Slope']",17,10,-4.31,4.31,nw-se,Valley
-133,133,1083,SHAP,shap,cumbria,54.502,-2.685,252,1992,2020,1,POINT (-2.685 54.502),"['Valley', 'Slope', 'Slope', 'Slope']",252,0,-3.93,3.93,ns,Slope
-134,134,1090,"BLACKPOOL, SQUIRES GATE",blackpool-squires-gate,lancashire,53.775,-3.038,10,1957,2020,1,POINT (-3.038 53.775),"['Ridge', 'Slope', 'Slope', 'Ridge']",12,2,0.61,0.61,ne-sw,Ridge
-135,135,1111,"PRESTON, MOOR PARK",preston-moor-park,lancashire,53.774,-2.705,33,2009,2020,1,POINT (-2.705 53.774),"['Slope', 'Slope', 'Valley', 'Ridge']",36,3,2.03,2.03,ne-sw,Ridge
-136,136,1112,MYERSCOUGH,myerscough,lancashire,53.854,-2.767,14,2010,2020,1,POINT (-2.767 53.854),"['Ridge', 'Ridge', 'Slope', 'Slope']",18,4,-0.81,0.81,ew,Ridge
-137,137,1119,STONYHURST,stonyhurst,lancashire,53.845,-2.47,115,2000,2020,1,POINT (-2.47 53.845),"['Slope', 'Slope', 'Slope', 'Slope']",112,3,8.34,8.34,nw-se,Slope
-138,138,1125,ROCHDALE,rochdale,greater-manchester,53.609,-2.179,110,2007,2020,1,POINT (-2.179 53.609),"['Valley', 'Valley', 'Valley', 'Ridge']",114,4,3.64,3.64,ns,Valley
-139,139,1132,"NANTWICH, REASEHEATH HALL",nantwich-reaseheath-hall,cheshire,53.086,-2.526,40,2011,2020,1,POINT (-2.526 53.086),"['Slope', 'Ridge', 'Slope', 'Slope']",38,2,-1.0,1.0,ne-sw,Slope
-140,140,1137,RHYL NO 2,rhyl-no-2,clwyd,53.259,-3.509,77,1992,2020,1,POINT (-3.509 53.259),"['Slope', 'Slope', 'Slope', 'Slope']",81,4,-12.44,12.44,ne-sw,Slope
-141,141,1144,HAWARDEN AIRPORT,hawarden-airport,clwyd,53.175,-2.986,11,1992,2020,1,POINT (-2.986 53.175),"['Slope', 'Slope', 'Valley', 'Slope']",12,1,-2.0,2.0,ne-sw,Slope
-142,142,1145,VALLEY,valley,gwynedd,53.253,-4.536,10,1988,2020,1,POINT (-4.536 53.253),"['Ridge', 'Ridge', 'Slope', 'Ridge']",8,2,-0.8,0.8,ew,Ridge
-143,143,1161,ABERDARON,aberdaron,gwynedd,52.789,-4.741,86,1993,2020,1,POINT (-4.741 52.789),"['Ridge', 'Valley', 'Valley', 'Slope']",90,4,9.72,9.72,ne-sw,Slope
-144,144,1166,PORTHMADOG,porthmadog,gwynedd,52.915,-4.158,7,2010,2020,1,POINT (-4.158 52.915),"['Slope', 'Slope', 'Valley', 'Valley']",10,3,12.34,12.34,nw-se,Valley
-145,145,1171,CAPEL CURIG NO 3,capel-curig-no-3,gwynedd,53.094,-3.941,216,1993,2020,1,POINT (-3.941 53.094),"['Valley', 'Valley', 'Valley', 'Valley']",202,14,-23.98,23.98,nw-se,Valley
-146,146,1180,BALA,bala,gwynedd,52.908,-3.584,163,1997,2020,1,POINT (-3.584 52.908),"['Slope', 'Valley', 'Valley', 'Slope']",163,0,-7.36,7.36,nw-se,Valley
-147,147,1190,LAKE VYRNWY NO 2,lake-vyrnwy-no-2,powys-north,52.757,-3.465,360,1994,2020,1,POINT (-3.465 52.757),"['Slope', 'Ridge', 'Ridge', 'Ridge']",354,6,10.9,10.9,ew,Slope
-148,148,1198,ABERPORTH,aberporth,dyfed,52.14,-4.571,133,1957,2020,1,POINT (-4.571 52.14),"['Ridge', 'Slope', 'Slope', 'Valley']",130,3,-25.51,25.51,nw-se,Slope
-149,149,1204,SWYDDFFYNNON,swyddffynnon,dyfed,52.272,-3.916,178,2012,2020,1,POINT (-3.916 52.272),"['Slope', 'Valley', 'Slope', 'Slope']",177,1,6.86,6.86,ne-sw,Slope
-150,150,1205,GOGERDDAN,gogerddan,dyfed,52.432,-4.02,31,2011,2020,1,POINT (-4.02 52.432),"['Valley', 'Slope', 'Ridge', 'Valley']",32,1,-11.41,11.41,nw-se,Ridge
-151,151,1209,TRAWSGOED,trawsgoed,dyfed,52.344,-3.948,63,1992,2020,1,POINT (-3.948 52.344),"['Valley', 'Valley', 'Valley', 'Ridge']",64,1,5.5,5.5,ne-sw,Ridge
-152,152,1215,MILFORD HAVEN CONSERVANCY BOARD,milford-haven-conservancy-board,dyfed,51.709,-5.053,44,1964,2020,2,POINT (-5.053 51.709),"['Slope', 'Ridge', 'Flat', 'Ridge']",38,6,13.65,13.65,ns,Ridge
-153,153,1221,SCOLTON COUNTRY PARK,scolton-country-park,dyfed,51.86,-4.922,75,2011,2020,1,POINT (-4.922 51.86),"['Ridge', 'Valley', 'Slope', 'Slope']",81,6,6.99,6.99,ne-sw,Slope
-154,154,1223,WHITECHURCH,whitechurch,dyfed,51.989,-4.679,129,2011,2020,1,POINT (-4.679 51.989),"['Valley', 'Slope', 'Slope', 'Slope']",134,5,-4.68,4.68,ew,Valley
-155,155,1226,PEMBREY SANDS,pembrey-sands,dyfed,51.714,-4.367,3,1993,2020,1,POINT (-4.367 51.714),"['Ridge', 'Ridge', 'Valley', 'Ridge']",7,4,-2.9,2.9,ew,Ridge
-156,156,1238,LLYSDINAM,llysdinam,powys-south,52.216,-3.452,196,2010,2020,1,POINT (-3.452 52.216),"['Slope', 'Slope', 'Valley', 'Valley']",206,10,9.99,9.99,nw-se,Valley
-157,157,1249,LIBANUS,libanus,powys-south,51.924,-3.489,331,2012,2020,1,POINT (-3.489 51.924),"['Slope', 'Slope', 'Ridge', 'Slope']",329,2,9.14,9.14,nw-se,Ridge
-158,158,1255,MUMBLES HEAD,mumbles-head,west-glamorgan,51.566,-3.982,43,1982,2020,1,POINT (-3.982 51.566),"['Slope', 'Ridge', 'Ridge', 'Flat']",13,30,20.56,20.56,nw-se,Ridge
-159,159,1272,"CARDIFF, BUTE PARK",cardiff-bute-park,south-glamorgan,51.488,-3.189,9,2010,2020,1,POINT (-3.189 51.488),"['Slope', 'Slope', 'Valley', 'Slope']",9,0,1.35,1.35,ne-sw,Slope
-160,160,1276,"TREDEGAR, BRYN BACH PARK NO 2",tredegar-bryn-bach-park-no-2,gwent,51.784,-3.268,360,2010,2020,1,POINT (-3.268 51.784),"['Slope', 'Valley', 'Valley', 'Slope']",367,7,-8.34,8.34,ne-sw,Slope
-161,161,1285,LISCOMBE,liscombe,somerset,51.087,-3.609,348,1993,2020,1,POINT (-3.609 51.087),"['Ridge', 'Slope', 'Slope', 'Slope']",345,3,15.28,15.28,ns,Slope
-162,162,1302,YEOVILTON,yeovilton,somerset,51.006,-2.643,20,1964,2020,1,POINT (-2.643 51.006),"['Ridge', 'Ridge', 'Ridge', 'Valley']",22,2,-1.14,1.14,nw-se,Ridge
-163,163,1319,ISLE OF PORTLAND,isle-of-portland,dorset,50.522,-2.456,52,1967,2020,1,POINT (-2.456 50.522),"['Ridge', 'Ridge', 'Slope', 'Slope']",51,1,10.19,10.19,ne-sw,Slope
-164,164,1326,SWANAGE,swanage,dorset,50.614,-1.959,10,2011,2020,1,POINT (-1.959 50.614),"['Ridge', 'Valley', 'Valley', 'Valley']",10,0,5.67,5.67,nw-se,Valley
-165,165,1336,"PLYMOUTH, MOUNTBATTEN",plymouth-mountbatten,devon,50.355,-4.121,50,1930,2020,1,POINT (-4.121 50.355),"['Ridge', 'Slope', 'Valley', 'Slope']",40,10,-10.72,10.72,nw-se,Valley
-166,166,1345,"OKEHAMPTON, EAST OKEMENT FARM",okehampton-east-okement-farm,devon,50.703,-3.977,408,2006,2020,1,POINT (-3.977 50.703),"['Slope', 'Slope', 'Slope', 'Valley']",402,6,-7.58,7.58,ne-sw,Valley
-167,167,1346,CHIVENOR,chivenor,devon,51.089,-4.149,6,1980,2020,1,POINT (-4.149 51.089),"['Ridge', 'Valley', 'Valley', 'Slope']",6,0,1.29,1.29,ne-sw,Slope
-168,168,1352,NORTH WYKE,north-wyke,devon,50.769,-3.904,177,2000,2020,1,POINT (-3.904 50.769),"['Ridge', 'Slope', 'Slope', 'Slope']",176,1,-4.93,4.93,nw-se,Slope
-169,169,1383,DUNKESWELL AERODROME,dunkeswell-aerodrome,devon,50.86,-3.24,252,1991,2020,1,POINT (-3.24 50.86),"['Valley', 'Slope', 'Slope', 'Valley']",254,2,-3.99,3.99,nw-se,Slope
-170,170,1393,CULDROSE,culdrose,cornwall,50.084,-5.257,76,1977,2020,2,POINT (-5.257 50.084),"['Slope', 'Ridge', 'Ridge', 'Ridge']",69,7,4.3,4.3,ne-sw,Ridge
-171,171,1395,CAMBORNE,camborne,cornwall,50.218,-5.328,87,1978,2020,2,POINT (-5.328 50.218),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",84,3,-2.44,2.44,nw-se,Ridge
-172,172,1415,"CARDINHAM, BODMIN",cardinham-bodmin,cornwall,50.502,-4.667,200,1991,2020,1,POINT (-4.667 50.502),"['Slope', 'Ridge', 'Ridge', 'Valley']",199,1,2.08,2.08,ne-sw,Valley
-173,173,1418,BUDE,bude,cornwall,50.829,-4.546,15,2011,2020,1,POINT (-4.546 50.829),"['Valley', 'Slope', 'Slope', 'Slope']",5,10,2.66,2.66,nw-se,Slope
-174,174,1431,"BANAGHER, CAUGH HILL",banagher-caugh-hill,londonderry,54.886,-6.966,214,1997,2020,2,POINT (-6.966 54.886),"['Ridge', 'Ridge', 'Ridge', 'Slope']",213,1,-5.22,5.22,ne-sw,Slope
-175,175,1435,LOUGH FEA,lough-fea,londonderry,54.721,-6.815,225,1994,2020,2,POINT (-6.815 54.721),"['Ridge', 'Valley', 'Ridge', 'Valley']",222,3,4.36,4.36,nw-se,Ridge
-176,176,1448,PORTGLENONE,portglenone,antrim,54.865,-6.458,64,1994,2020,2,POINT (-6.458 54.865),"['Slope', 'Slope', 'Slope', 'Slope']",66,2,6.05,6.05,ne-sw,Slope
-177,177,1450,ALDERGROVE,aldergrove,antrim,54.664,-6.225,63,1981,2020,2,POINT (-6.225 54.664),"['Slope', 'Slope', 'Slope', 'Ridge']",62,1,1.24,1.24,ne-sw,Ridge
-178,178,1452,ALTNAHINCH FILTERS,altnahinch-filters,antrim,55.048,-6.255,213,1981,2020,5,POINT (-6.255 55.048),"['Slope', 'Slope', 'Valley', 'Valley']",231,18,-7.96,7.96,nw-se,Valley
-179,179,1467,BALLYPATRICK FOREST,ballypatrick-forest,antrim,55.181,-6.154,156,1991,2020,5,POINT (-6.154 55.181),"['Slope', 'Slope', 'Slope', 'Valley']",152,4,-17.23,17.23,ne-sw,Valley
-180,180,1488,KILLOWEN,killowen,down,54.077,-6.184,4,2000,2020,2,POINT (-6.184 54.077),"['Slope', 'Slope', 'Flat', 'Slope']",2,2,39.57,39.57,ne-sw,Slope
-181,181,1502,MURLOUGH,murlough,down,54.245,-5.832,12,2009,2020,2,POINT (-5.832 54.245),"['Ridge', 'Slope', 'Ridge', 'Slope']",18,6,-3.29,3.29,ne-sw,Slope
-182,182,1504,KATESBRIDGE,katesbridge,down,54.297,-6.111,91,2000,2020,2,POINT (-6.111 54.297),"['Valley', 'Slope', 'Ridge', 'Valley']",89,2,3.29,3.29,ne-sw,Valley
-183,183,1507,STORMONT CASTLE,stormont-castle,down,54.603,-5.83,56,2009,2020,2,POINT (-5.83 54.603),"['Slope', 'Valley', 'Slope', 'Valley']",65,9,18.44,18.44,ns,Valley
-184,184,1517,BALLYWATTICOCK,ballywatticock,down,54.572,-5.657,6,1980,2020,2,POINT (-5.657 54.572),"['Ridge', 'Flat', 'Slope', 'Ridge']",5,1,10.43,10.43,ne-sw,Ridge
-185,185,1523,HELENS BAY,helens-bay,down,54.669,-5.748,43,2002,2020,2,POINT (-5.748 54.669),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",47,4,-9.13,9.13,ns,Ridge
-186,186,1530,ARMAGH,armagh,armagh,54.352,-6.65,62,2018,2020,2,POINT (-6.65 54.352),"['Valley', 'Valley', 'Valley', 'Ridge']",52,10,-2.68,2.68,nw-se,Valley
-187,187,1534,GLENANNE NO 2,glenanne-no-2,armagh,54.237,-6.504,161,1992,2020,2,POINT (-6.504 54.237),"['Slope', 'Ridge', 'Ridge', 'Ridge']",167,6,-5.13,5.13,ne-sw,Ridge
-188,188,1543,CASTLEDERG,castlederg,tyrone,54.707,-7.577,49,1995,2020,2,POINT (-7.577 54.707),"['Ridge', 'Valley', 'Valley', 'Valley']",46,3,4.15,4.15,ns,Valley
-189,189,16596,TOPCLIFFE,topcliffe,north-yorkshire,54.205,-1.39,25,1997,2020,1,POINT (-1.39 54.205),"['Valley', 'Valley', 'Valley', 'Slope']",23,2,1.85,1.85,ns,Valley
-190,190,16611,SENNYBRIDGE NO 2,sennybridge-no-2,powys-south,52.063,-3.615,307,1995,2020,1,POINT (-3.615 52.063),"['Slope', 'Slope', 'Slope', 'Slope']",308,1,-8.39,8.39,nw-se,Slope
-191,191,10268,"WINCHCOMBE, SUDELEY CASTLE",winchcombe-sudeley-castle,gloucestershire,51.948,-1.954,112,2010,2020,1,POINT (-1.954 51.948),"['Slope', 'Ridge', 'Slope', 'Valley']",113,1,4.87,4.87,ne-sw,Valley
-192,192,16769,WIGGONHOLT,wiggonholt,west-sussex,50.938,-0.494,28,2011,2020,1,POINT (-0.494 50.938),"['Ridge', 'Slope', 'Slope', 'Ridge']",26,2,-4.76,4.76,nw-se,Slope
-193,193,18903,SOUTH UIST RANGE,south-uist-range,western-isles,57.358,-7.385,4,1996,2020,5,POINT (-7.385 57.358),"['Slope', 'Slope', 'Slope', 'Ridge']",3,1,-2.0,2.0,ns,Slope
-194,194,18974,TIREE,tiree,argyll-in-strathclyde-region,56.5,-6.881,9,1930,2020,5,POINT (-6.881 56.5),"['Slope', 'Ridge', 'Slope', 'Ridge']",12,3,0.87,0.87,ew,Slope
-195,195,19187,COLESHILL,coleshill,warwickshire,52.48,-1.691,96,1997,2020,1,POINT (-1.691 52.48),"['Slope', 'Ridge', 'Slope', 'Slope']",98,2,-1.97,1.97,ne-sw,Slope
-196,196,19188,ANDREWSFIELD,andrewsfield,essex,51.896,0.451,87,1997,2020,0,POINT (0.451 51.896),"['Slope', 'Slope', 'Valley', 'Ridge']",88,1,1.17,1.17,nw-se,Valley
-197,197,19192,KILLYLANE,killylane,antrim,54.817,-6.005,250,2011,2020,2,POINT (-6.005 54.817),"['Valley', 'Slope', 'Ridge', 'Ridge']",258,8,-16.04,16.04,nw-se,Ridge
-198,198,19203,BRIDGEFOOT,bridgefoot,cumbria,54.649,-3.459,49,2010,2020,1,POINT (-3.459 54.649),"['Valley', 'Valley', 'Slope', 'Slope']",51,2,-3.32,3.32,ew,Valley
-199,199,19204,GRINGLEY-ON-THE-HILL,gringley-on-the-hill,nottinghamshire,53.406,-0.884,68,2010,2020,1,POINT (-0.884 53.406),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",69,1,-2.21,2.21,ew,Ridge
-200,200,19206,ST ATHAN,st-athan,south-glamorgan,51.405,-3.441,49,1997,2020,1,POINT (-3.441 51.405),"['Slope', 'Slope', 'Ridge', 'Ridge']",50,1,1.35,1.35,ew,Slope
-201,201,19211,HARRIS: QUIDNISH,harris-quidnish,western-isles,57.78,-6.897,13,2010,2020,5,POINT (-6.897 57.78),"['Ridge', 'Valley', 'Slope', 'Valley']",13,0,-5.85,5.85,ew,Ridge
-202,202,19260,"EDINBURGH, GOGARBANK",edinburgh-gogarbank,midlothian-in-lothian-region,55.928,-3.344,57,1998,2020,4,POINT (-3.344 55.928),"['Ridge', 'Valley', 'Valley', 'Slope']",57,0,-3.43,3.43,ns,Valley
-203,203,17176,"HIGH WYCOMBE, HQAIR",high-wycombe-hqair,buckinghamshire,51.682,-0.807,204,1995,2020,1,POINT (-0.807 51.682),"['Ridge', 'Slope', 'Slope', 'Ridge']",198,6,-8.32,8.32,ew,Ridge
-204,204,61986,TIBENHAM AIRFIELD,tibenham-airfield,norfolk,52.457,1.162,52,2015,2020,0,POINT (1.162 52.457),"['Valley', 'Ridge', 'Ridge', 'Ridge']",54,2,-1.38,1.38,ne-sw,Ridge
-205,205,62041,EXETER AIRPORT NO 2,exeter-airport-no-2,devon,50.737,-3.406,27,2009,2020,1,POINT (-3.406 50.737),"['Slope', 'Ridge', 'Slope', 'Slope']",26,1,2.65,2.65,ns,Ridge
-206,206,13343,LOGAN BOTANIC GARDEN,logan-botanic-garden,wigtownshire,54.743,-4.959,27,2012,2020,1,POINT (-4.959 54.743),"['Valley', 'Slope', 'Ridge', 'Slope']",31,4,-6.86,6.86,ne-sw,Slope
-207,207,17309,CROSBY,crosby,merseyside,53.497,-3.058,9,1983,2020,1,POINT (-3.058 53.497),"['Slope', 'Ridge', 'Slope', 'Ridge']",-32768,32777,-3.63,3.63,ew,Slope
-208,208,17344,LOFTUS,loftus,cleveland,54.563,-0.864,158,1996,2020,1,POINT (-0.864 54.563),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",152,6,8.9,8.9,ns,Ridge
-209,209,30476,HOUGHTON HALL,houghton-hall,norfolk,52.824,0.652,65,2010,2020,0,POINT (0.652 52.824),"['Valley', 'Slope', 'Slope', 'Slope']",68,3,-3.57,3.57,nw-se,Slope
-210,210,14093,ACHNAGART,achnagart,ross-and-cromarty,57.181,-5.375,15,2012,2020,5,POINT (-5.375 57.181),"['Valley', 'Valley', 'Slope', 'Valley']",17,2,-18.6,18.6,ne-sw,Valley
-211,211,30523,ALBEMARLE,albemarle,northumberland,55.02,-1.882,142,2003,2020,4,POINT (-1.882 55.02),"['Ridge', 'Valley', 'Ridge', 'Slope']",142,0,3.14,3.14,ne-sw,Slope
-212,212,30529,"MARKET BOSWORTH, BOSWORTH PARK",market-bosworth-bosworth-park,leicestershire,52.623,-1.396,129,2010,2020,1,POINT (-1.396 52.623),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",132,3,3.95,3.95,ne-sw,Ridge
-213,213,30620,CHARLWOOD,charlwood,surrey,51.144,-0.229,67,2002,2020,1,POINT (-0.229 51.144),"['Slope', 'Valley', 'Valley', 'Valley']",68,1,-2.3,2.3,ne-sw,Valley
-214,214,30690,"LEEK, THORNCLIFFE",leek-thorncliffe,staffordshire,53.128,-1.981,298,2002,2020,1,POINT (-1.981 53.128),"['Slope', 'Ridge', 'Slope', 'Slope']",299,1,8.2,8.2,ne-sw,Slope
-215,215,30750,RAVENSWORTH,ravensworth,north-yorkshire,54.472,-1.785,120,2010,2020,1,POINT (-1.785 54.472),"['Valley', 'Slope', 'Valley', 'Valley']",120,0,2.89,2.89,ne-sw,Valley
-216,216,25726,"PATELEY BRIDGE, RAVENS NEST",pateley-bridge-ravens-nest,north-yorkshire,54.07,-1.771,259,2011,2020,1,POINT (-1.771 54.07),"['Slope', 'Valley', 'Valley', 'Valley']",263,4,-28.42,28.42,ne-sw,Valley
-217,217,55827,BRAEMAR NO 2,braemar-no-2,aberdeenshire,57.011,-3.397,327,2005,2020,4,POINT (-3.397 57.011),"['Slope', 'Slope', 'Slope', 'Valley']",324,3,-7.71,7.71,nw-se,Slope
-218,218,23417,ISLAY: PORT ELLEN,islay-port-ellen,argyll-in-strathclyde-region,55.681,-6.25,17,1998,2020,5,POINT (-6.25 55.681),"['Slope', 'Slope', 'Slope', 'Slope']",11,6,2.77,2.77,ne-sw,Slope
-219,219,56216,RESALLACH,resallach,sutherland,58.063,-5.016,133,2011,2020,5,POINT (-5.016 58.063),"['Slope', 'Valley', 'Valley', 'Slope']",136,3,-21.32,21.32,ns,Valley
-220,220,23450,WYCH CROSS,wych-cross,east-sussex,51.066,0.033,200,2010,2020,0,POINT (0.033 51.066),"['Slope', 'Slope', 'Ridge', 'Slope']",193,7,-5.54,5.54,ns,Slope
-221,221,56424,WINTERBOURNE NO2,winterbourne-no2,west-midlands,52.456,-1.928,140,2011,2020,1,POINT (-1.928 52.456),"['Ridge', 'Ridge', 'Ridge', 'Slope']",142,2,4.14,4.14,ew,Ridge
-222,222,56486,MONA,mona,isle-of-anglesey,53.261,-4.376,60,2009,2020,1,POINT (-4.376 53.261),"['Slope', 'Ridge', 'Slope', 'Ridge']",60,0,2.61,2.61,nw-se,Slope
-223,223,24102,"COVENTRY, COUNDON",coventry-coundon,west-midlands,52.424,-1.536,119,2001,2020,1,POINT (-1.536 52.424),"['Ridge', 'Slope', 'Ridge', 'Slope']",120,1,2.95,2.95,nw-se,Ridge
-224,224,24103,"DERRYLIN, CORNAHOULE",derrylin-cornahoule,fermanagh,54.189,-7.561,68,2010,2020,2,POINT (-7.561 54.189),"['Ridge', 'Slope', 'Valley', 'Valley']",64,4,0.82,0.82,nw-se,Valley
-225,225,16589,REDESDALE CAMP,redesdale-camp,northumberland,55.285,-2.279,211,1996,2020,4,POINT (-2.279 55.285),"['Ridge', 'Slope', 'Slope', 'Valley']",210,1,7.16,7.16,nw-se,Slope
-226,226,24125,"GLASGOW, BISHOPTON",glasgow-bishopton,renfrewshire,55.907,-4.532,59,1999,2020,4,POINT (-4.532 55.907),"['Slope', 'Slope', 'Ridge', 'Ridge']",58,1,6.64,6.64,ns,Slope
-227,227,56904,FRITTENDEN,frittenden,kent,51.142,0.596,38,2011,2020,0,POINT (0.596 51.142),"['Valley', 'Ridge', 'Slope', 'Ridge']",37,1,-2.1,2.1,ns,Ridge
-228,228,56937,GIANTS CAUSEWAY,giants-causeway,antrim,55.234,-6.512,80,2011,2020,5,POINT (-6.512 55.234),"['Slope', 'Slope', 'Slope', 'Ridge']",48,32,10.1,10.1,ne-sw,Ridge
-229,229,56939,USK NO 2,usk-no-2,monmouthshire,51.714,-2.923,25,2011,2020,1,POINT (-2.923 51.714),"['Slope', 'Slope', 'Slope', 'Slope']",25,0,-9.3,9.3,ns,Slope
-230,230,56958,EMLEY MOOR NO 2,emley-moor-no-2,west-yorkshire,53.612,-1.668,267,2011,2020,1,POINT (-1.668 53.612),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",264,3,7.28,7.28,ns,Ridge
-231,231,56963,MAGILLIGAN NO 2,magilligan-no-2,londonderry,55.16,-6.949,6,2011,2020,5,POINT (-6.949 55.16),"[None, 'Slope', 'Ridge', 'Valley']",5,1,0.42,0.42,ns,Slope
-232,232,56986,"HULL, EAST PARK",hull-east-park,humberside,53.766,-0.298,2,2012,2020,1,POINT (-0.298 53.766),"['Valley', 'Valley', 'Flat', 'Ridge']",2,0,0.41,0.41,ew,Valley
-233,233,16031,CHILLINGHAM BARNS,chillingham-barns,northumberland,55.53,-1.918,70,2012,2020,4,POINT (-1.918 55.53),"['Ridge', 'Ridge', 'Slope', 'Ridge']",77,7,-6.15,6.15,nw-se,Slope
-234,234,57063,THOMASTOWN,thomastown,fermanagh,54.33,-7.595,72,2012,2020,2,POINT (-7.595 54.33),"['Ridge', 'Slope', 'Slope', 'Slope']",69,3,4.12,4.12,nw-se,Slope
-235,235,57093,STOWE,stowe,buckinghamshire,52.042,-1.013,145,2012,2020,1,POINT (-1.013 52.042),"['Slope', 'Slope', 'Slope', 'Ridge']",147,2,3.51,3.51,ne-sw,Ridge
-236,236,57199,ROSTHERNE NO 2,rostherne-no-2,cheshire,53.36,-2.382,35,2012,2020,1,POINT (-2.382 53.36),"['Ridge', 'Ridge', 'Ridge', 'Valley']",35,0,2.01,2.01,ne-sw,Valley
-237,237,38,ACHFARY,achfary,sutherland,58.311,-4.916,46,1967,2020,4,POINT (-4.916 58.311),"['Slope', 'Valley', 'Valley', 'Slope']",48,2,-15.08,15.08,ne-sw,Slope
-238,238,8231,HUNTSHAM,huntsham,devon,50.953,-3.438,237,2006,2020,1,POINT (-3.438 50.953),"['Ridge', 'Slope', 'Slope', 'Slope']",250,13,6.48,6.48,ne-sw,Slope
-239,239,50,STRATHY EAST,strathy-east,sutherland,58.561,-3.992,68,1993,2020,4,POINT (-3.992 58.561),"['Slope', 'Valley', 'Slope', 'Ridge']",62,6,-10.58,10.58,nw-se,Slope
-240,240,60,POOLEWE,poolewe,ross-and-cromarty,57.774,-5.597,6,1961,2020,5,POINT (-5.597 57.774),"['Slope', 'Valley', 'Slope', 'Valley']",2,4,22.78,22.78,ne-sw,Valley
-241,241,142,"BANFF, GOLF CLUB",banff-golf-club,banffshire,57.661,-2.521,15,1988,2020,4,POINT (-2.521 57.661),"['Slope', 'Slope', 'Slope', 'Ridge']",9,6,7.18,7.18,nw-se,Slope
-242,242,176,DURRIS,durris,kincardineshire,57.032,-2.404,107,1988,2020,4,POINT (-2.404 57.032),"['Valley', 'Slope', 'Slope', 'Slope']",108,1,3.97,3.97,ew,Valley
-243,243,181,MYLNEFIELD,mylnefield,angus,56.456,-3.07,26,1954,2020,4,POINT (-3.07 56.456),"['Slope', 'Slope', 'Ridge', 'Slope']",29,3,5.86,5.86,nw-se,Ridge
-244,244,208,DRUMMOND CASTLE,drummond-castle,perthshire-in-tayside-region,56.338,-3.877,113,1969,2020,4,POINT (-3.877 56.338),"['Valley', 'Slope', 'Ridge', 'Ridge']",121,8,-11.91,11.91,ns,Slope
-245,245,214,FASKALLY,faskally,perthshire-in-tayside-region,56.718,-3.77,94,1953,2020,4,POINT (-3.77 56.718),"['Valley', 'Valley', 'Slope', 'Valley']",92,2,5.69,5.69,ns,Valley
-246,246,226,KINROSS,kinross,kinross-shire,56.214,-3.413,116,1967,2020,4,POINT (-3.413 56.214),"['Valley', 'Slope', 'Slope', 'Slope']",112,4,-1.73,1.73,ne-sw,Slope
-247,247,249,PENICUIK,penicuik,midlothian-in-lothian-region,55.823,-3.228,185,1946,2020,4,POINT (-3.228 55.823),"['Ridge', 'Slope', 'Slope', 'Slope']",183,2,-7.9,7.9,ne-sw,Slope
-248,248,262,NUNRAW ABBEY,nunraw-abbey,east-lothian,55.921,-2.652,197,1971,2020,4,POINT (-2.652 55.921),"['Slope', 'Slope', 'Slope', 'Slope']",195,2,-10.28,10.28,nw-se,Slope
-249,249,264,DUNBAR,dunbar,east-lothian,56.004,-2.528,23,1930,2020,4,POINT (-2.528 56.004),"['Ridge', 'Ridge', 'Slope', 'Ridge']",23,0,-3.86,3.86,ne-sw,Ridge
-250,250,279,BOWHILL,bowhill,selkirkshire,55.541,-2.906,168,1954,2020,4,POINT (-2.906 55.541),"['Slope', 'Slope', 'Ridge', 'Slope']",167,1,6.15,6.15,ew,Slope
-251,251,286,FLOORS CASTLE,floors-castle,roxburghshire,55.603,-2.468,59,1941,2020,4,POINT (-2.468 55.603),"['Slope', 'Slope', 'Valley', 'Ridge']",63,4,4.46,4.46,nw-se,Valley
-252,252,300,WALLINGTON,wallington,northumberland,55.154,-1.945,150,1994,2020,4,POINT (-1.945 55.154),"['Slope', 'Slope', 'Valley', 'Valley']",128,22,8.4,8.4,ew,Slope
-253,253,347,CARLTON-IN-CLEVELAND,carlton-in-cleveland,cleveland,54.428,-1.218,103,1991,2020,1,POINT (-1.218 54.428),"['Valley', 'Slope', 'Slope', 'Slope']",103,0,-7.22,7.22,nw-se,Slope
-254,254,359,WHITBY,whitby,north-yorkshire,54.481,-0.626,41,1973,2020,1,POINT (-0.626 54.481),"['Slope', 'Slope', 'Slope', 'Valley']",40,1,7.44,7.44,ns,Slope
-255,255,407,DENVER,denver,norfolk,52.583,0.346,3,1974,2020,0,POINT (0.346 52.583),"['Ridge', 'Slope', 'Slope', 'Slope']",1,2,0.79,0.79,ew,Ridge
-256,256,439,EAST BERGHOLT,east-bergholt,suffolk,51.96,1.023,7,1961,2020,0,POINT (1.023 51.96),"['Slope', 'Slope', 'Valley', 'Valley']",3,4,5.65,5.65,ns,Slope
-257,257,454,"CAMBRIDGE, BOTANIC GARDEN",cambridge-botanic-garden,cambridgeshire,52.194,0.129,13,1898,2020,0,POINT (0.129 52.194),"['Slope', 'Ridge', 'Valley', 'Valley']",19,6,-0.78,0.78,ew,Slope
-258,258,509,MALHAM TARN,malham-tarn,north-yorkshire,54.1,-2.164,381,1961,2020,1,POINT (-2.164 54.1),"['Valley', 'Ridge', 'Slope', 'Valley']",390,9,19.03,19.03,ns,Ridge
-259,259,535,CAWOOD,cawood,north-yorkshire,53.828,-1.148,6,1961,2020,1,POINT (-1.148 53.828),"['Flat', 'Valley', None, None]",8,2,0.2,0.2,ew,Flat
-260,260,539,BUXTON,buxton,derbyshire,53.258,-1.914,307,1875,2020,1,POINT (-1.914 53.258),"['Slope', 'Slope', 'Valley', 'Valley']",311,4,-3.81,3.81,ew,Slope
-261,261,606,OXFORD,oxford,oxfordshire,51.761,-1.264,63,1853,2020,1,POINT (-1.264 51.761),"['Ridge', 'Slope', 'Slope', 'Ridge']",66,3,0.78,0.78,ns,Slope
-262,262,609,SHIRBURN MODEL FARM,shirburn-model-farm,oxfordshire,51.669,-0.996,108,1969,2020,1,POINT (-0.996 51.669),"['Slope', 'Valley', 'Slope', 'Slope']",106,2,1.74,1.74,ne-sw,Slope
-263,263,628,IPSTONES EDGE,ipstones-edge,staffordshire,53.056,-1.951,340,1994,2020,1,POINT (-1.951 53.056),"['Slope', 'Ridge', 'Ridge', 'Ridge']",340,0,-5.79,5.79,nw-se,Ridge
-264,264,636,EDGE,edge,shropshire,52.674,-2.891,126,1988,2020,1,POINT (-2.891 52.674),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",121,5,2.57,2.57,nw-se,Ridge
-265,265,638,PRESTON MONTFORD,preston-montford,shropshire,52.725,-2.842,71,1976,2020,1,POINT (-2.842 52.725),"['Valley', 'Slope', 'Valley', 'Slope']",62,9,-1.78,1.78,ew,Valley
-266,266,688,CIRENCESTER,cirencester,gloucestershire,51.709,-1.996,133,1961,2020,1,POINT (-1.996 51.709),"['Slope', 'Ridge', 'Slope', 'Ridge']",130,3,4.07,4.07,ns,Ridge
-267,267,720,MICKLEHAM,mickleham,surrey,51.261,-0.321,55,1950,2020,1,POINT (-0.321 51.261),"['Slope', 'Ridge', 'Slope', 'Valley']",62,7,14.76,14.76,ne-sw,Valley
-268,268,730,EDENBRIDGE,edenbridge,kent,51.204,0.135,45,1973,2020,0,POINT (0.135 51.204),"['Valley', 'Slope', 'Slope', 'Slope']",43,2,4.6,4.6,nw-se,Slope
-269,269,25315,ORKNEY: LOCH OF HUNDLAND,orkney-loch-of-hundland,orkney,59.112,-3.229,28,1999,2020,4,POINT (-3.229 59.112),"['Slope', 'Valley', 'Ridge', 'Valley']",29,1,-2.34,2.34,ew,Slope
-270,270,757,FAVERSHAM,faversham,kent,51.297,0.878,46,1961,2020,0,POINT (0.878 51.297),"['Ridge', 'Slope', 'Slope', 'Slope']",48,2,-3.45,3.45,ne-sw,Slope
-271,271,782,BOGNOR REGIS,bognor-regis,west-sussex,50.782,-0.677,7,1901,2020,1,POINT (-0.677 50.782),"['Slope', 'Ridge', 'Ridge', 'Ridge']",6,1,2.39,2.39,nw-se,Ridge
-272,272,808,EASTBOURNE,eastbourne,east-sussex,50.759,0.283,15,1888,2020,0,POINT (0.283 50.759),"['Slope', 'Slope', 'Slope', 'Flat']",2,13,11.95,11.95,ew,Slope
-273,273,818,HASTINGS,hastings,east-sussex,50.856,0.57,45,1961,2020,0,POINT (0.57 50.856),"['Ridge', 'Ridge', 'Ridge', 'Slope']",45,0,14.11,14.11,nw-se,Ridge
-274,274,825,WALLINGFORD,wallingford,oxfordshire,51.603,-1.113,47,1961,2020,1,POINT (-1.113 51.603),"['Valley', 'Slope', 'Valley', 'Slope']",46,1,-0.97,0.97,ew,Valley
-275,275,17210,ALWEN,alwen,clwyd,53.062,-3.554,345,1961,2020,1,POINT (-3.554 53.062),"['Slope', 'Slope', 'Valley', 'Ridge']",343,2,9.98,9.98,nw-se,Valley
-276,276,843,"BOURNEMOUTH, KINGS PARK",bournemouth-kings-park,dorset,50.734,-1.824,27,1981,2020,1,POINT (-1.824 50.734),"['Slope', 'Ridge', 'Valley', 'Slope']",32,5,-3.98,3.98,ne-sw,Slope
-277,277,863,HAYLING ISLAND,hayling-island,hampshire,50.785,-0.986,4,1961,2020,1,POINT (-0.986 50.785),"['Ridge', 'Ridge', 'Flat', 'Slope']",4,0,2.56,2.56,ns,Ridge
-278,278,877,WIGHT: VENTNOR PARK,wight-ventnor-park,isle-of-wight,50.593,-1.213,60,1984,2020,1,POINT (-1.213 50.593),"['Slope', 'Slope', 'Ridge', 'Slope']",41,19,48.99,48.99,nw-se,Ridge
-279,279,878,WIGHT: SHANKLIN,wight-shanklin,isle-of-wight,50.624,-1.181,55,1947,2020,1,POINT (-1.181 50.624),"['Valley', 'Slope', 'Ridge', 'Slope']",55,0,-9.65,9.65,nw-se,Ridge
-280,280,883,LACOCK,lacock,wiltshire,51.431,-2.115,49,1961,2020,1,POINT (-2.115 51.431),"['Slope', 'Slope', 'Valley', 'Valley']",47,2,-0.77,0.77,nw-se,Valley
-281,281,9092,SEAVINGTON,seavington,somerset,50.941,-2.861,85,2009,2020,1,POINT (-2.861 50.941),"['Ridge', 'Slope', 'Slope', 'Ridge']",91,6,-5.14,5.14,ne-sw,Ridge
-282,282,915,LOCHGILPHEAD,lochgilphead,argyll-in-strathclyde-region,56.034,-5.428,6,1984,2020,5,POINT (-5.428 56.034),"['Slope', 'Slope', 'Valley', 'Slope']",8,2,-9.94,9.94,ew,Slope
-283,283,926,"BENMORE, YOUNGER BOTANIC GARDEN",benmore-younger-botanic-garden,argyll-in-strathclyde-region,56.028,-4.985,12,1961,2020,4,POINT (-4.985 56.028),"['Slope', 'Ridge', 'Valley', 'Slope']",23,11,88.04,88.04,ne-sw,Slope
-284,284,949,"GARTOCHARN, PORTNELLAN FARM",gartocharn-portnellan-farm,dunbartonshire,56.048,-4.567,40,1992,2020,4,POINT (-4.567 56.048),"['Slope', 'Slope', 'Slope', 'Slope']",41,1,-32.87,32.87,nw-se,Slope
-285,285,954,MUGDOCK PARK,mugdock-park,stirling-in-central-region,55.973,-4.33,165,1990,2020,4,POINT (-4.33 55.973),"['Ridge', 'Ridge', 'Slope', 'Ridge']",174,9,6.0,6.0,nw-se,Slope
-286,286,963,GRANGEMOUTH REFINERY,grangemouth-refinery,stirling-in-central-region,56.009,-3.686,2,1970,2020,4,POINT (-3.686 56.009),"['Slope', 'Slope', 'Slope', 'Slope']",4,2,-0.21,0.21,ns,Slope
-287,287,980,"MOTHERWELL, STRATHCLYDE PARK",motherwell-strathclyde-park,lanarkshire,55.786,-4.023,22,1979,2020,4,POINT (-4.023 55.786),"['Valley', 'Valley', 'Slope', 'Valley']",22,0,-3.63,3.63,ns,Valley
-288,288,996,HUNTERSTON NO 3,hunterston-no-3,ayrshire,55.723,-4.893,8,1964,2020,4,POINT (-4.893 55.723),"['Slope', 'Valley', 'Ridge', 'Slope']",7,1,-7.88,7.88,nw-se,Ridge
-289,289,25618,BRAMPTON NO 3,brampton-no-3,cumbria,54.935,-2.735,117,2001,2020,1,POINT (-2.735 54.935),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",115,2,-5.85,5.85,nw-se,Ridge
-290,290,9280,WESTONZOYLAND,westonzoyland,somerset,51.115,-2.922,3,2007,2020,1,POINT (-2.922 51.115),"['Valley', 'Ridge', 'Slope', 'Slope']",5,2,-1.15,1.15,ns,Ridge
-291,291,1105,HAZELRIGG,hazelrigg,lancashire,54.014,-2.775,95,1976,2020,1,POINT (-2.775 54.014),"['Ridge', 'Slope', 'Slope', 'Ridge']",94,1,10.41,10.41,nw-se,Slope
-292,292,1141,PRESTATYN,prestatyn,clwyd,53.342,-3.412,4,1932,2020,1,POINT (-3.412 53.342),"['Flat', 'Ridge', None, None]",8,4,-1.29,1.29,ew,Flat
-293,293,1148,BETWS-Y-COED,betws-y-coed,clwyd,53.097,-3.79,22,1976,2020,1,POINT (-3.79 53.097),"['Valley', 'Slope', 'Slope', 'Slope']",32,10,-38.57,38.57,nw-se,Slope
-294,294,1149,COLWYN BAY,colwyn-bay,clwyd,53.291,-3.715,36,1929,2020,1,POINT (-3.715 53.291),"['Slope', 'Slope', 'Valley', 'Slope']",37,1,-10.84,10.84,ne-sw,Slope
-295,295,1155,LLANARMON DYFFRYN CEIRIOG,llanarmon-dyffryn-ceiriog,clwyd,52.886,-3.256,265,1986,2020,1,POINT (-3.256 52.886),"['Slope', 'Valley', 'Valley', 'Slope']",273,8,-8.75,8.75,nw-se,Valley
-296,296,1164,DINORWIC NO 2,dinorwic-no-2,gwynedd,53.143,-4.108,333,1992,2020,1,POINT (-4.108 53.143),"['Slope', 'Slope', 'Valley', 'Slope']",329,4,-34.01,34.01,nw-se,Valley
-297,297,1173,ARTHOG NO 2,arthog-no-2,gwynedd,52.718,-4.015,7,1988,2020,1,POINT (-4.015 52.718),"['Slope', 'Slope', 'Valley', 'Ridge']",4,3,1.58,1.58,ew,Slope
-298,298,1185,MACHYNLLETH,machynlleth,powys-north,52.622,-3.843,76,1985,2020,1,POINT (-3.843 52.622),"['Valley', 'Ridge', 'Valley', 'Slope']",52,24,17.99,17.99,ne-sw,Slope
-299,299,1191,LLANWDDYN,llanwddyn,powys-north,52.749,-3.47,235,1989,2020,1,POINT (-3.47 52.749),"['Valley', 'Valley', 'Slope', 'Valley']",258,23,8.13,8.13,nw-se,Slope
-300,300,1214,DALE FORT,dale-fort,dyfed,51.703,-5.152,33,1961,2020,2,POINT (-5.152 51.703),"['Slope', 'Valley', 'Flat', 'Slope']",14,19,5.45,5.45,ew,Slope
-301,301,1217,ORIELTON,orielton,dyfed,51.653,-4.96,60,1964,2020,1,POINT (-4.96 51.653),"['Slope', 'Slope', 'Slope', 'Slope']",72,12,-6.58,6.58,nw-se,Slope
-302,302,1222,TENBY,tenby,dyfed,51.669,-4.708,5,1969,2020,1,POINT (-4.708 51.669),"['Slope', 'Valley', 'Slope', 'Slope']",6,1,4.06,4.06,ne-sw,Slope
-303,303,1227,SARON,saron,dyfed,52.013,-4.37,152,1988,2020,1,POINT (-4.37 52.013),"['Valley', 'Slope', 'Slope', 'Ridge']",152,0,-6.04,6.04,ew,Valley
-304,304,1243,VELINDRE,velindre,powys-south,52.026,-3.187,152,1982,2020,1,POINT (-3.187 52.026),"['Slope', 'Slope', 'Slope', 'Slope']",151,1,-10.14,10.14,nw-se,Slope
-305,305,1245,LLANGUNLLO NO 2,llangunllo-no-2,powys-south,52.332,-3.133,310,1989,2020,1,POINT (-3.133 52.332),"['Valley', 'Slope', 'Valley', 'Slope']",293,17,12.96,12.96,nw-se,Valley
-306,306,1291,NETTLECOMBE,nettlecombe,somerset,51.131,-3.35,96,1968,2020,1,POINT (-3.35 51.131),"['Slope', 'Slope', 'Slope', 'Slope']",99,3,-7.65,7.65,ne-sw,Slope
-307,307,1324,FONTMELL MAGNA,fontmell-magna,dorset,50.951,-2.185,90,1988,2020,1,POINT (-2.185 50.951),"['Slope', 'Slope', 'Valley', 'Slope']",86,4,-14.67,14.67,nw-se,Valley
-308,308,1362,SLAPTON,slapton,devon,50.293,-3.652,32,1961,2020,1,POINT (-3.652 50.293),"['Slope', 'Ridge', 'Valley', 'Ridge']",31,1,12.21,12.21,ns,Ridge
-309,309,1371,TEIGNMOUTH,teignmouth,devon,50.545,-3.495,3,1906,2020,1,POINT (-3.495 50.545),"['Flat', 'Slope', 'Slope', 'Valley']",5,2,9.18,9.18,nw-se,Slope
-310,310,1382,HEMYOCK,hemyock,devon,50.909,-3.227,168,1978,2020,1,POINT (-3.227 50.909),"['Slope', 'Slope', 'Ridge', 'Slope']",172,4,-15.22,15.22,nw-se,Ridge
-311,311,1412,TREKNOW,treknow,cornwall,50.646,-4.755,100,1992,2020,1,POINT (-4.755 50.646),"['Valley', 'Slope', 'Slope', 'Slope']",62,38,-9.65,9.65,nw-se,Slope
-312,312,1475,BELFAST NEWFORGE,belfast-newforge,down,54.56,-5.941,36,1982,2020,2,POINT (-5.941 54.56),"['Ridge', 'Valley', 'Valley', 'Slope']",31,5,2.48,2.48,ns,Valley
-313,313,1489,HILLSBOROUGH,hillsborough,down,54.453,-6.073,116,1961,2020,2,POINT (-6.073 54.453),"['Valley', 'Slope', 'Slope', 'Slope']",113,3,-5.16,5.16,ns,Slope
-314,314,1491,SILENT VALLEY,silent-valley,down,54.127,-6.002,129,1961,2020,2,POINT (-6.002 54.127),"['Valley', 'Slope', 'Slope', 'Valley']",132,3,4.91,4.91,ne-sw,Valley
-315,315,1494,TRASSEY SLIEVENAMAN,trassey-slievenaman,down,54.206,-6.006,220,1985,2020,2,POINT (-6.006 54.206),"['Slope', 'Valley', 'Slope', 'Slope']",216,4,-9.03,9.03,ne-sw,Slope
-316,316,1501,"BELFAST, RAVENHILL ROAD",belfast-ravenhill-road,down,54.584,-5.91,10,1986,2020,2,POINT (-5.91 54.584),"['Valley', 'Ridge', 'Ridge', 'Valley']",13,3,-1.24,1.24,nw-se,Ridge
-317,317,1508,CASTLEREAGH,castlereagh,down,54.565,-5.871,122,1990,2020,2,POINT (-5.871 54.565),"['Ridge', 'Slope', 'Ridge', 'Slope']",129,7,-0.83,0.83,ew,Ridge
-318,318,1509,MAGHERALLY,magherally,down,54.359,-6.196,97,1976,2020,2,POINT (-6.196 54.359),"['Slope', 'Ridge', 'Ridge', 'Ridge']",99,2,4.94,4.94,ne-sw,Ridge
-319,319,1551,EDENFEL,edenfel,tyrone,54.594,-7.283,89,1872,2020,2,POINT (-7.283 54.594),"['Slope', 'Valley', 'Ridge', 'Valley']",84,5,-3.52,3.52,ew,Slope
-320,320,1563,LOUGH NAVAR FOREST,lough-navar-forest,fermanagh,54.439,-7.901,126,1961,2020,2,POINT (-7.901 54.439),"['Slope', 'Slope', 'Slope', 'Slope']",140,14,3.3,3.3,ne-sw,Slope
-321,321,16612,PRESTON,preston,dorset,50.637,-2.426,44,2015,2020,1,POINT (-2.426 50.637),"['Slope', 'Ridge', 'Slope', 'Slope']",39,5,7.3,7.3,ns,Ridge
-322,322,24770,"STRABANE, CARRICKLEE",strabane-carricklee,tyrone,54.808,-7.499,39,1999,2020,2,POINT (-7.499 54.808),"['Ridge', 'Slope', 'Slope', 'Slope']",34,5,9.37,9.37,ns,Slope
-323,323,8605,VIRGINSTOW NO 2,virginstow-no-2,devon,50.711,-4.297,147,2015,2020,1,POINT (-4.297 50.711),"['Slope', 'Slope', 'Ridge', 'Ridge']",144,3,11.75,11.75,ne-sw,Ridge
-324,324,2515,BANK NEWTON NO 2,bank-newton-no-2,north-yorkshire,53.976,-2.134,128,2006,2020,1,POINT (-2.134 53.976),"['Slope', 'Slope', 'Slope', 'Valley']",128,0,-4.9,4.9,ns,Slope
-325,325,18985,LIVINGSTON MILL,livingston-mill,west-lothian-in-lothian-region,55.885,-3.546,108,1996,2020,4,POINT (-3.546 55.885),"['Valley', 'Slope', 'Valley', 'Valley']",112,4,3.0,3.0,nw-se,Valley
-326,326,2710,THORNES PARK,thornes-park,west-yorkshire,53.672,-1.516,35,2015,2020,1,POINT (-1.516 53.672),"['Valley', 'Ridge', 'Slope', 'Ridge']",35,0,-2.43,2.43,ne-sw,Ridge
-327,327,19193,CAWDOR CASTLE NO 2,cawdor-castle-no-2,nairnshire,57.525,-3.924,60,1997,2020,4,POINT (-3.924 57.525),"['Slope', 'Slope', 'Slope', 'Slope']",60,0,-7.15,7.15,ns,Slope
-328,328,19259,"DUMFRIES, CRICHTON ROYAL NO 2",dumfries-crichton-royal-no-2,dumfriesshire,55.047,-3.589,50,1997,2020,4,POINT (-3.589 55.047),"['Slope', 'Slope', 'Slope', 'Ridge']",48,2,9.42,9.42,ne-sw,Ridge
-329,329,3805,TETFORD,tetford,lincolnshire,53.253,-0.009,59,1999,2020,1,POINT (-0.009 53.253),"['Ridge', 'Valley', 'Slope', 'Valley']",59,0,1.81,1.81,ew,Ridge
-330,330,8898,LAPFORD,lapford,devon,50.863,-3.809,146,2009,2020,1,POINT (-3.809 50.863),"['Slope', 'Valley', 'Ridge', 'Valley']",148,2,15.02,15.02,ne-sw,Valley
-331,331,17182,COPLEY,copley,durham,54.624,-1.871,253,1995,2020,1,POINT (-1.871 54.624),"['Slope', 'Valley', 'Valley', 'Valley']",254,1,9.12,9.12,nw-se,Valley
-332,332,61875,BEWCASTLE,bewcastle,cumbria,55.065,-2.715,133,2013,2020,4,POINT (-2.715 55.065),"['Ridge', 'Valley', 'Valley', 'Slope']",130,3,3.56,3.56,ns,Valley
-333,333,17183,HUNT HALL FARM,hunt-hall-farm,durham,54.67,-2.229,370,1995,2020,1,POINT (-2.229 54.67),"['Slope', 'Slope', 'Slope', 'Slope']",370,0,7.47,7.47,ne-sw,Slope
-334,334,61908,UNDERTON,underton,shropshire,52.524,-2.468,102,2014,2020,1,POINT (-2.468 52.524),"['Slope', 'Slope', 'Ridge', 'Valley']",101,1,-16.96,16.96,ne-sw,Valley
-335,335,62004,OYNE NO 2,oyne-no-2,aberdeenshire,57.32,-2.545,116,2015,2020,4,POINT (-2.545 57.32),"['Slope', 'Valley', 'Valley', 'Valley']",118,2,-9.11,9.11,ne-sw,Valley
-336,336,62015,"PORTPATRICK, CRAIGENLEE CROFT",portpatrick-craigenlee-croft,wigtownshire,54.863,-5.075,103,2015,2020,2,POINT (-5.075 54.863),"['Slope', 'Slope', 'Slope', 'Slope']",106,3,2.92,2.92,nw-se,Slope
-337,337,62031,AMERSHAM FIELD CENTRE,amersham-field-centre,buckinghamshire,51.665,-0.657,150,2015,2020,1,POINT (-0.657 51.665),"['Ridge', 'Slope', 'Slope', 'Ridge']",154,4,4.26,4.26,ew,Ridge
-338,338,62033,MIDDLESMOOR,middlesmoor,north-yorkshire,54.164,-1.863,310,2015,2020,1,POINT (-1.863 54.164),"['Ridge', 'Valley', 'Slope', 'Slope']",281,29,23.16,23.16,ns,Valley
-339,339,62037,MAULDS MEABURN,maulds-meaburn,cumbria,54.538,-2.582,183,2015,2020,1,POINT (-2.582 54.538),"['Slope', 'Slope', 'Valley', 'Valley']",184,1,-4.34,4.34,ne-sw,Valley
-340,340,62039,BAINTOWN,baintown,fife,56.221,-3.043,123,2015,2020,4,POINT (-3.043 56.221),"['Slope', 'Slope', 'Slope', 'Slope']",124,1,10.36,10.36,nw-se,Slope
-341,341,62057,"BUNTINGFORD, NO 2",buntingford-no-2,hertfordshire,51.943,-0.091,138,2014,2020,1,POINT (-0.091 51.943),"['Ridge', 'Slope', 'Ridge', 'Ridge']",138,0,-2.14,2.14,nw-se,Ridge
-342,342,62076,"FORREST LODGE, BURNHEAD",forrest-lodge-burnhead,kirkcudbrightshire,55.144,-4.278,150,2016,2020,4,POINT (-4.278 55.144),"['Valley', 'Slope', 'Slope', 'Slope']",163,13,-9.24,9.24,ne-sw,Slope
-343,343,4934,"LINGWOOD, STRUMPSHAW HILL",lingwood-strumpshaw-hill,norfolk,52.611,1.483,33,2009,2020,0,POINT (1.483 52.611),"['Slope', 'Slope', 'Ridge', 'Slope']",32,1,1.19,1.19,nw-se,Ridge
-344,344,13298,BARWHILLANTY HOUSE,barwhillanty-house,kirkcudbrightshire,55.014,-3.997,125,1998,2020,4,POINT (-3.997 55.014),"['Slope', 'Slope', 'Ridge', 'Slope']",118,7,9.42,9.42,ns,Slope
-345,345,17310,"FETTERCAIRN, GLENSAUGH NO 2",fettercairn-glensaugh-no-2,kincardineshire,56.893,-2.542,171,1996,2020,4,POINT (-2.542 56.893),"['Slope', 'Valley', 'Valley', 'Valley']",168,3,16.26,16.26,ne-sw,Valley
-346,346,30084,BROADWINDSOR,broadwindsor,dorset,50.822,-2.79,161,2011,2020,1,POINT (-2.79 50.822),"['Valley', 'Slope', 'Slope', 'Slope']",160,1,7.6,7.6,ew,Valley
-347,347,30448,LLANFYNYDD,llanfynydd,dyfed,51.919,-4.101,104,2014,2020,1,POINT (-4.101 51.919),"['Slope', 'Slope', 'Slope', 'Slope']",107,3,-8.37,8.37,ns,Slope
-348,348,14444,DUNROBIN CASTLE GARDENS,dunrobin-castle-gardens,sutherland,57.981,-3.943,6,2001,2020,4,POINT (-3.943 57.981),"['Slope', 'Slope', 'Slope', 'Slope']",10,4,20.78,20.78,nw-se,Slope
-349,349,55890,PORT HENDERSON,port-henderson,ross-and-cromarty,57.696,-5.777,18,2013,2020,5,POINT (-5.777 57.696),"['Valley', 'Ridge', 'Ridge', 'Ridge']",14,4,-12.46,12.46,ns,Ridge
-350,350,55896,"URQUHART, NORTHWOOD",urquhart-northwood,ross-and-cromarty,57.594,-4.374,17,2013,2020,4,POINT (-4.374 57.594),"['Slope', 'Slope', 'Slope', 'Slope']",20,3,-15.11,15.11,nw-se,Slope
-351,351,56130,DAWYCK BOTANIC GARDEN,dawyck-botanic-garden,peebleshire,55.604,-3.323,183,2007,2020,4,POINT (-3.323 55.604),"['Valley', 'Valley', 'Valley', 'Slope']",189,6,-11.68,11.68,nw-se,Valley
-352,352,9529,AMMERDOWN HOUSE,ammerdown-house,somerset,51.273,-2.414,153,2015,2020,1,POINT (-2.414 51.273),"['Slope', 'Valley', 'Valley', 'Slope']",148,5,13.43,13.43,ne-sw,Slope
-353,353,23510,HOLNE,holne,devon,50.517,-3.843,282,2006,2020,1,POINT (-3.843 50.517),"['Slope', 'Ridge', 'Ridge', 'Ridge']",289,7,-12.45,12.45,ne-sw,Ridge
-354,354,15365,"DUNBARNEY, SOUTH HILL",dunbarney-south-hill,perthshire-in-tayside-region,56.344,-3.444,30,2014,2020,4,POINT (-3.444 56.344),"['Slope', 'Slope', 'Ridge', 'Slope']",31,1,4.98,4.98,nw-se,Ridge
-355,355,15381,"AUCHTERMUCHTY, ROSSIE",auchtermuchty-rossie,fife,56.299,-3.203,75,1997,2020,4,POINT (-3.203 56.299),"['Slope', 'Slope', 'Slope', 'Slope']",72,3,10.81,10.81,nw-se,Slope
-356,356,7228,"RINGMER, BISHOPS LANE",ringmer-bishops-lane,east-sussex,50.897,0.058,23,2016,2020,0,POINT (0.058 50.897),"['Slope', 'Ridge', 'Ridge', 'Slope']",20,3,-2.66,2.66,ne-sw,Slope
-357,357,56423,"MIDDLETON, HILLSIDE",middleton-hillside,derbyshire,53.099,-1.589,295,2009,2020,1,POINT (-1.589 53.099),"['Slope', 'Ridge', 'Ridge', 'Ridge']",283,12,17.19,17.19,ew,Slope
-358,358,56463,CROMDALE,cromdale,moray-in-highland-region,57.337,-3.543,193,2009,2020,4,POINT (-3.543 57.337),"['Valley', 'Slope', 'Valley', 'Slope']",192,1,-7.34,7.34,ns,Slope
-359,359,7621,LINKENHOLT POST OFFICE,linkenholt-post-office,hampshire,51.32,-1.479,197,2013,2020,1,POINT (-1.479 51.32),"['Ridge', 'Ridge', 'Slope', 'Slope']",198,1,4.8,4.8,nw-se,Slope
-360,360,24218,HARTPURY COLLEGE,hartpury-college,gloucestershire,51.904,-2.312,41,1998,2020,1,POINT (-2.312 51.904),"['Ridge', 'Slope', 'Slope', 'Slope']",31,10,-2.14,2.14,ew,Ridge
-361,361,24219,MANNINGTON HALL,mannington-hall,norfolk,52.844,1.179,30,1999,2020,0,POINT (1.179 52.844),"['Valley', 'Slope', 'Slope', 'Valley']",35,5,-3.58,3.58,nw-se,Slope
-362,362,57118,BUTE: ROTHESAY NO2,bute-rothesay-no2,buteshire,55.825,-5.056,36,2013,2020,5,POINT (-5.056 55.825),"['Slope', 'Slope', 'Slope', 'Slope']",32,4,-10.47,10.47,nw-se,Slope
-363,363,57233,MARGAM NO 2,margam-no-2,glamorganshire,51.555,-3.721,40,2013,2020,1,POINT (-3.721 51.555),"['Slope', 'Slope', 'Ridge', 'Slope']",38,2,6.75,6.75,ne-sw,Slope
-364,364,57267,ACHILTIBUIE NO2,achiltibuie-no2,ross-and-cromarty,58.015,-5.336,49,2013,2020,5,POINT (-5.336 58.015),"['Slope', 'Ridge', 'Ridge', 'Slope']",52,3,23.11,23.11,ne-sw,Slope
+,level_0,src_id,station_na,station_fi,historic_c,station_la,station_lo,station_el,first_year,last_year,raster_id,geometry,slope_location,computed_height,difference_height,slope_steepness,abs_slope_steepness,dir_slope_steepness,location_steepest_slope,dir_steepest_slope_facing,dir_steepest_slope_facing_deg
+0,0,3,FAIR ISLE,fair-isle,shetland,59.526,-1.63,57,1974,2020,4,POINT (-1.63 59.526),"['Slope', 'Slope', 'Valley', 'Slope']",57,0,14.2,14.2,nw-se,Valley,North-west,305
+1,1,23,KIRKWALL,kirkwall,orkney,58.953,-2.901,26,1957,2020,4,POINT (-2.901 58.953),"['Ridge', 'Slope', 'Slope', 'Slope']",31,5,-11.63,11.63,nw-se,Slope,South-east,135
+2,2,32,WICK AIRPORT,wick-airport,caithness,58.454,-3.09,36,1930,2020,4,POINT (-3.09 58.454),"['Ridge', 'Ridge', 'Slope', 'Ridge']",35,1,2.06,2.06,ne-sw,Ridge,North-east,45
+3,3,40,CASSLEY,cassley,sutherland,58.168,-4.727,99,1999,2020,4,POINT (-4.727 58.168),"['Slope', 'Slope', 'Slope', 'Valley']",106,7,-16.15,16.15,ne-sw,Valley,South-west,225
+4,4,44,ALTNAHARRA NO 2,altnaharra-no-2,sutherland,58.288,-4.442,81,1993,2020,4,POINT (-4.442 58.288),"['Valley', 'Valley', 'Valley', 'Valley']",78,3,3.42,3.42,ns,Valley,North,0
+5,5,48,"KINBRACE, HATCHERY",kinbrace-hatchery,sutherland,58.23,-3.922,103,1999,2020,4,POINT (-3.922 58.23),"['Valley', 'Slope', 'Valley', 'Valley']",102,1,13.67,13.67,ne-sw,Valley,North-east,45
+6,6,52,AULTBEA NO 2,aultbea-no-2,ross-and-cromarty,57.859,-5.633,11,1990,2020,5,POINT (-5.633 57.859),"['Slope', 'Slope', 'Valley', 'Slope']",7,4,10.73,10.73,ne-sw,Slope,North-east,45
+7,7,54,STORNOWAY AIRPORT,stornoway-airport,western-isles,58.213,-6.319,15,1930,2020,5,POINT (-6.319 58.213),"['Ridge', 'Slope', 'Ridge', 'Ridge']",13,2,-1.82,1.82,ew,Ridge,West,270
+8,8,66,KINLOCHEWE,kinlochewe,ross-and-cromarty,57.613,-5.306,25,2005,2020,5,POINT (-5.306 57.613),"['Valley', 'Valley', 'Slope', 'Valley']",21,4,-4.93,4.93,ne-sw,Valley,South-west,225
+9,9,67,LOCH GLASCARNOCH,loch-glascarnoch,ross-and-cromarty,57.725,-4.895,269,1992,2020,4,POINT (-4.895 57.725),"['Slope', 'Valley', 'Valley', 'Slope']",266,3,3.82,3.82,nw-se,Valley,North-west,305
+10,10,79,TAIN RANGE,tain-range,ross-and-cromarty,57.819,-3.967,4,1990,2020,4,POINT (-3.967 57.819),"['Slope', 'Valley', 'Valley', 'Valley']",4,0,0.9,0.9,ew,Slope,East,90
+11,11,105,TULLOCH BRIDGE,tulloch-bridge,inverness-shire,56.867,-4.708,249,1990,2020,4,POINT (-4.708 56.867),"['Valley', 'Slope', 'Slope', 'Slope']",244,5,5.05,5.05,ew,Valley,East,90
+12,12,110,LENTRAN,lentran,inverness-shire,57.459,-4.373,146,2009,2020,4,POINT (-4.373 57.459),"['Slope', 'Slope', 'Slope', 'Slope']",167,21,-29.89,29.89,nw-se,Slope,South-east,135
+13,13,111,DALWHINNIE NO 2,dalwhinnie-no-2,inverness-shire,56.94,-4.238,351,2000,2020,4,POINT (-4.238 56.94),"['Valley', 'Valley', 'Valley', 'Slope']",356,5,1.98,1.98,ew,Valley,East,90
+14,14,113,AVIEMORE,aviemore,inverness-shire,57.206,-3.828,228,1983,2020,4,POINT (-3.828 57.206),"['Slope', 'Slope', 'Slope', 'Valley']",224,4,11.74,11.74,nw-se,Slope,North-west,305
+15,15,114,DRUMNADROCHIT,drumnadrochit,inverness-shire,57.328,-4.486,53,2009,2020,4,POINT (-4.486 57.328),"['Slope', 'Slope', 'Slope', 'Slope']",49,4,12.45,12.45,nw-se,Slope,North-west,305
+16,16,132,KINLOSS,kinloss,moray-in-grampian-region,57.645,-3.563,5,1957,2020,4,POINT (-3.563 57.645),"['Slope', 'Valley', 'Slope', 'Valley']",5,0,-1.12,1.12,nw-se,Slope,South-east,135
+17,17,137,LOSSIEMOUTH,lossiemouth,moray-in-grampian-region,57.711,-3.323,7,1989,2020,4,POINT (-3.323 57.711),"['Valley', 'Slope', 'Slope', 'Slope']",7,0,-0.45,0.45,ew,Valley,West,270
+18,18,148,BALMORAL,balmoral,aberdeenshire,57.037,-3.22,283,2013,2020,4,POINT (-3.22 57.037),"['Slope', 'Valley', 'Valley', 'Valley']",286,3,-10.59,10.59,ne-sw,Valley,South-west,225
+19,19,150,ABOYNE NO 2,aboyne-no-2,aberdeenshire,57.076,-2.841,140,1990,2020,4,POINT (-2.841 57.076),"['Slope', 'Valley', 'Valley', 'Valley']",142,2,10.82,10.82,ne-sw,Valley,North-east,45
+20,20,159,FYVIE CASTLE,fyvie-castle,aberdeenshire,57.443,-2.39,55,1999,2020,4,POINT (-2.39 57.443),"['Slope', 'Valley', 'Valley', 'Ridge']",54,1,-10.93,10.93,nw-se,Valley,South-east,135
+21,21,160,CRAIBSTONE,craibstone,aberdeenshire,57.187,-2.215,102,2010,2020,4,POINT (-2.215 57.187),"['Slope', 'Valley', 'Valley', 'Slope']",102,0,-9.96,9.96,ne-sw,Slope,South-west,225
+22,22,161,DYCE,dyce,aberdeenshire,57.205,-2.205,65,1957,2020,4,POINT (-2.205 57.205),"['Slope', 'Valley', 'Valley', 'Valley']",69,4,-3.99,3.99,ne-sw,Valley,South-west,225
+23,23,177,INVERBERVIE NO 2,inverbervie-no-2,kincardineshire,56.852,-2.266,134,1992,2020,4,POINT (-2.266 56.852),"['Ridge', 'Ridge', 'Slope', 'Ridge']",128,6,15.14,15.14,ne-sw,Ridge,North-east,45
+24,24,195,TYNDRUM NO 3,tyndrum-no-3,perthshire-in-central-region,56.419,-4.661,168,1999,2020,4,POINT (-4.661 56.419),"['Valley', 'Valley', 'Valley', 'Valley']",165,3,9.11,9.11,ne-sw,Valley,North-east,45
+25,25,212,STRATHALLAN AIRFIELD,strathallan-airfield,perthshire-in-tayside-region,56.326,-3.729,35,1990,2020,4,POINT (-3.729 56.326),"['Valley', 'Valley', 'Slope', 'Valley']",29,6,-4.33,4.33,ns,Valley,South,180
+26,26,235,LEUCHARS,leuchars,fife,56.377,-2.862,10,1921,2020,4,POINT (-2.862 56.377),"['Slope', 'Valley', 'Slope', 'Slope']",12,2,0.87,0.87,ns,Valley,North,0
+27,27,253,"EDINBURGH, ROYAL BOTANIC GARDEN NO 2",edinburgh-royal-botanic-garden-no-2,midlothian-in-lothian-region,55.967,-3.212,28,2010,2020,4,POINT (-3.212 55.967),"['Slope', 'Slope', 'Slope', 'Slope']",28,0,2.79,2.79,ns,Slope,North,0
+28,28,268,CHARTERHALL,charterhall,berwickshire,55.709,-2.385,112,1990,2020,4,POINT (-2.385 55.709),"['Slope', 'Slope', 'Slope', 'Slope']",114,2,6.82,6.82,nw-se,Slope,North-west,305
+29,29,289,KIELDER CASTLE,kielder-castle,northumberland,55.234,-2.58,201,2013,2020,4,POINT (-2.58 55.234),"['Slope', 'Valley', 'Valley', 'Valley']",199,2,10.1,10.1,ns,Valley,North,0
+30,30,310,"MORPETH, COCKLE PARK",morpeth-cockle-park,northumberland,55.213,-1.688,95,2014,2020,4,POINT (-1.688 55.213),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",95,0,-6.31,6.31,ns,Ridge,South,180
+31,31,315,BOULMER,boulmer,northumberland,55.421,-1.601,23,1988,2020,4,POINT (-1.601 55.421),"['Slope', 'Slope', 'Slope', 'Slope']",23,0,1.9,1.9,nw-se,Slope,North-west,305
+32,32,326,DURHAM,durham,durham,54.768,-1.586,102,1997,2020,1,POINT (-1.586 54.768),"['Ridge', 'Slope', 'Slope', 'Ridge']",97,5,-6.03,6.03,ne-sw,Ridge,South-west,225
+33,33,339,BAINBRIDGE,bainbridge,north-yorkshire,54.308,-2.101,210,2010,2020,1,POINT (-2.101 54.308),"['Slope', 'Valley', 'Valley', 'Valley']",217,7,-11.11,11.11,nw-se,Valley,South-east,135
+34,34,16725,WAINFLEET NO 2,wainfleet-no-2,lincolnshire,53.088,0.271,3,1996,2020,0,POINT (0.271 53.088),"['Valley', 'Valley', 'Valley', 'Slope']",3,0,0.2,0.2,ew,Valley,East,90
+35,35,358,FYLINGDALES,fylingdales,north-yorkshire,54.359,-0.672,262,1984,2020,1,POINT (-0.672 54.359),"['Ridge', 'Ridge', 'Slope', 'Ridge']",260,2,-1.24,1.24,nw-se,Slope,South-east,135
+36,36,360,SCARBOROUGH,scarborough,north-yorkshire,54.273,-0.423,110,2010,2020,1,POINT (-0.423 54.273),"['Slope', 'Ridge', 'Ridge', 'Slope']",104,6,-6.37,6.37,ne-sw,Slope,South-west,225
+37,37,367,HIGH MOWTHORPE,high-mowthorpe,north-yorkshire,54.105,-0.643,175,2009,2020,1,POINT (-0.643 54.105),"['Ridge', 'Ridge', 'Slope', 'Ridge']",175,0,1.43,1.43,nw-se,Slope,North-west,305
+38,38,370,LECONFIELD,leconfield,humberside,53.875,-0.442,7,1992,2020,1,POINT (-0.442 53.875),"['Slope', 'Ridge', 'Valley', None]",10,3,1.02,1.02,nw-se,Valley,North-west,305
+39,39,373,BRIDLINGTON MRSC,bridlington-mrsc,humberside,54.094,-0.176,15,1994,2020,1,POINT (-0.176 54.094),"['Ridge', 'Slope', 'Slope', 'Valley']",16,1,8.1,8.1,nw-se,Slope,North-west,305
+40,40,381,SCAMPTON,scampton,lincolnshire,53.307,-0.548,57,1984,2020,1,POINT (-0.548 53.307),"['Slope', 'Slope', 'Slope', 'Ridge']",58,1,1.0,1.0,nw-se,Slope,North-west,305
+41,41,382,NORMANBY HALL,normanby-hall,humberside,53.637,-0.659,47,2010,2020,1,POINT (-0.659 53.637),"['Ridge', 'Slope', 'Ridge', 'Ridge']",48,1,3.85,3.85,ew,Ridge,East,90
+42,42,384,WADDINGTON,waddington,lincolnshire,53.175,-0.523,68,1949,2020,1,POINT (-0.523 53.175),"['Slope', 'Ridge', 'Ridge', 'Ridge']",67,1,-1.6,1.6,ne-sw,Ridge,South-west,225
+43,43,386,CRANWELL,cranwell,lincolnshire,53.031,-0.504,63,1930,2020,1,POINT (-0.504 53.031),"['Slope', 'Slope', 'Ridge', 'Slope']",67,4,1.6,1.6,nw-se,Ridge,North-west,305
+44,44,393,CONINGSBY,coningsby,lincolnshire,53.094,-0.173,6,1978,2020,1,POINT (-0.173 53.094),"['Valley', 'Slope', 'Ridge', 'Ridge']",8,2,-1.6,1.6,ew,Valley,West,270
+45,45,395,HOLBEACH NO 2,holbeach-no-2,lincolnshire,52.873,0.139,3,1990,2020,0,POINT (0.139 52.873),"['Ridge', 'Ridge', 'Slope', 'Flat']",4,1,-0.4,0.4,ew,Ridge,West,270
+46,46,409,MARHAM,marham,norfolk,52.651,0.566,21,1957,2020,0,POINT (0.566 52.651),"['Slope', 'Ridge', 'Ridge', 'Ridge']",21,0,-0.79,0.79,ns,Ridge,South,180
+47,47,413,SANTON DOWNHAM,santon-downham,suffolk,52.459,0.671,6,2009,2020,0,POINT (0.671 52.459),"['Valley', 'Valley', 'Valley', 'Valley']",8,2,-6.5,6.5,ns,Valley,South,180
+48,48,421,WEYBOURNE,weybourne,norfolk,52.949,1.122,21,1990,2020,0,POINT (1.122 52.949),"['Slope', 'Slope', 'Slope', 'Slope']",21,0,-7.37,7.37,ns,Slope,South,180
+49,49,24996,"HEREFORD, CREDENHILL",hereford-credenhill,hereford-and-worcester,52.08,-2.802,76,1999,2020,1,POINT (-2.802 52.08),"['Valley', 'Valley', 'Valley', 'Valley']",71,5,2.54,2.54,ns,Valley,North,0
+50,50,426,CROMER,cromer,norfolk,52.934,1.291,37,2009,2020,0,POINT (1.291 52.934),"['Ridge', 'Slope', 'Slope', 'Slope']",36,1,-11.11,11.11,ne-sw,Slope,South-west,225
+51,51,435,BROOMS BARN,brooms-barn,suffolk,52.261,0.566,75,2009,2020,0,POINT (0.566 52.261),"['Slope', 'Valley', 'Valley', 'Valley']",73,2,-3.53,3.53,ne-sw,Valley,South-west,225
+52,52,436,CAVENDISH,cavendish,suffolk,52.091,0.628,55,2010,2020,0,POINT (0.628 52.091),"['Slope', 'Slope', 'Valley', 'Slope']",56,1,4.88,4.88,nw-se,Valley,North-west,305
+53,53,440,WATTISHAM,wattisham,suffolk,52.124,0.957,89,1959,2020,0,POINT (0.957 52.124),"['Slope', 'Slope', 'Ridge', 'Slope']",85,4,-1.37,1.37,ew,Slope,West,270
+54,54,442,CHARSFIELD,charsfield,suffolk,52.163,1.28,49,2010,2020,0,POINT (1.28 52.163),"['Ridge', 'Ridge', 'Valley', 'Slope']",49,0,3.72,3.72,nw-se,Valley,North-west,305
+55,55,455,"CAMBRIDGE, NIAB",cambridge-niab,cambridgeshire,52.245,0.1,26,2009,2020,0,POINT (0.1 52.245),"['Slope', 'Slope', 'Slope', 'Ridge']",13,13,-1.18,1.18,ne-sw,Ridge,South-west,225
+56,56,456,MONKS WOOD,monks-wood,cambridgeshire,52.402,-0.237,41,2000,2020,1,POINT (-0.237 52.402),"['Ridge', 'Slope', 'Slope', 'Slope']",47,6,-4.92,4.92,nw-se,Slope,South-east,135
+57,57,458,WOBURN,woburn,bedfordshire,52.014,-0.596,89,2000,2020,1,POINT (-0.596 52.014),"['Slope', 'Ridge', 'Slope', 'Slope']",88,1,-8.38,8.38,nw-se,Slope,South-east,135
+58,58,461,BEDFORD,bedford,bedfordshire,52.227,-0.465,85,1980,2020,1,POINT (-0.465 52.227),"['Slope', 'Slope', 'Slope', 'Slope']",84,1,1.37,1.37,nw-se,Slope,North-west,305
+59,59,16851,MORECAMBE NO 2,morecambe-no-2,lancashire,54.076,-2.86,7,2011,2020,1,POINT (-2.86 54.076),"['Slope', 'Ridge', 'Ridge', 'Ridge']",8,1,-3.07,3.07,ns,Ridge,South,180
+60,60,471,ROTHAMSTED,rothamsted,hertfordshire,51.807,-0.36,128,1999,2020,1,POINT (-0.36 51.807),"['Slope', 'Ridge', 'Valley', 'Ridge']",129,1,-3.3,3.3,ns,Ridge,South,180
+61,61,481,HIGH BEACH,high-beach,essex,51.664,0.041,110,2013,2020,0,POINT (0.041 51.664),"['Ridge', 'Ridge', 'Ridge', 'Slope']",118,8,1.74,1.74,ew,Ridge,East,90
+62,62,487,WRITTLE,writtle,essex,51.734,0.429,32,2009,2020,0,POINT (0.429 51.734),"['Slope', 'Slope', 'Slope', 'Valley']",33,1,-3.29,3.29,ne-sw,Valley,South-west,225
+63,63,498,"SHOEBURYNESS, LANDWICK",shoeburyness-landwick,essex,51.555,0.827,2,1981,2020,0,POINT (0.827 51.555),"['Valley', 'Ridge', 'Slope', 'Slope']",0,2,-0.39,0.39,ns,Ridge,South,180
+64,64,513,"BINGLEY, NO 2",bingley-no-2,west-yorkshire,53.811,-1.867,262,1994,2020,1,POINT (-1.867 53.811),"['Valley', 'Slope', 'Ridge', 'Slope']",264,2,-7.11,7.11,ne-sw,Slope,South-west,225
+65,65,516,BRADFORD,bradford,west-yorkshire,53.814,-1.774,134,2010,2020,1,POINT (-1.774 53.814),"['Slope', 'Slope', 'Slope', 'Ridge']",142,8,-14.63,14.63,ne-sw,Ridge,South-west,225
+66,66,525,SHEFFIELD,sheffield,south-yorkshire,53.381,-1.491,131,2008,2020,1,POINT (-1.491 53.381),"['Slope', 'Ridge', 'Slope', 'Ridge']",136,5,9.45,9.45,nw-se,Slope,North-west,305
+67,67,529,RYHILL,ryhill,west-yorkshire,53.628,-1.394,78,2010,2020,1,POINT (-1.394 53.628),"['Ridge', 'Slope', 'Slope', 'Slope']",78,0,3.04,3.04,ew,Ridge,East,90
+68,68,534,BRAMHAM,bramham,west-yorkshire,53.869,-1.319,54,2001,2020,1,POINT (-1.319 53.869),"['Slope', 'Valley', 'Valley', 'Valley']",54,0,0.81,0.81,ew,Slope,East,90
+69,69,542,COTON-IN-THE-ELMS,coton-in-the-elms,derbyshire,52.737,-1.641,85,2010,2020,1,POINT (-1.641 52.737),"['Ridge', 'Valley', 'Valley', 'Slope']",86,1,1.59,1.59,ne-sw,Slope,North-east,45
+70,70,554,SUTTON BONINGTON,sutton-bonington,nottinghamshire,52.836,-1.251,43,2000,2020,1,POINT (-1.251 52.836),"['Slope', 'Slope', 'Slope', 'Slope']",43,0,-1.99,1.99,ns,Slope,South,180
+71,71,556,"NOTTINGHAM, WATNALL",nottingham-watnall,nottinghamshire,53.006,-1.251,117,1957,2020,1,POINT (-1.251 53.006),"['Slope', 'Slope', 'Slope', 'Slope']",119,2,3.39,3.39,nw-se,Slope,North-west,305
+72,72,583,WITTERING,wittering,cambridgeshire,52.612,-0.468,74,1957,2020,1,POINT (-0.468 52.612),"['Slope', 'Ridge', 'Ridge', 'Slope']",76,2,1.78,1.78,nw-se,Ridge,North-west,305
+73,73,595,CHURCH LAWFORD,church-lawford,warwickshire,52.359,-1.331,107,1990,2020,1,POINT (-1.331 52.359),"['Slope', 'Ridge', 'Slope', 'Slope']",108,1,1.18,1.18,nw-se,Slope,North-west,305
+74,74,596,WELLESBOURNE,wellesbourne,warwickshire,52.206,-1.605,47,2011,2020,1,POINT (-1.605 52.206),"['Slope', 'Slope', 'Slope', 'Slope']",46,1,-0.59,0.59,ns,Slope,South,180
+75,75,605,BRIZE NORTON,brize-norton,oxfordshire,51.758,-1.578,82,1968,2020,1,POINT (-1.578 51.758),"['Slope', 'Slope', 'Slope', 'Ridge']",85,3,2.13,2.13,nw-se,Slope,North-west,305
+76,76,607,SOUTH NEWINGTON,south-newington,oxfordshire,51.998,-1.406,105,2011,2020,1,POINT (-1.406 51.998),"['Ridge', 'Ridge', 'Slope', 'Ridge']",113,8,1.56,1.56,ew,Ridge,East,90
+77,77,613,BENSON,benson,oxfordshire,51.62,-1.099,57,1974,2020,1,POINT (-1.099 51.62),"['Slope', 'Valley', 'Valley', 'Slope']",55,2,1.93,1.93,ns,Valley,North,0
+78,78,622,KEELE,keele,staffordshire,52.999,-2.27,179,2006,2020,1,POINT (-2.27 52.999),"['Ridge', 'Valley', 'Ridge', 'Slope']",175,4,8.57,8.57,ne-sw,Slope,North-east,45
+79,79,634,PENNERLEY,pennerley,shropshire,52.59,-2.95,357,2010,2020,1,POINT (-2.95 52.59),"['Valley', 'Ridge', 'Slope', 'Ridge']",351,6,-25.68,25.68,ns,Ridge,South,180
+80,80,643,SHAWBURY,shawbury,shropshire,52.795,-2.665,72,1957,2020,1,POINT (-2.665 52.795),"['Slope', 'Slope', 'Slope', 'Slope']",70,2,0.99,0.99,ns,Slope,North,0
+81,81,651,NEWPORT (SALOP),newport-salop,shropshire,52.778,-2.428,66,2010,2020,1,POINT (-2.428 52.778),"['Slope', 'Ridge', 'Slope', 'Ridge']",66,0,-3.17,3.17,nw-se,Slope,South-east,135
+82,82,657,PERSHORE,pershore,hereford-and-worcester,52.148,-2.041,35,1957,2020,1,POINT (-2.041 52.148),"['Ridge', 'Slope', 'Slope', 'Slope']",34,1,-1.96,1.96,ns,Slope,South,180
+83,83,658,PERSHORE COLLEGE,pershore-college,hereford-and-worcester,52.1,-2.06,37,1999,2020,1,POINT (-2.06 52.1),"['Slope', 'Ridge', 'Slope', 'Ridge']",38,1,2.73,2.73,ew,Slope,East,90
+84,84,660,ASTWOOD BANK,astwood-bank,hereford-and-worcester,52.248,-1.935,137,2010,2020,1,POINT (-1.935 52.248),"['Ridge', 'Ridge', 'Slope', 'Ridge']",137,0,2.94,2.94,ns,Ridge,North,0
+85,85,669,SHOBDON AIRFIELD,shobdon-airfield,hereford-and-worcester,52.243,-2.886,99,1992,2020,1,POINT (-2.886 52.243),"['Slope', 'Slope', 'Valley', 'Slope']",97,2,7.25,7.25,nw-se,Valley,North-west,305
+86,86,671,ROSS-ON-WYE,ross-on-wye,hereford-and-worcester,51.911,-2.586,67,1930,2020,1,POINT (-2.586 51.911),"['Ridge', 'Slope', 'Valley', 'Valley']",68,1,-4.67,4.67,nw-se,Valley,South-east,135
+87,87,691,WESTONBIRT,westonbirt,gloucestershire,51.607,-2.221,135,2009,2020,1,POINT (-2.221 51.607),"['Slope', 'Ridge', 'Slope', 'Ridge']",126,9,1.35,1.35,ne-sw,Ridge,North-east,45
+88,88,692,LITTLE RISSINGTON,little-rissington,gloucestershire,51.861,-1.693,210,1957,2020,1,POINT (-1.693 51.861),"['Ridge', 'Slope', 'Slope', 'Ridge']",212,2,3.69,3.69,ns,Slope,North,0
+89,89,697,"LONDON, ST JAMES'S PARK",london-st-jamess-park,greater-london,51.505,-0.131,5,1997,2020,1,POINT (-0.131 51.505),"['Valley', 'Slope', 'Slope', 'Valley']",12,7,2.7,2.7,ne-sw,Valley,North-east,45
+90,90,708,HEATHROW,heathrow,greater-london,51.479,-0.451,25,1949,2020,1,POINT (-0.451 51.479),"['Ridge', 'Slope', 'Slope', 'Valley']",30,5,0.39,0.39,nw-se,Slope,North-west,305
+91,91,709,NORTHOLT,northolt,greater-london,51.549,-0.417,33,1995,2020,1,POINT (-0.417 51.549),"['Ridge', 'Valley', 'Valley', 'Slope']",32,1,-1.54,1.54,ne-sw,Slope,South-west,225
+92,92,719,WISLEY,wisley,surrey,51.311,-0.476,38,2000,2020,1,POINT (-0.476 51.311),"['Ridge', 'Slope', 'Ridge', 'Slope']",37,1,-3.26,3.26,nw-se,Ridge,South-east,135
+93,93,723,KEW GARDENS,kew-gardens,greater-london,51.482,-0.294,6,2007,2020,1,POINT (-0.294 51.482),"['Slope', 'Ridge', 'Slope', 'Valley']",9,3,1.35,1.35,ew,Slope,East,90
+94,94,726,KENLEY AIRFIELD,kenley-airfield,greater-london,51.304,-0.092,170,1991,2020,1,POINT (-0.092 51.304),"['Ridge', 'Valley', 'Slope', 'Ridge']",169,1,-2.11,2.11,ne-sw,Ridge,South-west,225
+95,95,742,GOUDHURST,goudhurst,kent,51.077,0.46,85,2009,2020,0,POINT (0.46 51.077),"['Ridge', 'Slope', 'Valley', 'Valley']",91,6,-7.07,7.07,nw-se,Valley,South-east,135
+96,96,744,EAST MALLING,east-malling,kent,51.288,0.448,33,1997,2020,0,POINT (0.448 51.288),"['Slope', 'Slope', 'Valley', 'Slope']",31,2,-5.95,5.95,ne-sw,Slope,South-west,225
+97,97,775,MANSTON,manston,kent,51.347,1.335,49,1961,2020,0,POINT (1.335 51.347),"['Slope', 'Ridge', 'Ridge', 'Ridge']",50,1,-2.11,2.11,nw-se,Ridge,South-east,135
+98,98,779,THORNEY ISLAND,thorney-island,west-sussex,50.815,-0.922,4,1958,2020,1,POINT (-0.922 50.815),"['Slope', 'Ridge', None, 'Valley']",4,0,0.76,0.76,ne-sw,Valley,North-east,45
+99,99,795,SHOREHAM AIRPORT,shoreham-airport,west-sussex,50.836,-0.294,2,1998,2020,1,POINT (-0.294 50.836),"['Valley', 'Ridge', 'Valley', 'Slope']",0,2,0.38,0.38,nw-se,Valley,North-west,305
+100,100,811,"HERSTMONCEUX, WEST END",herstmonceux-west-end,east-sussex,50.891,0.317,52,1992,2020,0,POINT (0.317 50.891),"['Slope', 'Ridge', 'Ridge', 'Slope']",53,1,3.8,3.8,ns,Ridge,North,0
+101,101,830,"READING UNIVERSITY, WHITEKNIGHTS",reading-university-whiteknights,berkshire,51.441,-0.938,66,2012,2020,1,POINT (-0.938 51.441),"['Slope', 'Slope', 'Ridge', 'Slope']",62,4,-2.89,2.89,ns,Slope,South,180
+102,102,842,HURN,hurn,dorset,50.779,-1.836,10,1957,2020,1,POINT (-1.836 50.779),"['Slope', 'Ridge', 'Valley', 'Ridge']",12,2,0.38,0.38,ns,Ridge,North,0
+103,103,847,MIDDLE WALLOP,middle-wallop,hampshire,51.15,-1.57,90,1989,2020,1,POINT (-1.57 51.15),"['Ridge', 'Slope', 'Ridge', 'Slope']",90,0,2.1,2.1,nw-se,Ridge,North-west,305
+104,104,855,OTTERBOURNE W WKS,otterbourne-w-wks,hampshire,51.009,-1.335,34,2010,2020,1,POINT (-1.335 51.009),"['Ridge', 'Slope', 'Slope', 'Slope']",35,1,6.1,6.1,ns,Slope,North,0
+105,105,862,ODIHAM,odiham,hampshire,51.239,-0.945,118,1993,2020,1,POINT (-0.945 51.239),"['Ridge', 'Slope', 'Valley', 'Ridge']",119,1,-2.3,2.3,nw-se,Valley,South-east,135
+106,106,868,ALICE HOLT LODGE,alice-holt-lodge,hampshire,51.178,-0.85,115,2009,2020,1,POINT (-0.85 51.178),"['Slope', 'Valley', 'Ridge', 'Slope']",117,2,2.3,2.3,ew,Slope,East,90
+107,107,869,SOUTH FARNBOROUGH,south-farnborough,hampshire,51.28,-0.773,65,1957,2020,1,POINT (-0.773 51.28),"['Slope', 'Valley', 'Slope', 'Valley']",64,1,-0.58,0.58,ne-sw,Valley,South-west,225
+108,108,876,WIGHT: ST CATHERINES POINT,wight-st-catherines-point,isle-of-wight,50.576,-1.297,20,1982,2020,1,POINT (-1.297 50.576),"['Ridge', 'Slope', 'Slope', 'Slope']",21,1,28.57,28.57,ns,Slope,North,0
+109,109,886,LYNEHAM,lyneham,wiltshire,51.503,-1.992,145,1957,2020,1,POINT (-1.992 51.503),"['Slope', 'Ridge', 'Ridge', 'Ridge']",143,2,4.63,4.63,ne-sw,Ridge,North-east,45
+110,110,888,LARKHILL,larkhill,wiltshire,51.202,-1.806,132,1995,2020,1,POINT (-1.806 51.202),"['Slope', 'Slope', 'Ridge', 'Slope']",131,1,1.92,1.92,nw-se,Ridge,North-west,305
+111,111,889,BOSCOMBE DOWN,boscombe-down,wiltshire,51.162,-1.755,126,1957,2020,1,POINT (-1.755 51.162),"['Ridge', 'Slope', 'Slope', 'Ridge']",126,0,2.87,2.87,ne-sw,Ridge,North-east,45
+112,112,908,MACHRIHANISH,machrihanish,argyll-in-strathclyde-region,55.441,-5.697,10,1965,2020,5,POINT (-5.697 55.441),"['Valley', 'Slope', 'Slope', 'Slope']",9,1,1.06,1.06,ne-sw,Slope,North-east,45
+113,113,918,DUNSTAFFNAGE,dunstaffnage,argyll-in-strathclyde-region,56.45,-5.44,3,1980,2020,5,POINT (-5.44 56.45),"['Valley', 'Slope', 'Valley', 'Ridge']",-32768,32771,-14.66,14.66,nw-se,Valley,South-east,135
+114,114,17314,LEEMING,leeming,north-yorkshire,54.297,-1.533,33,1965,2020,1,POINT (-1.533 54.297),"['Ridge', 'Valley', 'Ridge', 'Slope']",31,2,-1.03,1.03,ew,Ridge,West,270
+115,115,940,GT CUMBRAE: MILLPORT,gt-cumbrae-millport,buteshire,55.749,-4.908,5,2010,2020,4,POINT (-4.908 55.749),"['Ridge', 'Slope', 'Ridge', 'Valley']",3,2,17.91,17.91,ns,Slope,North,0
+116,116,982,SALSBURGH,salsburgh,lanarkshire,55.861,-3.875,277,1994,2020,4,POINT (-3.875 55.861),"['Slope', 'Ridge', 'Slope', 'Ridge']",267,10,10.05,10.05,ne-sw,Ridge,North-east,45
+117,117,987,DRUMALBIN,drumalbin,lanarkshire,55.627,-3.736,245,1991,2020,4,POINT (-3.736 55.627),"['Ridge', 'Slope', 'Slope', 'Slope']",245,0,-6.8,6.8,ew,Ridge,West,270
+118,118,1005,AUCHINCRUIVE,auchincruive,ayrshire,55.477,-4.565,48,2005,2020,4,POINT (-4.565 55.477),"['Ridge', 'Ridge', 'Slope', 'Ridge']",46,2,3.6,3.6,nw-se,Slope,North-west,305
+119,119,1007,"PRESTWICK, GANNET",prestwick-gannet,ayrshire,55.515,-4.585,27,1994,2020,4,POINT (-4.585 55.515),"['Ridge', 'Slope', 'Ridge', 'Slope']",27,0,4.45,4.45,ne-sw,Slope,North-east,45
+120,120,1023,ESKDALEMUIR,eskdalemuir,dumfriesshire,55.312,-3.207,236,1954,2020,4,POINT (-3.207 55.312),"['Slope', 'Slope', 'Slope', 'Slope']",237,1,-10.12,10.12,ne-sw,Slope,South-west,225
+121,121,1033,DUNDRENNAN,dundrennan,kirkcudbrightshire,54.803,-4.008,113,1990,2020,1,POINT (-4.008 54.803),"['Ridge', 'Ridge', 'Slope', 'Slope']",113,0,3.96,3.96,nw-se,Slope,North-west,305
+122,122,1035,THREAVE,threave,kirkcudbrightshire,54.926,-3.95,73,2005,2020,1,POINT (-3.95 54.926),"['Slope', 'Ridge', 'Slope', 'Ridge']",70,3,-11.9,11.9,nw-se,Slope,South-east,135
+123,123,1039,WEST FREUGH,west-freugh,wigtownshire,54.859,-4.935,11,1961,2020,1,POINT (-4.935 54.859),"['Ridge', 'Slope', 'Slope', 'Slope']",11,0,1.46,1.46,nw-se,Slope,North-west,305
+124,124,1055,ST BEES HEAD NO 2,st-bees-head-no-2,cumbria,54.518,-3.615,124,1992,2020,1,POINT (-3.615 54.518),"['Ridge', 'Ridge', 'Slope', 'Valley']",125,1,3.51,3.51,ew,Ridge,East,90
+125,125,1060,KESWICK,keswick,cumbria,54.614,-3.157,81,1992,2020,1,POINT (-3.157 54.614),"['Ridge', 'Valley', 'Valley', 'Valley']",76,5,-2.28,2.28,ew,Ridge,West,270
+126,126,1067,BLENCATHRA,blencathra,cumbria,54.62,-3.08,250,2010,2020,1,POINT (-3.08 54.62),"['Ridge', 'Slope', 'Ridge', 'Slope']",261,11,58.65,58.65,ne-sw,Slope,North-east,45
+127,127,1070,CARLISLE,carlisle,cumbria,54.934,-2.964,28,1961,2020,1,POINT (-2.964 54.934),"['Slope', 'Ridge', 'Valley', 'Slope']",27,1,-1.46,1.46,nw-se,Valley,South-east,135
+128,128,1073,NEWTON RIGG,newton-rigg,cumbria,54.67,-2.788,169,2010,2020,1,POINT (-2.788 54.67),"['Slope', 'Valley', 'Ridge', 'Slope']",166,3,-3.73,3.73,ne-sw,Slope,South-west,225
+129,129,1074,WARCOP RANGE,warcop-range,cumbria,54.572,-2.413,227,1992,2020,1,POINT (-2.413 54.572),"['Slope', 'Slope', 'Ridge', 'Slope']",224,3,10.97,10.97,ne-sw,Slope,North-east,45
+130,130,1076,SPADEADAM NO 2,spadeadam-no-2,cumbria,55.05,-2.554,285,1992,2020,4,POINT (-2.554 55.05),"['Valley', 'Ridge', 'Slope', 'Ridge']",284,1,2.09,2.09,nw-se,Slope,North-west,305
+131,131,1078,WALNEY ISLAND,walney-island,cumbria,54.125,-3.258,15,1992,2020,1,POINT (-3.258 54.125),"['Slope', 'Ridge', 'Slope', 'Valley']",17,2,-1.84,1.84,ns,Ridge,South,180
+132,132,1080,LEVENS HALL,levens-hall,cumbria,54.259,-2.778,7,2010,2020,1,POINT (-2.778 54.259),"['Slope', 'Valley', 'Valley', 'Slope']",17,10,-4.31,4.31,nw-se,Valley,South-east,135
+133,133,1083,SHAP,shap,cumbria,54.502,-2.685,252,1992,2020,1,POINT (-2.685 54.502),"['Valley', 'Slope', 'Slope', 'Slope']",252,0,-3.93,3.93,ns,Slope,South,180
+134,134,1090,"BLACKPOOL, SQUIRES GATE",blackpool-squires-gate,lancashire,53.775,-3.038,10,1957,2020,1,POINT (-3.038 53.775),"['Ridge', 'Slope', 'Slope', 'Ridge']",12,2,0.61,0.61,ne-sw,Ridge,North-east,45
+135,135,1111,"PRESTON, MOOR PARK",preston-moor-park,lancashire,53.774,-2.705,33,2009,2020,1,POINT (-2.705 53.774),"['Slope', 'Slope', 'Valley', 'Ridge']",36,3,2.03,2.03,ne-sw,Ridge,North-east,45
+136,136,1112,MYERSCOUGH,myerscough,lancashire,53.854,-2.767,14,2010,2020,1,POINT (-2.767 53.854),"['Ridge', 'Ridge', 'Slope', 'Slope']",18,4,-0.81,0.81,ew,Ridge,West,270
+137,137,1119,STONYHURST,stonyhurst,lancashire,53.845,-2.47,115,2000,2020,1,POINT (-2.47 53.845),"['Slope', 'Slope', 'Slope', 'Slope']",112,3,8.34,8.34,nw-se,Slope,North-west,305
+138,138,1125,ROCHDALE,rochdale,greater-manchester,53.609,-2.179,110,2007,2020,1,POINT (-2.179 53.609),"['Valley', 'Valley', 'Valley', 'Ridge']",114,4,3.64,3.64,ns,Valley,North,0
+139,139,1132,"NANTWICH, REASEHEATH HALL",nantwich-reaseheath-hall,cheshire,53.086,-2.526,40,2011,2020,1,POINT (-2.526 53.086),"['Slope', 'Ridge', 'Slope', 'Slope']",38,2,-1.0,1.0,ne-sw,Slope,South-west,225
+140,140,1137,RHYL NO 2,rhyl-no-2,clwyd,53.259,-3.509,77,1992,2020,1,POINT (-3.509 53.259),"['Slope', 'Slope', 'Slope', 'Slope']",81,4,-12.44,12.44,ne-sw,Slope,South-west,225
+141,141,1144,HAWARDEN AIRPORT,hawarden-airport,clwyd,53.175,-2.986,11,1992,2020,1,POINT (-2.986 53.175),"['Slope', 'Slope', 'Valley', 'Slope']",12,1,-2.0,2.0,ne-sw,Slope,South-west,225
+142,142,1145,VALLEY,valley,gwynedd,53.253,-4.536,10,1988,2020,1,POINT (-4.536 53.253),"['Ridge', 'Ridge', 'Slope', 'Ridge']",8,2,-0.8,0.8,ew,Ridge,West,270
+143,143,1161,ABERDARON,aberdaron,gwynedd,52.789,-4.741,86,1993,2020,1,POINT (-4.741 52.789),"['Ridge', 'Valley', 'Valley', 'Slope']",90,4,9.72,9.72,ne-sw,Slope,North-east,45
+144,144,1166,PORTHMADOG,porthmadog,gwynedd,52.915,-4.158,7,2010,2020,1,POINT (-4.158 52.915),"['Slope', 'Slope', 'Valley', 'Valley']",10,3,12.34,12.34,nw-se,Valley,North-west,305
+145,145,1171,CAPEL CURIG NO 3,capel-curig-no-3,gwynedd,53.094,-3.941,216,1993,2020,1,POINT (-3.941 53.094),"['Valley', 'Valley', 'Valley', 'Valley']",202,14,-23.98,23.98,nw-se,Valley,South-east,135
+146,146,1180,BALA,bala,gwynedd,52.908,-3.584,163,1997,2020,1,POINT (-3.584 52.908),"['Slope', 'Valley', 'Valley', 'Slope']",163,0,-7.36,7.36,nw-se,Valley,South-east,135
+147,147,1190,LAKE VYRNWY NO 2,lake-vyrnwy-no-2,powys-north,52.757,-3.465,360,1994,2020,1,POINT (-3.465 52.757),"['Slope', 'Ridge', 'Ridge', 'Ridge']",354,6,10.9,10.9,ew,Slope,East,90
+148,148,1198,ABERPORTH,aberporth,dyfed,52.14,-4.571,133,1957,2020,1,POINT (-4.571 52.14),"['Ridge', 'Slope', 'Slope', 'Valley']",130,3,-25.51,25.51,nw-se,Slope,South-east,135
+149,149,1204,SWYDDFFYNNON,swyddffynnon,dyfed,52.272,-3.916,178,2012,2020,1,POINT (-3.916 52.272),"['Slope', 'Valley', 'Slope', 'Slope']",177,1,6.86,6.86,ne-sw,Slope,North-east,45
+150,150,1205,GOGERDDAN,gogerddan,dyfed,52.432,-4.02,31,2011,2020,1,POINT (-4.02 52.432),"['Valley', 'Slope', 'Ridge', 'Valley']",32,1,-11.41,11.41,nw-se,Ridge,South-east,135
+151,151,1209,TRAWSGOED,trawsgoed,dyfed,52.344,-3.948,63,1992,2020,1,POINT (-3.948 52.344),"['Valley', 'Valley', 'Valley', 'Ridge']",64,1,5.5,5.5,ne-sw,Ridge,North-east,45
+152,152,1215,MILFORD HAVEN CONSERVANCY BOARD,milford-haven-conservancy-board,dyfed,51.709,-5.053,44,1964,2020,2,POINT (-5.053 51.709),"['Slope', 'Ridge', 'Flat', 'Ridge']",38,6,13.65,13.65,ns,Ridge,North,0
+153,153,1221,SCOLTON COUNTRY PARK,scolton-country-park,dyfed,51.86,-4.922,75,2011,2020,1,POINT (-4.922 51.86),"['Ridge', 'Valley', 'Slope', 'Slope']",81,6,6.99,6.99,ne-sw,Slope,North-east,45
+154,154,1223,WHITECHURCH,whitechurch,dyfed,51.989,-4.679,129,2011,2020,1,POINT (-4.679 51.989),"['Valley', 'Slope', 'Slope', 'Slope']",134,5,-4.68,4.68,ew,Valley,West,270
+155,155,1226,PEMBREY SANDS,pembrey-sands,dyfed,51.714,-4.367,3,1993,2020,1,POINT (-4.367 51.714),"['Ridge', 'Ridge', 'Valley', 'Ridge']",7,4,-2.9,2.9,ew,Ridge,West,270
+156,156,1238,LLYSDINAM,llysdinam,powys-south,52.216,-3.452,196,2010,2020,1,POINT (-3.452 52.216),"['Slope', 'Slope', 'Valley', 'Valley']",206,10,9.99,9.99,nw-se,Valley,North-west,305
+157,157,1249,LIBANUS,libanus,powys-south,51.924,-3.489,331,2012,2020,1,POINT (-3.489 51.924),"['Slope', 'Slope', 'Ridge', 'Slope']",329,2,9.14,9.14,nw-se,Ridge,North-west,305
+158,158,1255,MUMBLES HEAD,mumbles-head,west-glamorgan,51.566,-3.982,43,1982,2020,1,POINT (-3.982 51.566),"['Slope', 'Ridge', 'Ridge', 'Flat']",13,30,20.56,20.56,nw-se,Ridge,North-west,305
+159,159,1272,"CARDIFF, BUTE PARK",cardiff-bute-park,south-glamorgan,51.488,-3.189,9,2010,2020,1,POINT (-3.189 51.488),"['Slope', 'Slope', 'Valley', 'Slope']",9,0,1.35,1.35,ne-sw,Slope,North-east,45
+160,160,1276,"TREDEGAR, BRYN BACH PARK NO 2",tredegar-bryn-bach-park-no-2,gwent,51.784,-3.268,360,2010,2020,1,POINT (-3.268 51.784),"['Slope', 'Valley', 'Valley', 'Slope']",367,7,-8.34,8.34,ne-sw,Slope,South-west,225
+161,161,1285,LISCOMBE,liscombe,somerset,51.087,-3.609,348,1993,2020,1,POINT (-3.609 51.087),"['Ridge', 'Slope', 'Slope', 'Slope']",345,3,15.28,15.28,ns,Slope,North,0
+162,162,1302,YEOVILTON,yeovilton,somerset,51.006,-2.643,20,1964,2020,1,POINT (-2.643 51.006),"['Ridge', 'Ridge', 'Ridge', 'Valley']",22,2,-1.14,1.14,nw-se,Ridge,South-east,135
+163,163,1319,ISLE OF PORTLAND,isle-of-portland,dorset,50.522,-2.456,52,1967,2020,1,POINT (-2.456 50.522),"['Ridge', 'Ridge', 'Slope', 'Slope']",51,1,10.19,10.19,ne-sw,Slope,North-east,45
+164,164,1326,SWANAGE,swanage,dorset,50.614,-1.959,10,2011,2020,1,POINT (-1.959 50.614),"['Ridge', 'Valley', 'Valley', 'Valley']",10,0,5.67,5.67,nw-se,Valley,North-west,305
+165,165,1336,"PLYMOUTH, MOUNTBATTEN",plymouth-mountbatten,devon,50.355,-4.121,50,1930,2020,1,POINT (-4.121 50.355),"['Ridge', 'Slope', 'Valley', 'Slope']",40,10,-10.72,10.72,nw-se,Valley,South-east,135
+166,166,1345,"OKEHAMPTON, EAST OKEMENT FARM",okehampton-east-okement-farm,devon,50.703,-3.977,408,2006,2020,1,POINT (-3.977 50.703),"['Slope', 'Slope', 'Slope', 'Valley']",402,6,-7.58,7.58,ne-sw,Valley,South-west,225
+167,167,1346,CHIVENOR,chivenor,devon,51.089,-4.149,6,1980,2020,1,POINT (-4.149 51.089),"['Ridge', 'Valley', 'Valley', 'Slope']",6,0,1.29,1.29,ne-sw,Slope,North-east,45
+168,168,1352,NORTH WYKE,north-wyke,devon,50.769,-3.904,177,2000,2020,1,POINT (-3.904 50.769),"['Ridge', 'Slope', 'Slope', 'Slope']",176,1,-4.93,4.93,nw-se,Slope,South-east,135
+169,169,1383,DUNKESWELL AERODROME,dunkeswell-aerodrome,devon,50.86,-3.24,252,1991,2020,1,POINT (-3.24 50.86),"['Valley', 'Slope', 'Slope', 'Valley']",254,2,-3.99,3.99,nw-se,Slope,South-east,135
+170,170,1393,CULDROSE,culdrose,cornwall,50.084,-5.257,76,1977,2020,2,POINT (-5.257 50.084),"['Slope', 'Ridge', 'Ridge', 'Ridge']",69,7,4.3,4.3,ne-sw,Ridge,North-east,45
+171,171,1395,CAMBORNE,camborne,cornwall,50.218,-5.328,87,1978,2020,2,POINT (-5.328 50.218),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",84,3,-2.44,2.44,nw-se,Ridge,South-east,135
+172,172,1415,"CARDINHAM, BODMIN",cardinham-bodmin,cornwall,50.502,-4.667,200,1991,2020,1,POINT (-4.667 50.502),"['Slope', 'Ridge', 'Ridge', 'Valley']",199,1,2.08,2.08,ne-sw,Valley,North-east,45
+173,173,1418,BUDE,bude,cornwall,50.829,-4.546,15,2011,2020,1,POINT (-4.546 50.829),"['Valley', 'Slope', 'Slope', 'Slope']",5,10,2.66,2.66,nw-se,Slope,North-west,305
+174,174,1431,"BANAGHER, CAUGH HILL",banagher-caugh-hill,londonderry,54.886,-6.966,214,1997,2020,2,POINT (-6.966 54.886),"['Ridge', 'Ridge', 'Ridge', 'Slope']",213,1,-5.22,5.22,ne-sw,Slope,South-west,225
+175,175,1435,LOUGH FEA,lough-fea,londonderry,54.721,-6.815,225,1994,2020,2,POINT (-6.815 54.721),"['Ridge', 'Valley', 'Ridge', 'Valley']",222,3,4.36,4.36,nw-se,Ridge,North-west,305
+176,176,1448,PORTGLENONE,portglenone,antrim,54.865,-6.458,64,1994,2020,2,POINT (-6.458 54.865),"['Slope', 'Slope', 'Slope', 'Slope']",66,2,6.05,6.05,ne-sw,Slope,North-east,45
+177,177,1450,ALDERGROVE,aldergrove,antrim,54.664,-6.225,63,1981,2020,2,POINT (-6.225 54.664),"['Slope', 'Slope', 'Slope', 'Ridge']",62,1,1.24,1.24,ne-sw,Ridge,North-east,45
+178,178,1452,ALTNAHINCH FILTERS,altnahinch-filters,antrim,55.048,-6.255,213,1981,2020,5,POINT (-6.255 55.048),"['Slope', 'Slope', 'Valley', 'Valley']",231,18,-7.96,7.96,nw-se,Valley,South-east,135
+179,179,1467,BALLYPATRICK FOREST,ballypatrick-forest,antrim,55.181,-6.154,156,1991,2020,5,POINT (-6.154 55.181),"['Slope', 'Slope', 'Slope', 'Valley']",152,4,-17.23,17.23,ne-sw,Valley,South-west,225
+180,180,1488,KILLOWEN,killowen,down,54.077,-6.184,4,2000,2020,2,POINT (-6.184 54.077),"['Slope', 'Slope', 'Flat', 'Slope']",2,2,39.57,39.57,ne-sw,Slope,North-east,45
+181,181,1502,MURLOUGH,murlough,down,54.245,-5.832,12,2009,2020,2,POINT (-5.832 54.245),"['Ridge', 'Slope', 'Ridge', 'Slope']",18,6,-3.29,3.29,ne-sw,Slope,South-west,225
+182,182,1504,KATESBRIDGE,katesbridge,down,54.297,-6.111,91,2000,2020,2,POINT (-6.111 54.297),"['Valley', 'Slope', 'Ridge', 'Valley']",89,2,3.29,3.29,ne-sw,Valley,North-east,45
+183,183,1507,STORMONT CASTLE,stormont-castle,down,54.603,-5.83,56,2009,2020,2,POINT (-5.83 54.603),"['Slope', 'Valley', 'Slope', 'Valley']",65,9,18.44,18.44,ns,Valley,North,0
+184,184,1517,BALLYWATTICOCK,ballywatticock,down,54.572,-5.657,6,1980,2020,2,POINT (-5.657 54.572),"['Ridge', 'Flat', 'Slope', 'Ridge']",5,1,10.43,10.43,ne-sw,Ridge,North-east,45
+185,185,1523,HELENS BAY,helens-bay,down,54.669,-5.748,43,2002,2020,2,POINT (-5.748 54.669),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",47,4,-9.13,9.13,ns,Ridge,South,180
+186,186,1530,ARMAGH,armagh,armagh,54.352,-6.65,62,2018,2020,2,POINT (-6.65 54.352),"['Valley', 'Valley', 'Valley', 'Ridge']",52,10,-2.68,2.68,nw-se,Valley,South-east,135
+187,187,1534,GLENANNE NO 2,glenanne-no-2,armagh,54.237,-6.504,161,1992,2020,2,POINT (-6.504 54.237),"['Slope', 'Ridge', 'Ridge', 'Ridge']",167,6,-5.13,5.13,ne-sw,Ridge,South-west,225
+188,188,1543,CASTLEDERG,castlederg,tyrone,54.707,-7.577,49,1995,2020,2,POINT (-7.577 54.707),"['Ridge', 'Valley', 'Valley', 'Valley']",46,3,4.15,4.15,ns,Valley,North,0
+189,189,16596,TOPCLIFFE,topcliffe,north-yorkshire,54.205,-1.39,25,1997,2020,1,POINT (-1.39 54.205),"['Valley', 'Valley', 'Valley', 'Slope']",23,2,1.85,1.85,ns,Valley,North,0
+190,190,16611,SENNYBRIDGE NO 2,sennybridge-no-2,powys-south,52.063,-3.615,307,1995,2020,1,POINT (-3.615 52.063),"['Slope', 'Slope', 'Slope', 'Slope']",308,1,-8.39,8.39,nw-se,Slope,South-east,135
+191,191,10268,"WINCHCOMBE, SUDELEY CASTLE",winchcombe-sudeley-castle,gloucestershire,51.948,-1.954,112,2010,2020,1,POINT (-1.954 51.948),"['Slope', 'Ridge', 'Slope', 'Valley']",113,1,4.87,4.87,ne-sw,Valley,North-east,45
+192,192,16769,WIGGONHOLT,wiggonholt,west-sussex,50.938,-0.494,28,2011,2020,1,POINT (-0.494 50.938),"['Ridge', 'Slope', 'Slope', 'Ridge']",26,2,-4.76,4.76,nw-se,Slope,South-east,135
+193,193,18903,SOUTH UIST RANGE,south-uist-range,western-isles,57.358,-7.385,4,1996,2020,5,POINT (-7.385 57.358),"['Slope', 'Slope', 'Slope', 'Ridge']",3,1,-2.0,2.0,ns,Slope,South,180
+194,194,18974,TIREE,tiree,argyll-in-strathclyde-region,56.5,-6.881,9,1930,2020,5,POINT (-6.881 56.5),"['Slope', 'Ridge', 'Slope', 'Ridge']",12,3,0.87,0.87,ew,Slope,East,90
+195,195,19187,COLESHILL,coleshill,warwickshire,52.48,-1.691,96,1997,2020,1,POINT (-1.691 52.48),"['Slope', 'Ridge', 'Slope', 'Slope']",98,2,-1.97,1.97,ne-sw,Slope,South-west,225
+196,196,19188,ANDREWSFIELD,andrewsfield,essex,51.896,0.451,87,1997,2020,0,POINT (0.451 51.896),"['Slope', 'Slope', 'Valley', 'Ridge']",88,1,1.17,1.17,nw-se,Valley,North-west,305
+197,197,19192,KILLYLANE,killylane,antrim,54.817,-6.005,250,2011,2020,2,POINT (-6.005 54.817),"['Valley', 'Slope', 'Ridge', 'Ridge']",258,8,-16.04,16.04,nw-se,Ridge,South-east,135
+198,198,19203,BRIDGEFOOT,bridgefoot,cumbria,54.649,-3.459,49,2010,2020,1,POINT (-3.459 54.649),"['Valley', 'Valley', 'Slope', 'Slope']",51,2,-3.32,3.32,ew,Valley,West,270
+199,199,19204,GRINGLEY-ON-THE-HILL,gringley-on-the-hill,nottinghamshire,53.406,-0.884,68,2010,2020,1,POINT (-0.884 53.406),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",69,1,-2.21,2.21,ew,Ridge,West,270
+200,200,19206,ST ATHAN,st-athan,south-glamorgan,51.405,-3.441,49,1997,2020,1,POINT (-3.441 51.405),"['Slope', 'Slope', 'Ridge', 'Ridge']",50,1,1.35,1.35,ew,Slope,East,90
+201,201,19211,HARRIS: QUIDNISH,harris-quidnish,western-isles,57.78,-6.897,13,2010,2020,5,POINT (-6.897 57.78),"['Ridge', 'Valley', 'Slope', 'Valley']",13,0,-5.85,5.85,ew,Ridge,West,270
+202,202,19260,"EDINBURGH, GOGARBANK",edinburgh-gogarbank,midlothian-in-lothian-region,55.928,-3.344,57,1998,2020,4,POINT (-3.344 55.928),"['Ridge', 'Valley', 'Valley', 'Slope']",57,0,-3.43,3.43,ns,Valley,South,180
+203,203,17176,"HIGH WYCOMBE, HQAIR",high-wycombe-hqair,buckinghamshire,51.682,-0.807,204,1995,2020,1,POINT (-0.807 51.682),"['Ridge', 'Slope', 'Slope', 'Ridge']",198,6,-8.32,8.32,ew,Ridge,West,270
+204,204,61986,TIBENHAM AIRFIELD,tibenham-airfield,norfolk,52.457,1.162,52,2015,2020,0,POINT (1.162 52.457),"['Valley', 'Ridge', 'Ridge', 'Ridge']",54,2,-1.38,1.38,ne-sw,Ridge,South-west,225
+205,205,62041,EXETER AIRPORT NO 2,exeter-airport-no-2,devon,50.737,-3.406,27,2009,2020,1,POINT (-3.406 50.737),"['Slope', 'Ridge', 'Slope', 'Slope']",26,1,2.65,2.65,ns,Ridge,North,0
+206,206,13343,LOGAN BOTANIC GARDEN,logan-botanic-garden,wigtownshire,54.743,-4.959,27,2012,2020,1,POINT (-4.959 54.743),"['Valley', 'Slope', 'Ridge', 'Slope']",31,4,-6.86,6.86,ne-sw,Slope,South-west,225
+207,207,17309,CROSBY,crosby,merseyside,53.497,-3.058,9,1983,2020,1,POINT (-3.058 53.497),"['Slope', 'Ridge', 'Slope', 'Ridge']",-32768,32777,-3.63,3.63,ew,Slope,West,270
+208,208,17344,LOFTUS,loftus,cleveland,54.563,-0.864,158,1996,2020,1,POINT (-0.864 54.563),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",152,6,8.9,8.9,ns,Ridge,North,0
+209,209,30476,HOUGHTON HALL,houghton-hall,norfolk,52.824,0.652,65,2010,2020,0,POINT (0.652 52.824),"['Valley', 'Slope', 'Slope', 'Slope']",68,3,-3.57,3.57,nw-se,Slope,South-east,135
+210,210,14093,ACHNAGART,achnagart,ross-and-cromarty,57.181,-5.375,15,2012,2020,5,POINT (-5.375 57.181),"['Valley', 'Valley', 'Slope', 'Valley']",17,2,-18.6,18.6,ne-sw,Valley,South-west,225
+211,211,30523,ALBEMARLE,albemarle,northumberland,55.02,-1.882,142,2003,2020,4,POINT (-1.882 55.02),"['Ridge', 'Valley', 'Ridge', 'Slope']",142,0,3.14,3.14,ne-sw,Slope,North-east,45
+212,212,30529,"MARKET BOSWORTH, BOSWORTH PARK",market-bosworth-bosworth-park,leicestershire,52.623,-1.396,129,2010,2020,1,POINT (-1.396 52.623),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",132,3,3.95,3.95,ne-sw,Ridge,North-east,45
+213,213,30620,CHARLWOOD,charlwood,surrey,51.144,-0.229,67,2002,2020,1,POINT (-0.229 51.144),"['Slope', 'Valley', 'Valley', 'Valley']",68,1,-2.3,2.3,ne-sw,Valley,South-west,225
+214,214,30690,"LEEK, THORNCLIFFE",leek-thorncliffe,staffordshire,53.128,-1.981,298,2002,2020,1,POINT (-1.981 53.128),"['Slope', 'Ridge', 'Slope', 'Slope']",299,1,8.2,8.2,ne-sw,Slope,North-east,45
+215,215,30750,RAVENSWORTH,ravensworth,north-yorkshire,54.472,-1.785,120,2010,2020,1,POINT (-1.785 54.472),"['Valley', 'Slope', 'Valley', 'Valley']",120,0,2.89,2.89,ne-sw,Valley,North-east,45
+216,216,25726,"PATELEY BRIDGE, RAVENS NEST",pateley-bridge-ravens-nest,north-yorkshire,54.07,-1.771,259,2011,2020,1,POINT (-1.771 54.07),"['Slope', 'Valley', 'Valley', 'Valley']",263,4,-28.42,28.42,ne-sw,Valley,South-west,225
+217,217,55827,BRAEMAR NO 2,braemar-no-2,aberdeenshire,57.011,-3.397,327,2005,2020,4,POINT (-3.397 57.011),"['Slope', 'Slope', 'Slope', 'Valley']",324,3,-7.71,7.71,nw-se,Slope,South-east,135
+218,218,23417,ISLAY: PORT ELLEN,islay-port-ellen,argyll-in-strathclyde-region,55.681,-6.25,17,1998,2020,5,POINT (-6.25 55.681),"['Slope', 'Slope', 'Slope', 'Slope']",11,6,2.77,2.77,ne-sw,Slope,North-east,45
+219,219,56216,RESALLACH,resallach,sutherland,58.063,-5.016,133,2011,2020,5,POINT (-5.016 58.063),"['Slope', 'Valley', 'Valley', 'Slope']",136,3,-21.32,21.32,ns,Valley,South,180
+220,220,23450,WYCH CROSS,wych-cross,east-sussex,51.066,0.033,200,2010,2020,0,POINT (0.033 51.066),"['Slope', 'Slope', 'Ridge', 'Slope']",193,7,-5.54,5.54,ns,Slope,South,180
+221,221,56424,WINTERBOURNE NO2,winterbourne-no2,west-midlands,52.456,-1.928,140,2011,2020,1,POINT (-1.928 52.456),"['Ridge', 'Ridge', 'Ridge', 'Slope']",142,2,4.14,4.14,ew,Ridge,East,90
+222,222,56486,MONA,mona,isle-of-anglesey,53.261,-4.376,60,2009,2020,1,POINT (-4.376 53.261),"['Slope', 'Ridge', 'Slope', 'Ridge']",60,0,2.61,2.61,nw-se,Slope,North-west,305
+223,223,24102,"COVENTRY, COUNDON",coventry-coundon,west-midlands,52.424,-1.536,119,2001,2020,1,POINT (-1.536 52.424),"['Ridge', 'Slope', 'Ridge', 'Slope']",120,1,2.95,2.95,nw-se,Ridge,North-west,305
+224,224,24103,"DERRYLIN, CORNAHOULE",derrylin-cornahoule,fermanagh,54.189,-7.561,68,2010,2020,2,POINT (-7.561 54.189),"['Ridge', 'Slope', 'Valley', 'Valley']",64,4,0.82,0.82,nw-se,Valley,North-west,305
+225,225,16589,REDESDALE CAMP,redesdale-camp,northumberland,55.285,-2.279,211,1996,2020,4,POINT (-2.279 55.285),"['Ridge', 'Slope', 'Slope', 'Valley']",210,1,7.16,7.16,nw-se,Slope,North-west,305
+226,226,24125,"GLASGOW, BISHOPTON",glasgow-bishopton,renfrewshire,55.907,-4.532,59,1999,2020,4,POINT (-4.532 55.907),"['Slope', 'Slope', 'Ridge', 'Ridge']",58,1,6.64,6.64,ns,Slope,North,0
+227,227,56904,FRITTENDEN,frittenden,kent,51.142,0.596,38,2011,2020,0,POINT (0.596 51.142),"['Valley', 'Ridge', 'Slope', 'Ridge']",37,1,-2.1,2.1,ns,Ridge,South,180
+228,228,56937,GIANTS CAUSEWAY,giants-causeway,antrim,55.234,-6.512,80,2011,2020,5,POINT (-6.512 55.234),"['Slope', 'Slope', 'Slope', 'Ridge']",48,32,10.1,10.1,ne-sw,Ridge,North-east,45
+229,229,56939,USK NO 2,usk-no-2,monmouthshire,51.714,-2.923,25,2011,2020,1,POINT (-2.923 51.714),"['Slope', 'Slope', 'Slope', 'Slope']",25,0,-9.3,9.3,ns,Slope,South,180
+230,230,56958,EMLEY MOOR NO 2,emley-moor-no-2,west-yorkshire,53.612,-1.668,267,2011,2020,1,POINT (-1.668 53.612),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",264,3,7.28,7.28,ns,Ridge,North,0
+231,231,56963,MAGILLIGAN NO 2,magilligan-no-2,londonderry,55.16,-6.949,6,2011,2020,5,POINT (-6.949 55.16),"[None, 'Slope', 'Ridge', 'Valley']",5,1,0.42,0.42,ns,Slope,North,0
+232,232,56986,"HULL, EAST PARK",hull-east-park,humberside,53.766,-0.298,2,2012,2020,1,POINT (-0.298 53.766),"['Valley', 'Valley', 'Flat', 'Ridge']",2,0,0.41,0.41,ew,Valley,East,90
+233,233,16031,CHILLINGHAM BARNS,chillingham-barns,northumberland,55.53,-1.918,70,2012,2020,4,POINT (-1.918 55.53),"['Ridge', 'Ridge', 'Slope', 'Ridge']",77,7,-6.15,6.15,nw-se,Slope,South-east,135
+234,234,57063,THOMASTOWN,thomastown,fermanagh,54.33,-7.595,72,2012,2020,2,POINT (-7.595 54.33),"['Ridge', 'Slope', 'Slope', 'Slope']",69,3,4.12,4.12,nw-se,Slope,North-west,305
+235,235,57093,STOWE,stowe,buckinghamshire,52.042,-1.013,145,2012,2020,1,POINT (-1.013 52.042),"['Slope', 'Slope', 'Slope', 'Ridge']",147,2,3.51,3.51,ne-sw,Ridge,North-east,45
+236,236,57199,ROSTHERNE NO 2,rostherne-no-2,cheshire,53.36,-2.382,35,2012,2020,1,POINT (-2.382 53.36),"['Ridge', 'Ridge', 'Ridge', 'Valley']",35,0,2.01,2.01,ne-sw,Valley,North-east,45
+237,237,38,ACHFARY,achfary,sutherland,58.311,-4.916,46,1967,2020,4,POINT (-4.916 58.311),"['Slope', 'Valley', 'Valley', 'Slope']",48,2,-15.08,15.08,ne-sw,Slope,South-west,225
+238,238,8231,HUNTSHAM,huntsham,devon,50.953,-3.438,237,2006,2020,1,POINT (-3.438 50.953),"['Ridge', 'Slope', 'Slope', 'Slope']",250,13,6.48,6.48,ne-sw,Slope,North-east,45
+239,239,50,STRATHY EAST,strathy-east,sutherland,58.561,-3.992,68,1993,2020,4,POINT (-3.992 58.561),"['Slope', 'Valley', 'Slope', 'Ridge']",62,6,-10.58,10.58,nw-se,Slope,South-east,135
+240,240,60,POOLEWE,poolewe,ross-and-cromarty,57.774,-5.597,6,1961,2020,5,POINT (-5.597 57.774),"['Slope', 'Valley', 'Slope', 'Valley']",2,4,22.78,22.78,ne-sw,Valley,North-east,45
+241,241,142,"BANFF, GOLF CLUB",banff-golf-club,banffshire,57.661,-2.521,15,1988,2020,4,POINT (-2.521 57.661),"['Slope', 'Slope', 'Slope', 'Ridge']",9,6,7.18,7.18,nw-se,Slope,North-west,305
+242,242,176,DURRIS,durris,kincardineshire,57.032,-2.404,107,1988,2020,4,POINT (-2.404 57.032),"['Valley', 'Slope', 'Slope', 'Slope']",108,1,3.97,3.97,ew,Valley,East,90
+243,243,181,MYLNEFIELD,mylnefield,angus,56.456,-3.07,26,1954,2020,4,POINT (-3.07 56.456),"['Slope', 'Slope', 'Ridge', 'Slope']",29,3,5.86,5.86,nw-se,Ridge,North-west,305
+244,244,208,DRUMMOND CASTLE,drummond-castle,perthshire-in-tayside-region,56.338,-3.877,113,1969,2020,4,POINT (-3.877 56.338),"['Valley', 'Slope', 'Ridge', 'Ridge']",121,8,-11.91,11.91,ns,Slope,South,180
+245,245,214,FASKALLY,faskally,perthshire-in-tayside-region,56.718,-3.77,94,1953,2020,4,POINT (-3.77 56.718),"['Valley', 'Valley', 'Slope', 'Valley']",92,2,5.69,5.69,ns,Valley,North,0
+246,246,226,KINROSS,kinross,kinross-shire,56.214,-3.413,116,1967,2020,4,POINT (-3.413 56.214),"['Valley', 'Slope', 'Slope', 'Slope']",112,4,-1.73,1.73,ne-sw,Slope,South-west,225
+247,247,249,PENICUIK,penicuik,midlothian-in-lothian-region,55.823,-3.228,185,1946,2020,4,POINT (-3.228 55.823),"['Ridge', 'Slope', 'Slope', 'Slope']",183,2,-7.9,7.9,ne-sw,Slope,South-west,225
+248,248,262,NUNRAW ABBEY,nunraw-abbey,east-lothian,55.921,-2.652,197,1971,2020,4,POINT (-2.652 55.921),"['Slope', 'Slope', 'Slope', 'Slope']",195,2,-10.28,10.28,nw-se,Slope,South-east,135
+249,249,264,DUNBAR,dunbar,east-lothian,56.004,-2.528,23,1930,2020,4,POINT (-2.528 56.004),"['Ridge', 'Ridge', 'Slope', 'Ridge']",23,0,-3.86,3.86,ne-sw,Ridge,South-west,225
+250,250,279,BOWHILL,bowhill,selkirkshire,55.541,-2.906,168,1954,2020,4,POINT (-2.906 55.541),"['Slope', 'Slope', 'Ridge', 'Slope']",167,1,6.15,6.15,ew,Slope,East,90
+251,251,286,FLOORS CASTLE,floors-castle,roxburghshire,55.603,-2.468,59,1941,2020,4,POINT (-2.468 55.603),"['Slope', 'Slope', 'Valley', 'Ridge']",63,4,4.46,4.46,nw-se,Valley,North-west,305
+252,252,300,WALLINGTON,wallington,northumberland,55.154,-1.945,150,1994,2020,4,POINT (-1.945 55.154),"['Slope', 'Slope', 'Valley', 'Valley']",128,22,8.4,8.4,ew,Slope,East,90
+253,253,347,CARLTON-IN-CLEVELAND,carlton-in-cleveland,cleveland,54.428,-1.218,103,1991,2020,1,POINT (-1.218 54.428),"['Valley', 'Slope', 'Slope', 'Slope']",103,0,-7.22,7.22,nw-se,Slope,South-east,135
+254,254,359,WHITBY,whitby,north-yorkshire,54.481,-0.626,41,1973,2020,1,POINT (-0.626 54.481),"['Slope', 'Slope', 'Slope', 'Valley']",40,1,7.44,7.44,ns,Slope,North,0
+255,255,407,DENVER,denver,norfolk,52.583,0.346,3,1974,2020,0,POINT (0.346 52.583),"['Ridge', 'Slope', 'Slope', 'Slope']",1,2,0.79,0.79,ew,Ridge,East,90
+256,256,439,EAST BERGHOLT,east-bergholt,suffolk,51.96,1.023,7,1961,2020,0,POINT (1.023 51.96),"['Slope', 'Slope', 'Valley', 'Valley']",3,4,5.65,5.65,ns,Slope,North,0
+257,257,454,"CAMBRIDGE, BOTANIC GARDEN",cambridge-botanic-garden,cambridgeshire,52.194,0.129,13,1898,2020,0,POINT (0.129 52.194),"['Slope', 'Ridge', 'Valley', 'Valley']",19,6,-0.78,0.78,ew,Slope,West,270
+258,258,509,MALHAM TARN,malham-tarn,north-yorkshire,54.1,-2.164,381,1961,2020,1,POINT (-2.164 54.1),"['Valley', 'Ridge', 'Slope', 'Valley']",390,9,19.03,19.03,ns,Ridge,North,0
+259,259,535,CAWOOD,cawood,north-yorkshire,53.828,-1.148,6,1961,2020,1,POINT (-1.148 53.828),"['Flat', 'Valley', None, None]",8,2,0.2,0.2,ew,Flat,East,90
+260,260,539,BUXTON,buxton,derbyshire,53.258,-1.914,307,1875,2020,1,POINT (-1.914 53.258),"['Slope', 'Slope', 'Valley', 'Valley']",311,4,-3.81,3.81,ew,Slope,West,270
+261,261,606,OXFORD,oxford,oxfordshire,51.761,-1.264,63,1853,2020,1,POINT (-1.264 51.761),"['Ridge', 'Slope', 'Slope', 'Ridge']",66,3,0.78,0.78,ns,Slope,North,0
+262,262,609,SHIRBURN MODEL FARM,shirburn-model-farm,oxfordshire,51.669,-0.996,108,1969,2020,1,POINT (-0.996 51.669),"['Slope', 'Valley', 'Slope', 'Slope']",106,2,1.74,1.74,ne-sw,Slope,North-east,45
+263,263,628,IPSTONES EDGE,ipstones-edge,staffordshire,53.056,-1.951,340,1994,2020,1,POINT (-1.951 53.056),"['Slope', 'Ridge', 'Ridge', 'Ridge']",340,0,-5.79,5.79,nw-se,Ridge,South-east,135
+264,264,636,EDGE,edge,shropshire,52.674,-2.891,126,1988,2020,1,POINT (-2.891 52.674),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",121,5,2.57,2.57,nw-se,Ridge,North-west,305
+265,265,638,PRESTON MONTFORD,preston-montford,shropshire,52.725,-2.842,71,1976,2020,1,POINT (-2.842 52.725),"['Valley', 'Slope', 'Valley', 'Slope']",62,9,-1.78,1.78,ew,Valley,West,270
+266,266,688,CIRENCESTER,cirencester,gloucestershire,51.709,-1.996,133,1961,2020,1,POINT (-1.996 51.709),"['Slope', 'Ridge', 'Slope', 'Ridge']",130,3,4.07,4.07,ns,Ridge,North,0
+267,267,720,MICKLEHAM,mickleham,surrey,51.261,-0.321,55,1950,2020,1,POINT (-0.321 51.261),"['Slope', 'Ridge', 'Slope', 'Valley']",62,7,14.76,14.76,ne-sw,Valley,North-east,45
+268,268,730,EDENBRIDGE,edenbridge,kent,51.204,0.135,45,1973,2020,0,POINT (0.135 51.204),"['Valley', 'Slope', 'Slope', 'Slope']",43,2,4.6,4.6,nw-se,Slope,North-west,305
+269,269,25315,ORKNEY: LOCH OF HUNDLAND,orkney-loch-of-hundland,orkney,59.112,-3.229,28,1999,2020,4,POINT (-3.229 59.112),"['Slope', 'Valley', 'Ridge', 'Valley']",29,1,-2.34,2.34,ew,Slope,West,270
+270,270,757,FAVERSHAM,faversham,kent,51.297,0.878,46,1961,2020,0,POINT (0.878 51.297),"['Ridge', 'Slope', 'Slope', 'Slope']",48,2,-3.45,3.45,ne-sw,Slope,South-west,225
+271,271,782,BOGNOR REGIS,bognor-regis,west-sussex,50.782,-0.677,7,1901,2020,1,POINT (-0.677 50.782),"['Slope', 'Ridge', 'Ridge', 'Ridge']",6,1,2.39,2.39,nw-se,Ridge,North-west,305
+272,272,808,EASTBOURNE,eastbourne,east-sussex,50.759,0.283,15,1888,2020,0,POINT (0.283 50.759),"['Slope', 'Slope', 'Slope', 'Flat']",2,13,11.95,11.95,ew,Slope,East,90
+273,273,818,HASTINGS,hastings,east-sussex,50.856,0.57,45,1961,2020,0,POINT (0.57 50.856),"['Ridge', 'Ridge', 'Ridge', 'Slope']",45,0,14.11,14.11,nw-se,Ridge,North-west,305
+274,274,825,WALLINGFORD,wallingford,oxfordshire,51.603,-1.113,47,1961,2020,1,POINT (-1.113 51.603),"['Valley', 'Slope', 'Valley', 'Slope']",46,1,-0.97,0.97,ew,Valley,West,270
+275,275,17210,ALWEN,alwen,clwyd,53.062,-3.554,345,1961,2020,1,POINT (-3.554 53.062),"['Slope', 'Slope', 'Valley', 'Ridge']",343,2,9.98,9.98,nw-se,Valley,North-west,305
+276,276,843,"BOURNEMOUTH, KINGS PARK",bournemouth-kings-park,dorset,50.734,-1.824,27,1981,2020,1,POINT (-1.824 50.734),"['Slope', 'Ridge', 'Valley', 'Slope']",32,5,-3.98,3.98,ne-sw,Slope,South-west,225
+277,277,863,HAYLING ISLAND,hayling-island,hampshire,50.785,-0.986,4,1961,2020,1,POINT (-0.986 50.785),"['Ridge', 'Ridge', 'Flat', 'Slope']",4,0,2.56,2.56,ns,Ridge,North,0
+278,278,877,WIGHT: VENTNOR PARK,wight-ventnor-park,isle-of-wight,50.593,-1.213,60,1984,2020,1,POINT (-1.213 50.593),"['Slope', 'Slope', 'Ridge', 'Slope']",41,19,48.99,48.99,nw-se,Ridge,North-west,305
+279,279,878,WIGHT: SHANKLIN,wight-shanklin,isle-of-wight,50.624,-1.181,55,1947,2020,1,POINT (-1.181 50.624),"['Valley', 'Slope', 'Ridge', 'Slope']",55,0,-9.65,9.65,nw-se,Ridge,South-east,135
+280,280,883,LACOCK,lacock,wiltshire,51.431,-2.115,49,1961,2020,1,POINT (-2.115 51.431),"['Slope', 'Slope', 'Valley', 'Valley']",47,2,-0.77,0.77,nw-se,Valley,South-east,135
+281,281,9092,SEAVINGTON,seavington,somerset,50.941,-2.861,85,2009,2020,1,POINT (-2.861 50.941),"['Ridge', 'Slope', 'Slope', 'Ridge']",91,6,-5.14,5.14,ne-sw,Ridge,South-west,225
+282,282,915,LOCHGILPHEAD,lochgilphead,argyll-in-strathclyde-region,56.034,-5.428,6,1984,2020,5,POINT (-5.428 56.034),"['Slope', 'Slope', 'Valley', 'Slope']",8,2,-9.94,9.94,ew,Slope,West,270
+283,283,926,"BENMORE, YOUNGER BOTANIC GARDEN",benmore-younger-botanic-garden,argyll-in-strathclyde-region,56.028,-4.985,12,1961,2020,4,POINT (-4.985 56.028),"['Slope', 'Ridge', 'Valley', 'Slope']",23,11,88.04,88.04,ne-sw,Slope,North-east,45
+284,284,949,"GARTOCHARN, PORTNELLAN FARM",gartocharn-portnellan-farm,dunbartonshire,56.048,-4.567,40,1992,2020,4,POINT (-4.567 56.048),"['Slope', 'Slope', 'Slope', 'Slope']",41,1,-32.87,32.87,nw-se,Slope,South-east,135
+285,285,954,MUGDOCK PARK,mugdock-park,stirling-in-central-region,55.973,-4.33,165,1990,2020,4,POINT (-4.33 55.973),"['Ridge', 'Ridge', 'Slope', 'Ridge']",174,9,6.0,6.0,nw-se,Slope,North-west,305
+286,286,963,GRANGEMOUTH REFINERY,grangemouth-refinery,stirling-in-central-region,56.009,-3.686,2,1970,2020,4,POINT (-3.686 56.009),"['Slope', 'Slope', 'Slope', 'Slope']",4,2,-0.21,0.21,ns,Slope,South,180
+287,287,980,"MOTHERWELL, STRATHCLYDE PARK",motherwell-strathclyde-park,lanarkshire,55.786,-4.023,22,1979,2020,4,POINT (-4.023 55.786),"['Valley', 'Valley', 'Slope', 'Valley']",22,0,-3.63,3.63,ns,Valley,South,180
+288,288,996,HUNTERSTON NO 3,hunterston-no-3,ayrshire,55.723,-4.893,8,1964,2020,4,POINT (-4.893 55.723),"['Slope', 'Valley', 'Ridge', 'Slope']",7,1,-7.88,7.88,nw-se,Ridge,South-east,135
+289,289,25618,BRAMPTON NO 3,brampton-no-3,cumbria,54.935,-2.735,117,2001,2020,1,POINT (-2.735 54.935),"['Ridge', 'Ridge', 'Ridge', 'Ridge']",115,2,-5.85,5.85,nw-se,Ridge,South-east,135
+290,290,9280,WESTONZOYLAND,westonzoyland,somerset,51.115,-2.922,3,2007,2020,1,POINT (-2.922 51.115),"['Valley', 'Ridge', 'Slope', 'Slope']",5,2,-1.15,1.15,ns,Ridge,South,180
+291,291,1105,HAZELRIGG,hazelrigg,lancashire,54.014,-2.775,95,1976,2020,1,POINT (-2.775 54.014),"['Ridge', 'Slope', 'Slope', 'Ridge']",94,1,10.41,10.41,nw-se,Slope,North-west,305
+292,292,1141,PRESTATYN,prestatyn,clwyd,53.342,-3.412,4,1932,2020,1,POINT (-3.412 53.342),"['Flat', 'Ridge', None, None]",8,4,-1.29,1.29,ew,Flat,West,270
+293,293,1148,BETWS-Y-COED,betws-y-coed,clwyd,53.097,-3.79,22,1976,2020,1,POINT (-3.79 53.097),"['Valley', 'Slope', 'Slope', 'Slope']",32,10,-38.57,38.57,nw-se,Slope,South-east,135
+294,294,1149,COLWYN BAY,colwyn-bay,clwyd,53.291,-3.715,36,1929,2020,1,POINT (-3.715 53.291),"['Slope', 'Slope', 'Valley', 'Slope']",37,1,-10.84,10.84,ne-sw,Slope,South-west,225
+295,295,1155,LLANARMON DYFFRYN CEIRIOG,llanarmon-dyffryn-ceiriog,clwyd,52.886,-3.256,265,1986,2020,1,POINT (-3.256 52.886),"['Slope', 'Valley', 'Valley', 'Slope']",273,8,-8.75,8.75,nw-se,Valley,South-east,135
+296,296,1164,DINORWIC NO 2,dinorwic-no-2,gwynedd,53.143,-4.108,333,1992,2020,1,POINT (-4.108 53.143),"['Slope', 'Slope', 'Valley', 'Slope']",329,4,-34.01,34.01,nw-se,Valley,South-east,135
+297,297,1173,ARTHOG NO 2,arthog-no-2,gwynedd,52.718,-4.015,7,1988,2020,1,POINT (-4.015 52.718),"['Slope', 'Slope', 'Valley', 'Ridge']",4,3,1.58,1.58,ew,Slope,East,90
+298,298,1185,MACHYNLLETH,machynlleth,powys-north,52.622,-3.843,76,1985,2020,1,POINT (-3.843 52.622),"['Valley', 'Ridge', 'Valley', 'Slope']",52,24,17.99,17.99,ne-sw,Slope,North-east,45
+299,299,1191,LLANWDDYN,llanwddyn,powys-north,52.749,-3.47,235,1989,2020,1,POINT (-3.47 52.749),"['Valley', 'Valley', 'Slope', 'Valley']",258,23,8.13,8.13,nw-se,Slope,North-west,305
+300,300,1214,DALE FORT,dale-fort,dyfed,51.703,-5.152,33,1961,2020,2,POINT (-5.152 51.703),"['Slope', 'Valley', 'Flat', 'Slope']",14,19,5.45,5.45,ew,Slope,East,90
+301,301,1217,ORIELTON,orielton,dyfed,51.653,-4.96,60,1964,2020,1,POINT (-4.96 51.653),"['Slope', 'Slope', 'Slope', 'Slope']",72,12,-6.58,6.58,nw-se,Slope,South-east,135
+302,302,1222,TENBY,tenby,dyfed,51.669,-4.708,5,1969,2020,1,POINT (-4.708 51.669),"['Slope', 'Valley', 'Slope', 'Slope']",6,1,4.06,4.06,ne-sw,Slope,North-east,45
+303,303,1227,SARON,saron,dyfed,52.013,-4.37,152,1988,2020,1,POINT (-4.37 52.013),"['Valley', 'Slope', 'Slope', 'Ridge']",152,0,-6.04,6.04,ew,Valley,West,270
+304,304,1243,VELINDRE,velindre,powys-south,52.026,-3.187,152,1982,2020,1,POINT (-3.187 52.026),"['Slope', 'Slope', 'Slope', 'Slope']",151,1,-10.14,10.14,nw-se,Slope,South-east,135
+305,305,1245,LLANGUNLLO NO 2,llangunllo-no-2,powys-south,52.332,-3.133,310,1989,2020,1,POINT (-3.133 52.332),"['Valley', 'Slope', 'Valley', 'Slope']",293,17,12.96,12.96,nw-se,Valley,North-west,305
+306,306,1291,NETTLECOMBE,nettlecombe,somerset,51.131,-3.35,96,1968,2020,1,POINT (-3.35 51.131),"['Slope', 'Slope', 'Slope', 'Slope']",99,3,-7.65,7.65,ne-sw,Slope,South-west,225
+307,307,1324,FONTMELL MAGNA,fontmell-magna,dorset,50.951,-2.185,90,1988,2020,1,POINT (-2.185 50.951),"['Slope', 'Slope', 'Valley', 'Slope']",86,4,-14.67,14.67,nw-se,Valley,South-east,135
+308,308,1362,SLAPTON,slapton,devon,50.293,-3.652,32,1961,2020,1,POINT (-3.652 50.293),"['Slope', 'Ridge', 'Valley', 'Ridge']",31,1,12.21,12.21,ns,Ridge,North,0
+309,309,1371,TEIGNMOUTH,teignmouth,devon,50.545,-3.495,3,1906,2020,1,POINT (-3.495 50.545),"['Flat', 'Slope', 'Slope', 'Valley']",5,2,9.18,9.18,nw-se,Slope,North-west,305
+310,310,1382,HEMYOCK,hemyock,devon,50.909,-3.227,168,1978,2020,1,POINT (-3.227 50.909),"['Slope', 'Slope', 'Ridge', 'Slope']",172,4,-15.22,15.22,nw-se,Ridge,South-east,135
+311,311,1412,TREKNOW,treknow,cornwall,50.646,-4.755,100,1992,2020,1,POINT (-4.755 50.646),"['Valley', 'Slope', 'Slope', 'Slope']",62,38,-9.65,9.65,nw-se,Slope,South-east,135
+312,312,1475,BELFAST NEWFORGE,belfast-newforge,down,54.56,-5.941,36,1982,2020,2,POINT (-5.941 54.56),"['Ridge', 'Valley', 'Valley', 'Slope']",31,5,2.48,2.48,ns,Valley,North,0
+313,313,1489,HILLSBOROUGH,hillsborough,down,54.453,-6.073,116,1961,2020,2,POINT (-6.073 54.453),"['Valley', 'Slope', 'Slope', 'Slope']",113,3,-5.16,5.16,ns,Slope,South,180
+314,314,1491,SILENT VALLEY,silent-valley,down,54.127,-6.002,129,1961,2020,2,POINT (-6.002 54.127),"['Valley', 'Slope', 'Slope', 'Valley']",132,3,4.91,4.91,ne-sw,Valley,North-east,45
+315,315,1494,TRASSEY SLIEVENAMAN,trassey-slievenaman,down,54.206,-6.006,220,1985,2020,2,POINT (-6.006 54.206),"['Slope', 'Valley', 'Slope', 'Slope']",216,4,-9.03,9.03,ne-sw,Slope,South-west,225
+316,316,1501,"BELFAST, RAVENHILL ROAD",belfast-ravenhill-road,down,54.584,-5.91,10,1986,2020,2,POINT (-5.91 54.584),"['Valley', 'Ridge', 'Ridge', 'Valley']",13,3,-1.24,1.24,nw-se,Ridge,South-east,135
+317,317,1508,CASTLEREAGH,castlereagh,down,54.565,-5.871,122,1990,2020,2,POINT (-5.871 54.565),"['Ridge', 'Slope', 'Ridge', 'Slope']",129,7,-0.83,0.83,ew,Ridge,West,270
+318,318,1509,MAGHERALLY,magherally,down,54.359,-6.196,97,1976,2020,2,POINT (-6.196 54.359),"['Slope', 'Ridge', 'Ridge', 'Ridge']",99,2,4.94,4.94,ne-sw,Ridge,North-east,45
+319,319,1551,EDENFEL,edenfel,tyrone,54.594,-7.283,89,1872,2020,2,POINT (-7.283 54.594),"['Slope', 'Valley', 'Ridge', 'Valley']",84,5,-3.52,3.52,ew,Slope,West,270
+320,320,1563,LOUGH NAVAR FOREST,lough-navar-forest,fermanagh,54.439,-7.901,126,1961,2020,2,POINT (-7.901 54.439),"['Slope', 'Slope', 'Slope', 'Slope']",140,14,3.3,3.3,ne-sw,Slope,North-east,45
+321,321,16612,PRESTON,preston,dorset,50.637,-2.426,44,2015,2020,1,POINT (-2.426 50.637),"['Slope', 'Ridge', 'Slope', 'Slope']",39,5,7.3,7.3,ns,Ridge,North,0
+322,322,24770,"STRABANE, CARRICKLEE",strabane-carricklee,tyrone,54.808,-7.499,39,1999,2020,2,POINT (-7.499 54.808),"['Ridge', 'Slope', 'Slope', 'Slope']",34,5,9.37,9.37,ns,Slope,North,0
+323,323,8605,VIRGINSTOW NO 2,virginstow-no-2,devon,50.711,-4.297,147,2015,2020,1,POINT (-4.297 50.711),"['Slope', 'Slope', 'Ridge', 'Ridge']",144,3,11.75,11.75,ne-sw,Ridge,North-east,45
+324,324,2515,BANK NEWTON NO 2,bank-newton-no-2,north-yorkshire,53.976,-2.134,128,2006,2020,1,POINT (-2.134 53.976),"['Slope', 'Slope', 'Slope', 'Valley']",128,0,-4.9,4.9,ns,Slope,South,180
+325,325,18985,LIVINGSTON MILL,livingston-mill,west-lothian-in-lothian-region,55.885,-3.546,108,1996,2020,4,POINT (-3.546 55.885),"['Valley', 'Slope', 'Valley', 'Valley']",112,4,3.0,3.0,nw-se,Valley,North-west,305
+326,326,2710,THORNES PARK,thornes-park,west-yorkshire,53.672,-1.516,35,2015,2020,1,POINT (-1.516 53.672),"['Valley', 'Ridge', 'Slope', 'Ridge']",35,0,-2.43,2.43,ne-sw,Ridge,South-west,225
+327,327,19193,CAWDOR CASTLE NO 2,cawdor-castle-no-2,nairnshire,57.525,-3.924,60,1997,2020,4,POINT (-3.924 57.525),"['Slope', 'Slope', 'Slope', 'Slope']",60,0,-7.15,7.15,ns,Slope,South,180
+328,328,19259,"DUMFRIES, CRICHTON ROYAL NO 2",dumfries-crichton-royal-no-2,dumfriesshire,55.047,-3.589,50,1997,2020,4,POINT (-3.589 55.047),"['Slope', 'Slope', 'Slope', 'Ridge']",48,2,9.42,9.42,ne-sw,Ridge,North-east,45
+329,329,3805,TETFORD,tetford,lincolnshire,53.253,-0.009,59,1999,2020,1,POINT (-0.009 53.253),"['Ridge', 'Valley', 'Slope', 'Valley']",59,0,1.81,1.81,ew,Ridge,East,90
+330,330,8898,LAPFORD,lapford,devon,50.863,-3.809,146,2009,2020,1,POINT (-3.809 50.863),"['Slope', 'Valley', 'Ridge', 'Valley']",148,2,15.02,15.02,ne-sw,Valley,North-east,45
+331,331,17182,COPLEY,copley,durham,54.624,-1.871,253,1995,2020,1,POINT (-1.871 54.624),"['Slope', 'Valley', 'Valley', 'Valley']",254,1,9.12,9.12,nw-se,Valley,North-west,305
+332,332,61875,BEWCASTLE,bewcastle,cumbria,55.065,-2.715,133,2013,2020,4,POINT (-2.715 55.065),"['Ridge', 'Valley', 'Valley', 'Slope']",130,3,3.56,3.56,ns,Valley,North,0
+333,333,17183,HUNT HALL FARM,hunt-hall-farm,durham,54.67,-2.229,370,1995,2020,1,POINT (-2.229 54.67),"['Slope', 'Slope', 'Slope', 'Slope']",370,0,7.47,7.47,ne-sw,Slope,North-east,45
+334,334,61908,UNDERTON,underton,shropshire,52.524,-2.468,102,2014,2020,1,POINT (-2.468 52.524),"['Slope', 'Slope', 'Ridge', 'Valley']",101,1,-16.96,16.96,ne-sw,Valley,South-west,225
+335,335,62004,OYNE NO 2,oyne-no-2,aberdeenshire,57.32,-2.545,116,2015,2020,4,POINT (-2.545 57.32),"['Slope', 'Valley', 'Valley', 'Valley']",118,2,-9.11,9.11,ne-sw,Valley,South-west,225
+336,336,62015,"PORTPATRICK, CRAIGENLEE CROFT",portpatrick-craigenlee-croft,wigtownshire,54.863,-5.075,103,2015,2020,2,POINT (-5.075 54.863),"['Slope', 'Slope', 'Slope', 'Slope']",106,3,2.92,2.92,nw-se,Slope,North-west,305
+337,337,62031,AMERSHAM FIELD CENTRE,amersham-field-centre,buckinghamshire,51.665,-0.657,150,2015,2020,1,POINT (-0.657 51.665),"['Ridge', 'Slope', 'Slope', 'Ridge']",154,4,4.26,4.26,ew,Ridge,East,90
+338,338,62033,MIDDLESMOOR,middlesmoor,north-yorkshire,54.164,-1.863,310,2015,2020,1,POINT (-1.863 54.164),"['Ridge', 'Valley', 'Slope', 'Slope']",281,29,23.16,23.16,ns,Valley,North,0
+339,339,62037,MAULDS MEABURN,maulds-meaburn,cumbria,54.538,-2.582,183,2015,2020,1,POINT (-2.582 54.538),"['Slope', 'Slope', 'Valley', 'Valley']",184,1,-4.34,4.34,ne-sw,Valley,South-west,225
+340,340,62039,BAINTOWN,baintown,fife,56.221,-3.043,123,2015,2020,4,POINT (-3.043 56.221),"['Slope', 'Slope', 'Slope', 'Slope']",124,1,10.36,10.36,nw-se,Slope,North-west,305
+341,341,62057,"BUNTINGFORD, NO 2",buntingford-no-2,hertfordshire,51.943,-0.091,138,2014,2020,1,POINT (-0.091 51.943),"['Ridge', 'Slope', 'Ridge', 'Ridge']",138,0,-2.14,2.14,nw-se,Ridge,South-east,135
+342,342,62076,"FORREST LODGE, BURNHEAD",forrest-lodge-burnhead,kirkcudbrightshire,55.144,-4.278,150,2016,2020,4,POINT (-4.278 55.144),"['Valley', 'Slope', 'Slope', 'Slope']",163,13,-9.24,9.24,ne-sw,Slope,South-west,225
+343,343,4934,"LINGWOOD, STRUMPSHAW HILL",lingwood-strumpshaw-hill,norfolk,52.611,1.483,33,2009,2020,0,POINT (1.483 52.611),"['Slope', 'Slope', 'Ridge', 'Slope']",32,1,1.19,1.19,nw-se,Ridge,North-west,305
+344,344,13298,BARWHILLANTY HOUSE,barwhillanty-house,kirkcudbrightshire,55.014,-3.997,125,1998,2020,4,POINT (-3.997 55.014),"['Slope', 'Slope', 'Ridge', 'Slope']",118,7,9.42,9.42,ns,Slope,North,0
+345,345,17310,"FETTERCAIRN, GLENSAUGH NO 2",fettercairn-glensaugh-no-2,kincardineshire,56.893,-2.542,171,1996,2020,4,POINT (-2.542 56.893),"['Slope', 'Valley', 'Valley', 'Valley']",168,3,16.26,16.26,ne-sw,Valley,North-east,45
+346,346,30084,BROADWINDSOR,broadwindsor,dorset,50.822,-2.79,161,2011,2020,1,POINT (-2.79 50.822),"['Valley', 'Slope', 'Slope', 'Slope']",160,1,7.6,7.6,ew,Valley,East,90
+347,347,30448,LLANFYNYDD,llanfynydd,dyfed,51.919,-4.101,104,2014,2020,1,POINT (-4.101 51.919),"['Slope', 'Slope', 'Slope', 'Slope']",107,3,-8.37,8.37,ns,Slope,South,180
+348,348,14444,DUNROBIN CASTLE GARDENS,dunrobin-castle-gardens,sutherland,57.981,-3.943,6,2001,2020,4,POINT (-3.943 57.981),"['Slope', 'Slope', 'Slope', 'Slope']",10,4,20.78,20.78,nw-se,Slope,North-west,305
+349,349,55890,PORT HENDERSON,port-henderson,ross-and-cromarty,57.696,-5.777,18,2013,2020,5,POINT (-5.777 57.696),"['Valley', 'Ridge', 'Ridge', 'Ridge']",14,4,-12.46,12.46,ns,Ridge,South,180
+350,350,55896,"URQUHART, NORTHWOOD",urquhart-northwood,ross-and-cromarty,57.594,-4.374,17,2013,2020,4,POINT (-4.374 57.594),"['Slope', 'Slope', 'Slope', 'Slope']",20,3,-15.11,15.11,nw-se,Slope,South-east,135
+351,351,56130,DAWYCK BOTANIC GARDEN,dawyck-botanic-garden,peebleshire,55.604,-3.323,183,2007,2020,4,POINT (-3.323 55.604),"['Valley', 'Valley', 'Valley', 'Slope']",189,6,-11.68,11.68,nw-se,Valley,South-east,135
+352,352,9529,AMMERDOWN HOUSE,ammerdown-house,somerset,51.273,-2.414,153,2015,2020,1,POINT (-2.414 51.273),"['Slope', 'Valley', 'Valley', 'Slope']",148,5,13.43,13.43,ne-sw,Slope,North-east,45
+353,353,23510,HOLNE,holne,devon,50.517,-3.843,282,2006,2020,1,POINT (-3.843 50.517),"['Slope', 'Ridge', 'Ridge', 'Ridge']",289,7,-12.45,12.45,ne-sw,Ridge,South-west,225
+354,354,15365,"DUNBARNEY, SOUTH HILL",dunbarney-south-hill,perthshire-in-tayside-region,56.344,-3.444,30,2014,2020,4,POINT (-3.444 56.344),"['Slope', 'Slope', 'Ridge', 'Slope']",31,1,4.98,4.98,nw-se,Ridge,North-west,305
+355,355,15381,"AUCHTERMUCHTY, ROSSIE",auchtermuchty-rossie,fife,56.299,-3.203,75,1997,2020,4,POINT (-3.203 56.299),"['Slope', 'Slope', 'Slope', 'Slope']",72,3,10.81,10.81,nw-se,Slope,North-west,305
+356,356,7228,"RINGMER, BISHOPS LANE",ringmer-bishops-lane,east-sussex,50.897,0.058,23,2016,2020,0,POINT (0.058 50.897),"['Slope', 'Ridge', 'Ridge', 'Slope']",20,3,-2.66,2.66,ne-sw,Slope,South-west,225
+357,357,56423,"MIDDLETON, HILLSIDE",middleton-hillside,derbyshire,53.099,-1.589,295,2009,2020,1,POINT (-1.589 53.099),"['Slope', 'Ridge', 'Ridge', 'Ridge']",283,12,17.19,17.19,ew,Slope,East,90
+358,358,56463,CROMDALE,cromdale,moray-in-highland-region,57.337,-3.543,193,2009,2020,4,POINT (-3.543 57.337),"['Valley', 'Slope', 'Valley', 'Slope']",192,1,-7.34,7.34,ns,Slope,South,180
+359,359,7621,LINKENHOLT POST OFFICE,linkenholt-post-office,hampshire,51.32,-1.479,197,2013,2020,1,POINT (-1.479 51.32),"['Ridge', 'Ridge', 'Slope', 'Slope']",198,1,4.8,4.8,nw-se,Slope,North-west,305
+360,360,24218,HARTPURY COLLEGE,hartpury-college,gloucestershire,51.904,-2.312,41,1998,2020,1,POINT (-2.312 51.904),"['Ridge', 'Slope', 'Slope', 'Slope']",31,10,-2.14,2.14,ew,Ridge,West,270
+361,361,24219,MANNINGTON HALL,mannington-hall,norfolk,52.844,1.179,30,1999,2020,0,POINT (1.179 52.844),"['Valley', 'Slope', 'Slope', 'Valley']",35,5,-3.58,3.58,nw-se,Slope,South-east,135
+362,362,57118,BUTE: ROTHESAY NO2,bute-rothesay-no2,buteshire,55.825,-5.056,36,2013,2020,5,POINT (-5.056 55.825),"['Slope', 'Slope', 'Slope', 'Slope']",32,4,-10.47,10.47,nw-se,Slope,South-east,135
+363,363,57233,MARGAM NO 2,margam-no-2,glamorganshire,51.555,-3.721,40,2013,2020,1,POINT (-3.721 51.555),"['Slope', 'Slope', 'Ridge', 'Slope']",38,2,6.75,6.75,ne-sw,Slope,North-east,45
+364,364,57267,ACHILTIBUIE NO2,achiltibuie-no2,ross-and-cromarty,58.015,-5.336,49,2013,2020,5,POINT (-5.336 58.015),"['Slope', 'Ridge', 'Ridge', 'Slope']",52,3,23.11,23.11,ne-sw,Slope,North-east,45
