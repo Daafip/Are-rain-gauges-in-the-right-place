@@ -1,6 +1,7 @@
 import numpy as np
 import rasterio
 import matplotlib.pyplot as plt
+import statistics
 
 """
 Bulk of code to run 
@@ -194,6 +195,17 @@ class Raster_Location_OnSlope:
         """Takes list from get_location_on_slope and applies it to a df"""
         return self.df.level_0.apply(self.get_location_on_slope)
         
+    def get_location_on_slope_direction(self, n):
+        """takes the list of slope_location and the direction steepest slope and returns the label in that direction"""
+        label = ["ew","ns","nw-se","ne-sw"]
+        return self.df.slope_location.iloc[n][label.index(self.df.dir_slope_steepness.iloc[n])]
+
+    def run_location_on_slope_direction(self):
+        """Takes list from get_location_on_slope_direction and applies it to a df"""
+        return self.df.level_0.apply(self.get_location_on_slope_direction)
+
+
+
 
 
     """
