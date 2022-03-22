@@ -14,9 +14,10 @@ class Location_In_Basin:
         \
         """
 
-    def __init__(self, df, lst_UK, n_px):
+    def __init__(self, df, lst_UK, n_px, watershed_df):
         self.df = df  # main data frame holding information
         self.lst_UK = lst_UK  # list containing the names of the rasters in the UK
+        self.watershed_df = watershed_df
         self.n_px = n_px
         self.label = {"ew":"East to west",
                     "ns": "North to south",
@@ -25,13 +26,21 @@ class Location_In_Basin:
         self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
     def crop_raster_watershed(self, n):
-        """Takes index of gauges, computes mask, cuts it out by copying and adjusting meta data and saving it"""
+        """Takes index of gauges, computes mask, cuts it out by copying and adjusting meta data and saving it
+        Note a difference in name used: 'Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf'
+        and the query used"""
+        
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]
+        basin_id = self.df["BASIN_ID"].iloc[n]
         ## open the wanted cell and load the data, creating a mask
-        with rasterio.open(f"DEM data/{filepath}/{filepath}/w001001.adf") as src:
+        
+        parentDirectory = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+        path = os.path.join(parentDirectory, 'Slope steepness from DEM', 'DEM Data', filepath, filepath,"w001001.adf")
+        
+        with rasterio.open(path) as src:
             crop_image, crop_transform = rasterio.mask.mask(dataset=src,
-                                                            shapes=self.df.query(f"index == {n}").geometry,
+                                                            shapes=self.watershed_df.query(f'BASIN_ID == {basin_id}').geometry,
                                                             crop=True)
             crop_meta = src.meta.copy()
 
@@ -42,39 +51,16 @@ class Location_In_Basin:
                         "transform": crop_transform})
 
         ## save with new meta data
-        with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf","w",**crop_meta) as dest:
+        with rasterio.open(f"Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf","w",**crop_meta) as dest:
             dest.write(crop_image)
-
-
-
-"""
-old code which is sometimes unarchived
-"""   
-class Location_On_Slope:
-
-    """\
-        Main code to run all location on slope functions\
-        Takes df: most importantly must have a raster ID\
-        \
-        """
-
-    def __init__(self, df, lst_UK, n_px):
-        self.df = df  # main data frame holding information
-        self.lst_UK = lst_UK  # list containing the names of the rasters in the UK
-        self.n_px = n_px
-        self.label = {"ew":"East to west",
-                    "ns": "North to south",
-                    "nw-se": "North-west to south-east",
-                    "ne-sw": "North-east to south-west"}
-        self.label_lst = ["ew","ns","nw-se","ne-sw"]
-
-
+    
     def get_array_given_orientation(self, n, kind, clip=False): 
-        """Takes index of gauges df, retrieves the file, return array of height data in the specified orientation"""
+        """Takes index of gauges df, retrieves the file, return array of height data in the specified orientation
+        Note a difference in name used: 'Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf'"""
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]
 
-        with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
+        with rasterio.open(f"Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
             array = cropped.read(1)
             coords = rasterio.transform.rowcol(cropped.transform, self.df.station_lo.iloc[n], self.df.station_la.iloc[n])
         if kind == "ew":
@@ -101,27 +87,78 @@ class Location_On_Slope:
 
             else:
                 return array[:,coords[1]], coords[1]
-        elif kind == "nw-se" or kind == "ne-sw":
-            if kind == "nw-se": 
-                diagonal_array = np.diagonal(array)
-            else:
-                diagonal_array = np.fliplr(array).diagonal()
-            if clip:
-                new_lst = []
-                for i in diagonal_array:
-                    if i >= 0:
-                        new_lst.append(i)
-                    else:
-                        new_lst.append(-1)
-                return new_lst, coords[1]
+        
+        #### Won't work as the arrays are no longer square (NxN) but can be rectangular (NxM)
+        # elif kind == "nw-se" or kind == "ne-sw":
+        #     if kind == "nw-se": 
+        #         diagonal_array = np.diagonal(array)
+        #     else:
+        #         diagonal_array = np.fliplr(array).diagonal()
+        #     if clip:
+        #         new_lst = []
+        #         for i in diagonal_array:
+        #             if i >= 0:
+        #                 new_lst.append(i)
+        #             else:
+        #                 new_lst.append(-1)
+        #         return new_lst, coords[1]
 
-            else:
-                return diagonal_array, coords[1]
+        #     else:
+        #         return diagonal_array, coords[1]
+        # debug function
 
-            
+        elif kind == 'raw':
+            return array
+
         else:
             ### no kind given
             print("incorrect kind")
+    
+    def run_get_raster_pixel(self, n):
+        """Takes index of gauges retrieves the file, finds location and returns height
+        Note a difference in name used: 'Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf'"""
+        raster_id_n = self.df.raster_id.iloc[n] 
+                
+        with rasterio.open(f"Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
+            array = cropped.read(1)
+            
+            ### own boilerplate code
+            # bounds = cropped.bounds
+            # loc_lo = int(((-bounds[0] + self.df.station_lo.iloc[n]) * array.shape[0]) / (-bounds[0] + bounds[2]))
+            # loc_la = int(((-bounds[1] + self.df.station_la.iloc[n]) * array.shape[1]) / (-bounds[1] + bounds[3]))
+            
+            # there is also a built in method... lets use that
+            coords = rasterio.transform.rowcol(cropped.transform, self.df.station_lo.iloc[n], self.df.station_la.iloc[n])
+            
+            ### should be doable with the build in sample but i couldn't get it to work
+    #         out = rasterio.sample.sample_gen(cropped,(self.df.station_lo.iloc[n],self.df.station_la.iloc[n]))
+    #         out = cropped.sample((self.df.station_lo.iloc[n],self.df.station_la.iloc[n])
+        return array[coords[0],coords[1]]
+
+    
+
+
+
+"""
+old code which is sometimes unarchived
+"""   
+class Location_On_Slope:
+
+    """\
+        Main code to run all location on slope functions\
+        Takes df: most importantly must have a raster ID\
+        \
+        """
+
+    def __init__(self, df, lst_UK, n_px):
+        self.df = df  # main data frame holding information
+        self.lst_UK = lst_UK  # list containing the names of the rasters in the UK
+        self.n_px = n_px
+        self.label = {"ew":"East to west",
+                    "ns": "North to south",
+                    "nw-se": "North-west to south-east",
+                    "ne-sw": "North-east to south-west"}
+        self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
     
     def distance_between_px(self, n):
@@ -344,27 +381,6 @@ class Slope_Steepness:
                     "ne-sw": "North-east to south-west"}
         self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
-    def run_get_raster_pixel(self, n):
-        """Takes index of gauges retrieves the file, finds location and returns height"""
-        raster_id_n = self.df.raster_id.iloc[n] 
-        filepath = self.lst_UK[raster_id_n]  
-        
-        with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
-            array = cropped.read(1)
-            
-            ### own boilerplate code
-            # bounds = cropped.bounds
-            # loc_lo = int(((-bounds[0] + self.df.station_lo.iloc[n]) * array.shape[0]) / (-bounds[0] + bounds[2]))
-            # loc_la = int(((-bounds[1] + self.df.station_la.iloc[n]) * array.shape[1]) / (-bounds[1] + bounds[3]))
-            
-            # there is also a built in method... lets use that
-            coords = rasterio.transform.rowcol(cropped.transform, self.df.station_lo.iloc[n], self.df.station_la.iloc[n])
-            
-            ### should be doable with the build in sample but i couldn't get it to work
-    #         out = rasterio.sample.sample_gen(cropped,(self.df.station_lo.iloc[n],self.df.station_la.iloc[n]))
-    #         out = cropped.sample((self.df.station_lo.iloc[n],self.df.station_la.iloc[n])
-        return array[coords[0],coords[1]]
-
     def get_raster_pixel(self): 
         """applies the function run_get_raster_pixel to the df"""
         return self.df.level_0.apply(self.run_get_raster_pixel)
@@ -415,7 +431,7 @@ class Slope_Steepness:
 
 
     
-class plotting:
+class plotting_watersheds:
 
     """\
     Main code to plot raster data\
@@ -448,17 +464,17 @@ class plotting:
         if plot_hist:
             fig2, ax2 = plt.subplots(1, figsize=(7, 5))  
         
-        with rasterio.open(f"Cropped Data/{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
+        with rasterio.open(f"Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
             plot = rasterio.plot.show(cropped, ax=ax1,cmap="terrain")
             if plot_hist:
                 rasterio.plot.show_hist(cropped, ax=ax2, bins=10, 
                                         lw=0.0, stacked=False, alpha=0.9,
                                         histtype='stepfilled', title="Histogram")
         # post plotting
-        fig1.colorbar(plot.get_images()[0], ax=ax1, shrink=0.75, label="Height(m)")
+        fig1.colorbar(plot.get_images()[0], ax=ax1, shrink=0.5, label="Height(m)")
         ax1.plot(self.df.station_lo.iloc[n], self.df.station_la.iloc[n], "ro", markersize=5, label="Rain gauge")
         ax1.set_title(f'Surroundings of {self.df.station_fi.iloc[n]} at ({self.df.station_lo.iloc[n]},{self.df.station_la.iloc[n]})',
-                    pad=18);
+                    pad=18)
         
         if zoom_in:
             # probably a better way to dit it but this works, as only 3 decimal palces this gives an esimate of accuracy
@@ -475,7 +491,7 @@ class plotting:
             ax2.legend("")
             ax2.set_xlabel("Height above MSL")
         
-        ax1.legend(bbox_to_anchor=(1.25, +0.04))
+        ax1.legend()
         if save:
             ax1.figure.savefig(f"Plots/{n} - Surroundings of {self.df.station_fi.iloc[n]}.jpg")
 
