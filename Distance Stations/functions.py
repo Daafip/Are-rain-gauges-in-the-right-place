@@ -1,6 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import warnings
+import geopandas
+import time
 from geopy.distance import geodesic
 
 def distance_too_close(df, threshold):
@@ -89,5 +92,32 @@ def distance_closest(df, threshold):
                 # then append the tuple in the same form as before
                 lst_total.append((loc1,lookup_loc2[str(d_min)],d_min))
     return lst_total
-        
-      
+ 
+
+def run_buffer_spacing(df, name):
+    """takes df, computes buffer around it, and computes area"""
+    lst = []
+    buffer = []
+    for i in np.linspace(0.0005,0.5,num=50):
+        instance = df.copy()
+        warnings.filterwarnings("ignore")
+        instance.geometry = instance.geometry.buffer(i)
+        lst.append(instance)
+        buffer.append(i)
+
+    start = time.time()
+    nmax = len(lst) # total amount of variations of buffering
+    imax = len(lst[0]) # amount of stations
+    out = np.zeros((nmax,imax))
+    for n in range(nmax):
+        print(f'n={n}',end="\n")
+        for i in range(imax):
+            print(i,end="\r")
+            out[n,i] = sum(lst[n].query(f'index == {i}').overlay(lst[n].query(f'index != {i}'), how='intersection').geometry.area)
+    end = time.time()
+    print((end-start)/60)
+    
+    np.savetxt(f"Output/intersection-array-{name}.csv",out,delimiter=",")
+    np.savetxt(f"Output/buffer-array-{name}.csv",buffer,delimiter=",")
+    return out, lst, buffer
+    
