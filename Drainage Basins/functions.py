@@ -142,6 +142,30 @@ class Location_In_Basin:
     #         out = cropped.sample((self.df.station_lo.iloc[n],self.df.station_la.iloc[n])
         return array[coords[0],coords[1]]
 
+    def get_height_of_point_river(self, n):
+        """Takes index of gauges retrieves the file, takes the closest point on the river and returns height
+        Note a difference in name used: 'Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf'
+        Note difference is it considers closest_point_on_river """
+        raster_id_n = self.df.raster_id.iloc[n] 
+        
+        if self.df.rivers_in_watershed_df.iloc[n] is not None:
+            with rasterio.open(f"Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf") as cropped:
+                array = cropped.read(1)
+                coords = rasterio.transform.rowcol(cropped.transform, self.df.closest_point_on_river.iloc[n].x, self.df.closest_point_on_river.iloc[n].y)
+            try:
+                out  = array[coords[0],coords[1]]
+            except IndexError:
+                return None
+                
+            return out
+        else:
+            return None
+    
+    def run_get_height_of_point_river(self):
+        """Runs the above code"""
+        return self.df.level_0.apply(self.get_height_of_point_river)
+
+
     def get_watershed(self,n):
         """Takes index of gauge and returns a dataframe consisting the corresponding watershed"""
         basin_id = self.df["BASIN_ID"].iloc[n]
