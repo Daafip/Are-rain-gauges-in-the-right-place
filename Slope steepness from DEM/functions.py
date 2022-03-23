@@ -72,6 +72,7 @@ class Raster_Slope_Steepness:
 
     def run_get_raster_pixel(self, n):
         """Takes index of gauges retrieves the file, finds location and plots it"""
+        #### https://geopandas.org/en/stable/gallery/geopandas_rasterio_sample.html  post note, this seems interesting and faster way to do it
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]  
         
