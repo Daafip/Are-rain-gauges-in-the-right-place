@@ -2,6 +2,7 @@ import numpy as np
 import rasterio
 import matplotlib.pyplot as plt
 import os
+import geopandas as gpd
 
 """
 Bulk of code to run 
@@ -14,10 +15,11 @@ class Location_In_Basin:
         \
         """
 
-    def __init__(self, df, lst_UK, n_px, watershed_df):
+    def __init__(self, df, lst_UK, n_px, watershed_df, rivers_df):
         self.df = df  # main data frame holding information
+        self.watershed_df = watershed_df # secondary watershed_df
+        self.rivers_df = rivers_df # teriary rivers df
         self.lst_UK = lst_UK  # list containing the names of the rasters in the UK
-        self.watershed_df = watershed_df
         self.n_px = n_px
         self.label = {"ew":"East to west",
                     "ns": "North to south",
@@ -135,7 +137,25 @@ class Location_In_Basin:
     #         out = cropped.sample((self.df.station_lo.iloc[n],self.df.station_la.iloc[n])
         return array[coords[0],coords[1]]
 
+    def get_watershed(self,n):
+        """Takes index of gauge and returns a dataframe consisting the corresponding watershed"""
+        basin_id = self.df["BASIN_ID"].iloc[n]
+        return self.watershed_df.query(f'BASIN_ID == {basin_id}')
     
+    def get_rivers_in_watershed(self, n):
+        """filters the rivers dataframe to just the watershed"""
+        basin = self.get_watershed(n)
+        out = gpd.sjoin(self.rivers_df, basin, how="inner", predicate="within")
+        if len(out) == 0:
+            print("No rivers found", end='\r')
+            return None
+        return out
+    
+    def run_get_rivers_in_watershed(self):
+        """runs the above code"""
+        return self.df.level_0.apply(self.get_rivers_in_watershed)
+
+
 
 
 
@@ -442,7 +462,7 @@ class plotting_watersheds:
     \
     """
 
-    def __init__(self, df, lst_UK, n_px):
+    def __init__(self, df, lst_UK, n_px, basins_UK_filtered, rivers_df ):
         self.df = df  # main data frame holding information
         self.lst_UK = lst_UK  # list containing the names of the rasters in the UK
         self.n_px = n_px # amount of pixels to use
@@ -451,9 +471,22 @@ class plotting_watersheds:
                     "nw-se": "North-west to south-east",
                     "ne-sw": "North-east to south-west"}
         self.label_lst = ["ew","ns","nw-se","ne-sw"]
+        self.basins_UK_filtered = basins_UK_filtered
+        self.rivers_df = rivers_df
 
 
-    def plot_cropped_raster(self, n, plot_hist=False, zoom_in=False, save=False):
+    def plot_just_rivers(self,n):
+            """Plots just the watershed outline and rivers"""
+            fig1, ax1 = plt.subplots(1, figsize=(10, 10))
+            Location_In_Basin(self.df, self.lst_UK, self.n_px, self.basins_UK_filtered, self.rivers_df).get_watershed(n).plot(ax=ax1,color="none",edgecolor="green", label="watershed")
+            rivers_in_watershed = Location_In_Basin(self.df, self.lst_UK, self.n_px, self.basins_UK_filtered, self.rivers_df).get_rivers_in_watershed(n)
+            if rivers_in_watershed is not None:
+                rivers_in_watershed.plot(ax=ax1, color="black", label="rivers")
+            if rivers_in_watershed is None:
+                ax1.plot([],[],color="black",label="No rivers found")
+            ax1.legend()
+
+    def plot_cropped_raster(self, n, plot_hist=False, zoom_in=False, save=False, rivers=False):
         """Takes index of gauges DF retrieves the file and plots it."""
         raster_id_n = self.df.raster_id.iloc[n] 
         filepath = self.lst_UK[raster_id_n]
@@ -475,6 +508,16 @@ class plotting_watersheds:
         ax1.plot(self.df.station_lo.iloc[n], self.df.station_la.iloc[n], "ro", markersize=5, label="Rain gauge")
         ax1.set_title(f'Surroundings of {self.df.station_fi.iloc[n]} at ({self.df.station_lo.iloc[n]},{self.df.station_la.iloc[n]})',
                     pad=18)
+
+        # adding basin edege and rivers
+        if rivers:
+            Location_In_Basin(self.df, self.lst_UK, self.n_px, self.basins_UK_filtered, self.rivers_df).get_watershed(n).plot(ax=ax1,color="none",edgecolor="green", label="watershed")
+            rivers_in_watershed = Location_In_Basin(self.df, self.lst_UK, self.n_px, self.basins_UK_filtered, self.rivers_df).get_rivers_in_watershed(n)
+            if rivers_in_watershed is not None:
+                rivers_in_watershed.plot(ax=ax1, color="black", label="rivers")
+            if rivers_in_watershed is None:
+                ax1.plot([],[],color="black",label="No rivers found")
+
         
         if zoom_in:
             # probably a better way to dit it but this works, as only 3 decimal palces this gives an esimate of accuracy
@@ -494,12 +537,14 @@ class plotting_watersheds:
         ax1.legend()
         if save:
             ax1.figure.savefig(f"Plots/{n} - Surroundings of {self.df.station_fi.iloc[n]}.jpg")
+        
+        return ax1
 
 
 
     def plot_gauge(self, n, kind="ew", clip=True, save=False):
         """Function which takes index of a gauge and what kind of plot wanted"""    
-        instance = Location_On_Slope(self.df,self.lst_UK,self.n_px)
+        instance = Location_In_Basin(self.df,self.lst_UK,self.n_px,self.basins_UK_filtered)
         if kind in self.label:
             array, gauge_loc = instance.get_array_given_orientation(n, kind, clip)
             # plotting
@@ -546,6 +591,8 @@ class plotting_watersheds:
    
         else:
             print("incorrect kind")   
+        
+        return ax
 
 
     def slope_steepness_all_orientations_varypxs(self, n, n_px): 
