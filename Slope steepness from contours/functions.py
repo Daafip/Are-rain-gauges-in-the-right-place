@@ -62,6 +62,10 @@ This section finds and matches the closest grid.
 The following code is not the most ellegant way to do it, but it works. 
 """
 
+def distance_one_deg_with_df(df, n):
+    """need to find the distance in m one degree, verified here https://www.opendem.info/arc2meters.html"""
+    one_arc_second = np.cos(df.station_la.iloc[n] * np.pi / 180) * (1852/60)
+    return one_arc_second * 3600
 
 def select_closest_grid(df, lst_grid_point):
     """
@@ -97,7 +101,7 @@ def select_closest_dist(df, lst_grid_point):
                 lst_distances.append(np.inf)
             else:
                 lst_distances.append(i.distance(gauge))
-        closest = min(lst_distances)*10**5
+        closest = min(lst_distances)*distance_one_deg_with_df(df,35) ### here gauge #35 has a la of 55 so roughly average fot the UK 
         # same as before but returns the distance, not the index
         return closest
 
@@ -122,7 +126,11 @@ class slope_steepness:
         self.lst_points = lst_points
         self.selected_n = selected_n
     
-    
+    def distance_one_deg(self, n):
+        """need to find the distance in m one degree, verified here https://www.opendem.info/arc2meters.html"""
+        one_arc_second = np.cos(self.df.station_la.iloc[n] * np.pi / 180) * (1852/60)
+        return one_arc_second * 3600
+
     """
     """
     """
@@ -228,7 +236,7 @@ class slope_steepness:
             return df.distance(station.geometry)
 
         spot_heights, contourlines = self.get_df_per_station(index)
-        contourlines['distance_to_gauge'] = contourlines.geometry.apply(distance_to_gauge)*10**5
+        contourlines['distance_to_gauge'] = contourlines.geometry.apply(distance_to_gauge)*self.distance_one_deg(index)
         return contourlines.sort_values('distance_to_gauge')
 
 
@@ -241,7 +249,7 @@ class slope_steepness:
         distance_contour = []
         for i in range(self.selected_n):
             line = contours.iloc[i].geometry
-            distance_contour.append(point.distance(line.interpolate(line.project(point)))*10**5)
+            distance_contour.append(point.distance(line.interpolate(line.project(point)))*self.distance_one_deg(index))
         return contours
 
 
@@ -272,7 +280,7 @@ class slope_steepness:
             if i == len(points) - 1:
                 pass
             else:
-                distance.append(round(points[i].distance(points[i+1])*10**5))
+                distance.append(round(points[i].distance(points[i+1])*self.distance_one_deg(index)))
                 
         return distance
     
@@ -305,7 +313,7 @@ class slope_steepness:
                 # check its not already chosen
                 if i is not None:
                     # caculate distance from current to all others
-                    lst_distance.append(round(current_node.distance(i)*10**5))
+                    lst_distance.append(round(current_node.distance(i)*self.distance_one_deg(index)))
                 else:
                     # again preserving indexes
                     lst_distance.append(np.inf)
@@ -369,7 +377,7 @@ class slope_steepness:
         if distances:
             line = self.select_closest_contour(index).head(self.selected_n).iloc[0].geometry
             point = self.df.iloc[index].geometry
-            distance_contour = point.distance(line.interpolate(line.project(point)))*10**5
+            distance_contour = point.distance(line.interpolate(line.project(point)))*self.distance_one_deg(index)
             plt.title(f"Distance to closest contour: {distance_contour:.3f}m ")
 
 
