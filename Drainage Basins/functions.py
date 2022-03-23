@@ -27,6 +27,11 @@ class Location_In_Basin:
                     "ne-sw": "North-east to south-west"}
         self.label_lst = ["ew","ns","nw-se","ne-sw"]
 
+    def distance_one_deg(self, n):
+        """need to find the distance in m one degree, verified here https://www.opendem.info/arc2meters.html"""
+        one_arc_second = np.cos(self.df.station_la.iloc[n] * np.pi / 180) * (1852/60)
+        return one_arc_second * 3600
+
     def crop_raster_watershed(self, n):
         """Takes index of gauges, computes mask, cuts it out by copying and adjusting meta data and saving it
         Note a difference in name used: 'Cropped Data/Watershed-{self.lst_UK[raster_id_n]} - {n}.adf'
@@ -155,6 +160,41 @@ class Location_In_Basin:
         """runs the above code"""
         return self.df.level_0.apply(self.get_rivers_in_watershed)
 
+    def get_closest_point_river(self,n, distance=False):
+        """Find the closest point on the nearest river"""
+        point = self.df.geometry.iloc[n]
+
+        # define the lines 
+        rivers_in_watershed = self.df.rivers_in_watershed_df.iloc[n]
+
+        # blank list to append to
+        distance_river = []
+
+        # loop over all the lines
+        if rivers_in_watershed is not None:
+            for j in range(len(rivers_in_watershed)):
+                line = rivers_in_watershed.iloc[j].geometry
+                distance_river.append(point.distance(line.interpolate(line.project(point)))*self.distance_one_deg(n))
+                
+            pos = distance_river.index(min(distance_river))
+            line = rivers_in_watershed.iloc[pos].geometry
+            closest_point = line.interpolate(line.project(point))
+            
+            # using keywordmeans don't need to rewrite the code 
+            if distance:
+                return min(distance_river)
+            else:
+                return closest_point
+        else:
+            return None
+    
+    def run_get_closest_point_river(self, distance=False):
+        """runs above code"""
+        return self.df.level_0.apply(self.get_closest_point_river, distance=distance)
+
+
+
+        
 
 
 
