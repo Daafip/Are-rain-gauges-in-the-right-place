@@ -208,11 +208,11 @@ class Raster_Location_OnSlope:
         """Takes previously computed slope direction and return the slope direction (should really be in prev notebook), choose degrees or not"""
         # defining values to pick from
         if deg:
-            label_lst_negative = [270, 180, 135, 225]      
-            label_lst_positive = [90, 0, 305, 45]
+            label_lst_negative =  [90, 0, 305, 45]    
+            label_lst_positive = [270, 180, 135, 225]
         else:
-            label_lst_negative = ["West", "South", "South-east","South-west"]
-            label_lst_positive = ["East", "North", "North-west", "North-east"]
+            label_lst_negative = ["East", "North", "North-west", "North-east"]
+            label_lst_positive = ["West", "South", "South-east","South-west"]
 
         if self.df.slope_steepness.iloc[n] < 0:
             return label_lst_negative[self.label_lst.index(self.df.dir_slope_steepness.iloc[n])]
