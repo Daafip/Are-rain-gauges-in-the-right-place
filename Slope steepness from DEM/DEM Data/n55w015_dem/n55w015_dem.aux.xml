@@ -1,5 +1,15 @@
 <PAMDataset>
   <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>inf</HistMin>
+        <HistMax>-inf</HistMax>
+        <BucketCount>0</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts></HistCounts>
+      </HistItem>
+    </Histograms>
     <Metadata>
       <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
     </Metadata>
